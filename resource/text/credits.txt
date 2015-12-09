@@ -1,0 +1,33 @@
+Créditos
+_                                                 _
+_Autor_\Humberto Dias
+
+_Jogos Digitais_\SENAC 2015/2
+
+_IDE_\PyCharm
+
+_Editor gráfico_\GIMP
+
+_Editor vetorial_\Inkscape
+
+_Editor sonoro_\Audacius
+
+_Efeitos sonoros_\freesound
+
+_Imagens_\spriters-resource
+
+
+Referências
+http://www.senac.br
+https://www.jetbrains.com/pycharm
+https://www.gimp.org/
+https://inkscape.org
+http://audacity.sourceforge.net/
+http://www.freesound.org
+http://www.spriters-resource.com
+
+Maiores informações
+http://humbertodias.github.io/
+_                                                 _
+
+© Copyright 2015
