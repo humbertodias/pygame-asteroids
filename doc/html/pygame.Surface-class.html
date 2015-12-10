@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>pygame.Surface</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        pygame ::
+        Surface ::
+        Class&nbsp;Surface
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="pygame.Surface-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class Surface</h1><p class="nomargin-top"><span class="codelink"><a href="pygame-pysrc.html#Surface">source&nbsp;code</a></span></p>
+<center>
+<center>  <map id="uml_class_diagram_for_pygame_s" name="uml_class_diagram_for_pygame_s">
+<area shape="rect" id="node1_14" href="pygame.Surface-class.html#__copy__" title="create a new copy of a Surface" alt="" coords="17,36,297,55"/>
+<area shape="rect" id="node1_15" href="pygame.Surface-class.html#__init__" title="x.__init__(...) initializes x; see help(type(x)) for signature" alt="" coords="17,55,297,73"/>
+<area shape="rect" id="node1_16" href="pygame.Surface-class.html#__new__" title="pygame.Surface.__new__" alt="" coords="17,73,297,92"/>
+<area shape="rect" id="node1_17" href="pygame.Surface-class.html#__repr__" title="repr(x)" alt="" coords="17,92,297,111"/>
+<area shape="rect" id="node1_18" href="pygame.Surface-class.html#blit" title="draw one image onto another" alt="" coords="17,111,297,129"/>
+<area shape="rect" id="node1_19" href="pygame.Surface-class.html#convert" title="convert(depth, flags=0) &#45;&gt; Surface convert(masks, flags=0) &#45;&gt; Surface &#160;convert() &#45;&gt; Surface change the pixel format of an image" alt="" coords="17,129,297,148"/>
+<area shape="rect" id="node1_20" href="pygame.Surface-class.html#convert_alpha" title="convert_alpha() &#45;&gt; Surface change the pixel format of an image including &#160;per pixel alphas" alt="" coords="17,148,297,167"/>
+<area shape="rect" id="node1_21" href="pygame.Surface-class.html#copy" title="create a new copy of a Surface" alt="" coords="17,167,297,185"/>
+<area shape="rect" id="node1_22" href="pygame.Surface-class.html#fill" title="fill Surface with a solid color" alt="" coords="17,185,297,204"/>
+<area shape="rect" id="node1_23" href="pygame.Surface-class.html#get_abs_offset" title="find the absolute position of a child subsurface inside its top level &#160;parent" alt="" coords="17,204,297,223"/>
+<area shape="rect" id="node1_24" href="pygame.Surface-class.html#get_abs_parent" title="find the top level parent of a subsurface" alt="" coords="17,223,297,241"/>
+<area shape="rect" id="node1_25" href="pygame.Surface-class.html#get_alpha" title="get the current Surface transparency value" alt="" coords="17,241,297,260"/>
+<area shape="rect" id="node1_26" href="pygame.Surface-class.html#get_at" title="get_at((x, y)) &#45;&gt; Color get the color value at a single pixel" alt="" coords="17,260,297,279"/>
+<area shape="rect" id="node1_27" href="pygame.Surface-class.html#unmap_rgb" title="convert a mapped integer color value into a Color" alt="" coords="17,297,297,316"/>
+<area shape="rect" id="node1" href="pygame.Surface-class.html" title="Surface((width, height), flags=0, depth=0, masks=None) &#45;&gt; Surface Surface((width, height), flags=0, Surface) &#45;&gt; Surface pygame object for representing images" alt="" coords="5,5,309,323"/>
+</map>
+  <img src="uml_class_diagram_for_pygame_s.gif" alt='' usemap="#uml_class_diagram_for_pygame_s" ismap="ismap" class="graph-without-title" />
+</center>
+</center>
+<hr />
+<p>Surface((width, height), flags=0, depth=0, masks=None) -&gt; Surface 
+  Surface((width, height), flags=0, Surface) -&gt; Surface pygame object 
+  for representing images</p>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Surface</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__copy__"></a><span class="summary-sig-name">__copy__</span>()</span><br />
+      create a new copy of a Surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.__copy__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pygame.Surface-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">...</span>)</span><br />
+      x.__init__(...) initializes x; see help(type(x)) for signature</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">a new object with type S, a subtype of T</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pygame.Surface-class.html#__new__" class="summary-sig-name">__new__</a>(<span class="summary-sig-arg">T</span>,
+        <span class="summary-sig-arg">S</span>,
+        <span class="summary-sig-arg">...</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.__new__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pygame.Surface-class.html#__repr__" class="summary-sig-name">__repr__</a>(<span class="summary-sig-arg">x</span>)</span><br />
+      repr(x)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.__repr__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Rect</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="blit"></a><span class="summary-sig-name">blit</span>(<span class="summary-sig-arg">source</span>,
+        <span class="summary-sig-arg">dest</span>,
+        <span class="summary-sig-arg">area</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">special_flags</span>=<span class="summary-sig-default"> 0</span>)</span><br />
+      draw one image onto another</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.blit">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Surface</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="convert"></a><span class="summary-sig-name">convert</span>(<span class="summary-sig-arg">Surface</span>)</span><br />
+      convert(depth, flags=0) -&gt; Surface convert(masks, flags=0) -&gt; 
+      Surface convert() -&gt; Surface change the pixel format of an image</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.convert">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Surface</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="convert_alpha"></a><span class="summary-sig-name">convert_alpha</span>(<span class="summary-sig-arg">Surface</span>)</span><br />
+      convert_alpha() -&gt; Surface change the pixel format of an image 
+      including per pixel alphas</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.convert_alpha">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Surface</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="copy"></a><span class="summary-sig-name">copy</span>()</span><br />
+      create a new copy of a Surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.copy">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Rect</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="fill"></a><span class="summary-sig-name">fill</span>(<span class="summary-sig-arg">color</span>,
+        <span class="summary-sig-arg">rect</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">special_flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      fill Surface with a solid color</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.fill">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">(x, y)</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_abs_offset"></a><span class="summary-sig-name">get_abs_offset</span>()</span><br />
+      find the absolute position of a child subsurface inside its top level
+      parent</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_abs_offset">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Surface</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_abs_parent"></a><span class="summary-sig-name">get_abs_parent</span>()</span><br />
+      find the top level parent of a subsurface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_abs_parent">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int_value or None</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_alpha"></a><span class="summary-sig-name">get_alpha</span>()</span><br />
+      get the current Surface transparency value</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_alpha">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_at"></a><span class="summary-sig-name">get_at</span>(<span class="summary-sig-arg">...</span>)</span><br />
+      get_at((x, y)) -&gt; Color get the color value at a single pixel</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_at">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_at_mapped"></a><span class="summary-sig-name">get_at_mapped</span>(<span class="summary-sig-arg">...</span>)</span><br />
+      get_at_mapped((x, y)) -&gt; Color get the mapped color value at a 
+      single pixel</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_at_mapped">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_bitsize"></a><span class="summary-sig-name">get_bitsize</span>()</span><br />
+      get the bit depth of the Surface pixel format</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_bitsize">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Rect</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_bounding_rect"></a><span class="summary-sig-name">get_bounding_rect</span>(<span class="summary-sig-arg">min_alpha</span>=<span class="summary-sig-default"> 1</span>)</span><br />
+      find the smallest rect containing data</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_bounding_rect">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">BufferProxy</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_buffer"></a><span class="summary-sig-name">get_buffer</span>()</span><br />
+      acquires a buffer object for the pixels of the Surface.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_buffer">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_bytesize"></a><span class="summary-sig-name">get_bytesize</span>()</span><br />
+      get the bytes used per Surface pixel</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_bytesize">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Rect</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_clip"></a><span class="summary-sig-name">get_clip</span>()</span><br />
+      get the current clipping area of the Surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_clip">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">RGB or None</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_colorkey"></a><span class="summary-sig-name">get_colorkey</span>()</span><br />
+      Get the current transparent colorkey</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_colorkey">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_flags"></a><span class="summary-sig-name">get_flags</span>()</span><br />
+      get the additional flags used for the Surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_flags">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">height</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_height"></a><span class="summary-sig-name">get_height</span>()</span><br />
+      get the height of the Surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_height">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_locked"></a><span class="summary-sig-name">get_locked</span>()</span><br />
+      test if the Surface is current locked</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_locked">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">tuple</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_locks"></a><span class="summary-sig-name">get_locks</span>()</span><br />
+      Gets the locks for the Surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_locks">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">(R, G, B, A)</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_losses"></a><span class="summary-sig-name">get_losses</span>()</span><br />
+      the significant bits used to convert between a color and a mapped 
+      integer</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_losses">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">(R, G, B, A)</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_masks"></a><span class="summary-sig-name">get_masks</span>()</span><br />
+      the bitmasks needed to convert between a color and a mapped integer</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_masks">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">(x, y)</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_offset"></a><span class="summary-sig-name">get_offset</span>()</span><br />
+      find the position of a child subsurface inside a parent</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_offset">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">[RGB, RGB, RGB, ...]</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_palette"></a><span class="summary-sig-name">get_palette</span>()</span><br />
+      get the color index palette for an 8bit Surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_palette">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">RGB</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_palette_at"></a><span class="summary-sig-name">get_palette_at</span>(<span class="summary-sig-arg">index</span>)</span><br />
+      get the color for a single entry in a palette</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_palette_at">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Surface</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_parent"></a><span class="summary-sig-name">get_parent</span>()</span><br />
+      find the parent of a subsurface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_parent">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_pitch"></a><span class="summary-sig-name">get_pitch</span>()</span><br />
+      get the number of bytes used per Surface row</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_pitch">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Rect</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_rect"></a><span class="summary-sig-name">get_rect</span>(<span class="summary-sig-arg">**kwargs</span>)</span><br />
+      get the rectangular area of the Surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_rect">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">(R, G, B, A)</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_shifts"></a><span class="summary-sig-name">get_shifts</span>()</span><br />
+      the bit shifts needed to convert between a color and a mapped integer</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_shifts">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">(width, height)</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_size"></a><span class="summary-sig-name">get_size</span>()</span><br />
+      get the dimensions of the Surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_size">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_view"></a><span class="summary-sig-name">get_view</span>(<span class="summary-sig-arg">...</span>)</span><br />
+      get_view(&lt;kind&gt;='2') -&gt; BufferProxy return a buffer view of 
+      the Surface's pixels.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_view">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">width</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_width"></a><span class="summary-sig-name">get_width</span>()</span><br />
+      get the width of the Surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.get_width">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">None</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="lock"></a><span class="summary-sig-name">lock</span>()</span><br />
+      lock the Surface memory for pixel access</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.lock">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">mapped_int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="map_rgb"></a><span class="summary-sig-name">map_rgb</span>(<span class="summary-sig-arg">Color</span>)</span><br />
+      convert a color into a mapped color value</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.map_rgb">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="mustlock"></a><span class="summary-sig-name">mustlock</span>()</span><br />
+      test if the Surface requires locking</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.mustlock">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">None</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="scroll"></a><span class="summary-sig-name">scroll</span>(<span class="summary-sig-arg">dx</span>=<span class="summary-sig-default">0</span>,
+        <span class="summary-sig-arg">dy</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Shift the surface image in place</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.scroll">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">None</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_alpha"></a><span class="summary-sig-name">set_alpha</span>(<span class="summary-sig-arg">value</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      set_alpha(None) -&gt; None set the alpha value for the full Surface 
+      image</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.set_alpha">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_at"></a><span class="summary-sig-name">set_at</span>(<span class="summary-sig-arg">...</span>)</span><br />
+      set_at((x, y), Color) -&gt; None set the color value for a single 
+      pixel</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.set_at">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">None</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_clip"></a><span class="summary-sig-name">set_clip</span>(<span class="summary-sig-arg">rect</span>)</span><br />
+      set_clip(None) -&gt; None set the current clipping area of the 
+      Surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.set_clip">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">None</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_colorkey"></a><span class="summary-sig-name">set_colorkey</span>(<span class="summary-sig-arg">Color</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      set_colorkey(None) -&gt; None Set the transparent colorkey</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.set_colorkey">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_masks"></a><span class="summary-sig-name">set_masks</span>(<span class="summary-sig-arg">...</span>)</span><br />
+      set_masks((r,g,b,a)) -&gt; None set the bitmasks needed to convert 
+      between a color and a mapped integer</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.set_masks">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">None</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_palette"></a><span class="summary-sig-name">set_palette</span>(<span class="summary-sig-arg">RGB</span>=<span class="summary-sig-default">...</span>,
+        <span class="summary-sig-arg">RGB</span>=<span class="summary-sig-default">...</span>,
+        <span class="summary-sig-arg">RGB</span>=<span class="summary-sig-default">...</span>,
+        <span class="summary-sig-arg">...</span>)</span><br />
+      set the color palette for an 8bit Surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.set_palette">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">None</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_palette_at"></a><span class="summary-sig-name">set_palette_at</span>(<span class="summary-sig-arg">index</span>,
+        <span class="summary-sig-arg">RGB</span>)</span><br />
+      set the color for a single index in an 8bit Surface palette</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.set_palette_at">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_shifts"></a><span class="summary-sig-name">set_shifts</span>(<span class="summary-sig-arg">...</span>)</span><br />
+      set_shifts((r,g,b,a)) -&gt; None sets the bit shifts needed to 
+      convert between a color and a mapped integer</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.set_shifts">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Surface</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="subsurface"></a><span class="summary-sig-name">subsurface</span>(<span class="summary-sig-arg">Rect</span>)</span><br />
+      create a new surface that references its parent</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.subsurface">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">None</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="unlock"></a><span class="summary-sig-name">unlock</span>()</span><br />
+      unlock the Surface memory from pixel access</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.unlock">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Color</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="unmap_rgb"></a><span class="summary-sig-name">unmap_rgb</span>(<span class="summary-sig-arg">mapped_int</span>)</span><br />
+      convert a mapped integer color value into a Color</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-pysrc.html#Surface.unmap_rgb">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__delattr__</code>,
+      <code>__format__</code>,
+      <code>__getattribute__</code>,
+      <code>__hash__</code>,
+      <code>__reduce__</code>,
+      <code>__reduce_ex__</code>,
+      <code>__setattr__</code>,
+      <code>__sizeof__</code>,
+      <code>__str__</code>,
+      <code>__subclasshook__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== PROPERTIES ==================== -->
+<a name="section-Properties"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Properties</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Properties"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="_pixels_address"></a><span class="summary-name">_pixels_address</span><br />
+      pixel buffer address (readonly)
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__class__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">...</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pygame-pysrc.html#Surface.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>x.__init__(...) initializes x; see help(type(x)) for signature</p>
+  <dl class="fields">
+    <dt>Overrides:
+        object.__init__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__new__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__new__</span>(<span class="sig-arg">T</span>,
+        <span class="sig-arg">S</span>,
+        <span class="sig-arg">...</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pygame-pysrc.html#Surface.__new__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Returns: a new object with type S, a subtype of T</dt>
+    <dt>Overrides:
+        object.__new__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__repr__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__repr__</span>(<span class="sig-arg">x</span>)</span>
+    <br /><em class="fname">(Representation operator)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pygame-pysrc.html#Surface.__repr__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>repr(x)</p>
+  <dl class="fields">
+    <dt>Overrides:
+        object.__repr__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Dec 10 09:58:37 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

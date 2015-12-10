@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>codecs.Codec</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        codecs ::
+        Codec ::
+        Class&nbsp;Codec
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="codecs.Codec-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class Codec</h1><p class="nomargin-top"><span class="codelink"><a href="codecs-pysrc.html#Codec">source&nbsp;code</a></span></p>
+<center>
+<center>  <map id="uml_class_diagram_for_codecs_c" name="uml_class_diagram_for_codecs_c">
+<area shape="rect" id="node1_2" href="codecs.Codec-class.html#decode" title="Decodes the object input and returns a tuple (output object, length &#160;consumed)." alt="" coords="41,36,238,55"/>
+<area shape="rect" id="node1_3" href="codecs.Codec-class.html#encode" title="Encodes the object input and returns a tuple (output object, length &#160;consumed)." alt="" coords="41,55,238,73"/>
+<area shape="rect" id="node1" href="codecs.Codec-class.html" title="Defines the interface for stateless encoders/decoders." alt="" coords="29,5,250,80"/>
+<area shape="rect" id="node2" href="codecs.StreamReader-class.html" title="codecs.StreamReader" alt="" coords="5,99,127,136"/>
+<area shape="rect" id="node3" href="codecs.StreamWriter-class.html" title="codecs.StreamWriter" alt="" coords="157,99,269,136"/>
+</map>
+  <img src="uml_class_diagram_for_codecs_c.gif" alt='' usemap="#uml_class_diagram_for_codecs_c" ismap="ismap" class="graph-without-title" />
+</center>
+</center>
+<hr />
+<pre class="literalblock">
+Defines the interface for stateless encoders/decoders.
+
+The .encode()/.decode() methods may use different error
+handling schemes by providing the errors argument. These
+string values are predefined:
+
+ 'strict' - raise a ValueError error (or a subclass)
+ 'ignore' - ignore the character and continue with the next
+ 'replace' - replace with a suitable replacement character;
+            Python will use the official U+FFFD REPLACEMENT
+            CHARACTER for the builtin Unicode codecs on
+            decoding and '?' on encoding.
+ 'xmlcharrefreplace' - Replace with the appropriate XML
+                       character reference (only for encoding).
+ 'backslashreplace'  - Replace with backslashed escape sequences
+                       (only for encoding).
+
+The set of allowed values can be extended via register_error.
+
+</pre>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs.Codec-class.html#decode" class="summary-sig-name">decode</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">input</span>,
+        <span class="summary-sig-arg">errors</span>=<span class="summary-sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>)</span><br />
+      Decodes the object input and returns a tuple (output object, length 
+      consumed).</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#Codec.decode">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs.Codec-class.html#encode" class="summary-sig-name">encode</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">input</span>,
+        <span class="summary-sig-arg">errors</span>=<span class="summary-sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>)</span><br />
+      Encodes the object input and returns a tuple (output object, length 
+      consumed).</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#Codec.encode">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="decode"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">decode</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">input</span>,
+        <span class="sig-arg">errors</span>=<span class="sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#Codec.decode">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Decodes the object input and returns a tuple (output object, length 
+  consumed).</p>
+  <p>input must be an object which provides the bf_getreadbuf buffer slot. 
+  Python strings, buffer objects and memory mapped files are examples of 
+  objects providing this slot.</p>
+  <p>errors defines the error handling to apply. It defaults to 'strict' 
+  handling.</p>
+  <p>The method may not store state in the Codec instance. Use StreamCodec 
+  for codecs which have to keep state in order to make encoding/decoding 
+  efficient.</p>
+  <p>The decoder must be able to handle zero length input and return an 
+  empty object of the output object type in this situation.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="encode"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">encode</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">input</span>,
+        <span class="sig-arg">errors</span>=<span class="sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#Codec.encode">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Encodes the object input and returns a tuple (output object, length 
+  consumed).</p>
+  <p>errors defines the error handling to apply. It defaults to 'strict' 
+  handling.</p>
+  <p>The method may not store state in the Codec instance. Use StreamCodec 
+  for codecs which have to keep state in order to make encoding/decoding 
+  efficient.</p>
+  <p>The encoder must be able to handle zero length input and return an 
+  empty object of the output object type in this situation.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Dec 10 09:58:35 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

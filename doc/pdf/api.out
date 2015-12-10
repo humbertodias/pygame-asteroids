@@ -1,0 +1,532 @@
+\BOOKMARK [1][-]{section*.1}{Contents}{}% 1
+\BOOKMARK [1][-]{section.1}{Module codecs}{}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Functions}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.2}{Variables}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Module credit}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Functions}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Variables}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Module math}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Functions}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Variables}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Module os}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Functions}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Variables}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.3}{Class OSError}{section.4}% 14
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Methods}{subsection.4.3}% 15
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Properties}{subsection.4.3}% 16
+\BOOKMARK [2][-]{subsection.4.4}{Class stat\137result}{section.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Methods}{subsection.4.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Properties}{subsection.4.4}% 19
+\BOOKMARK [3][-]{subsubsection.4.4.3}{Class Variables}{subsection.4.4}% 20
+\BOOKMARK [2][-]{subsection.4.5}{Class statvfs\137result}{section.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Methods}{subsection.4.5}% 22
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Properties}{subsection.4.5}% 23
+\BOOKMARK [3][-]{subsubsection.4.5.3}{Class Variables}{subsection.4.5}% 24
+\BOOKMARK [1][-]{section.5}{Module pickle}{}% 25
+\BOOKMARK [2][-]{subsection.5.1}{Functions}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.2}{Variables}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.3}{Class PickleError}{section.5}% 28
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Methods}{subsection.5.3}% 29
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Properties}{subsection.5.3}% 30
+\BOOKMARK [2][-]{subsection.5.4}{Class Pickler}{section.5}% 31
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Methods}{subsection.5.4}% 32
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Class Variables}{subsection.5.4}% 33
+\BOOKMARK [2][-]{subsection.5.5}{Class PicklingError}{section.5}% 34
+\BOOKMARK [3][-]{subsubsection.5.5.1}{Methods}{subsection.5.5}% 35
+\BOOKMARK [3][-]{subsubsection.5.5.2}{Properties}{subsection.5.5}% 36
+\BOOKMARK [2][-]{subsection.5.6}{Class Unpickler}{section.5}% 37
+\BOOKMARK [3][-]{subsubsection.5.6.1}{Methods}{subsection.5.6}% 38
+\BOOKMARK [3][-]{subsubsection.5.6.2}{Class Variables}{subsection.5.6}% 39
+\BOOKMARK [2][-]{subsection.5.7}{Class UnpicklingError}{section.5}% 40
+\BOOKMARK [3][-]{subsubsection.5.7.1}{Methods}{subsection.5.7}% 41
+\BOOKMARK [3][-]{subsubsection.5.7.2}{Properties}{subsection.5.7}% 42
+\BOOKMARK [1][-]{section.6}{Module posixpath}{}% 43
+\BOOKMARK [2][-]{subsection.6.1}{Functions}{section.6}% 44
+\BOOKMARK [2][-]{subsection.6.2}{Variables}{section.6}% 45
+\BOOKMARK [1][-]{section.7}{Package pygame}{}% 46
+\BOOKMARK [2][-]{subsection.7.1}{Functions}{section.7}% 47
+\BOOKMARK [2][-]{subsection.7.2}{Variables}{section.7}% 48
+\BOOKMARK [2][-]{subsection.7.3}{Class BufferError}{section.7}% 49
+\BOOKMARK [3][-]{subsubsection.7.3.1}{Methods}{subsection.7.3}% 50
+\BOOKMARK [3][-]{subsubsection.7.3.2}{Properties}{subsection.7.3}% 51
+\BOOKMARK [2][-]{subsection.7.4}{Class BufferProxy}{section.7}% 52
+\BOOKMARK [3][-]{subsubsection.7.4.1}{Methods}{subsection.7.4}% 53
+\BOOKMARK [3][-]{subsubsection.7.4.2}{Properties}{subsection.7.4}% 54
+\BOOKMARK [2][-]{subsection.7.5}{Class Color}{section.7}% 55
+\BOOKMARK [3][-]{subsubsection.7.5.1}{Methods}{subsection.7.5}% 56
+\BOOKMARK [3][-]{subsubsection.7.5.2}{Properties}{subsection.7.5}% 57
+\BOOKMARK [2][-]{subsection.7.6}{Class Overlay}{section.7}% 58
+\BOOKMARK [3][-]{subsubsection.7.6.1}{Methods}{subsection.7.6}% 59
+\BOOKMARK [3][-]{subsubsection.7.6.2}{Properties}{subsection.7.6}% 60
+\BOOKMARK [2][-]{subsection.7.7}{Class PixelArray}{section.7}% 61
+\BOOKMARK [3][-]{subsubsection.7.7.1}{Methods}{subsection.7.7}% 62
+\BOOKMARK [3][-]{subsubsection.7.7.2}{Properties}{subsection.7.7}% 63
+\BOOKMARK [2][-]{subsection.7.8}{Class Rect}{section.7}% 64
+\BOOKMARK [3][-]{subsubsection.7.8.1}{Methods}{subsection.7.8}% 65
+\BOOKMARK [3][-]{subsubsection.7.8.2}{Properties}{subsection.7.8}% 66
+\BOOKMARK [2][-]{subsection.7.9}{Class Surface}{section.7}% 67
+\BOOKMARK [3][-]{subsubsection.7.9.1}{Methods}{subsection.7.9}% 68
+\BOOKMARK [3][-]{subsubsection.7.9.2}{Properties}{subsection.7.9}% 69
+\BOOKMARK [2][-]{subsection.7.10}{Class Surface}{section.7}% 70
+\BOOKMARK [3][-]{subsubsection.7.10.1}{Methods}{subsection.7.10}% 71
+\BOOKMARK [3][-]{subsubsection.7.10.2}{Properties}{subsection.7.10}% 72
+\BOOKMARK [2][-]{subsection.7.11}{Class error}{section.7}% 73
+\BOOKMARK [3][-]{subsubsection.7.11.1}{Methods}{subsection.7.11}% 74
+\BOOKMARK [3][-]{subsubsection.7.11.2}{Properties}{subsection.7.11}% 75
+\BOOKMARK [1][-]{section.8}{Package pygame-asteroids}{}% 76
+\BOOKMARK [2][-]{subsection.8.1}{Modules}{section.8}% 77
+\BOOKMARK [2][-]{subsection.8.2}{Variables}{section.8}% 78
+\BOOKMARK [1][-]{section.9}{Module pygame-asteroids.asteroid'}{}% 79
+\BOOKMARK [2][-]{subsection.9.1}{Variables}{section.9}% 80
+\BOOKMARK [2][-]{subsection.9.2}{Class Asteroid}{section.9}% 81
+\BOOKMARK [3][-]{subsubsection.9.2.1}{Methods}{subsection.9.2}% 82
+\BOOKMARK [3][-]{subsubsection.9.2.2}{Properties}{subsection.9.2}% 83
+\BOOKMARK [3][-]{subsubsection.9.2.3}{Class Variables}{subsection.9.2}% 84
+\BOOKMARK [2][-]{subsection.9.3}{Class Color}{section.9}% 85
+\BOOKMARK [3][-]{subsubsection.9.3.1}{Methods}{subsection.9.3}% 86
+\BOOKMARK [3][-]{subsubsection.9.3.2}{Class Variables}{subsection.9.3}% 87
+\BOOKMARK [2][-]{subsection.9.4}{Class SpriteCollision}{section.9}% 88
+\BOOKMARK [3][-]{subsubsection.9.4.1}{Methods}{subsection.9.4}% 89
+\BOOKMARK [1][-]{section.10}{Module pygame-asteroids.bullet'}{}% 90
+\BOOKMARK [2][-]{subsection.10.1}{Variables}{section.10}% 91
+\BOOKMARK [2][-]{subsection.10.2}{Class Bullet}{section.10}% 92
+\BOOKMARK [3][-]{subsubsection.10.2.1}{Methods}{subsection.10.2}% 93
+\BOOKMARK [3][-]{subsubsection.10.2.2}{Properties}{subsection.10.2}% 94
+\BOOKMARK [2][-]{subsection.10.3}{Class SpriteCollision}{section.10}% 95
+\BOOKMARK [3][-]{subsubsection.10.3.1}{Methods}{subsection.10.3}% 96
+\BOOKMARK [1][-]{section.11}{Module pygame-asteroids.color}{}% 97
+\BOOKMARK [2][-]{subsection.11.1}{Variables}{section.11}% 98
+\BOOKMARK [2][-]{subsection.11.2}{Class Color}{section.11}% 99
+\BOOKMARK [3][-]{subsubsection.11.2.1}{Methods}{subsection.11.2}% 100
+\BOOKMARK [3][-]{subsubsection.11.2.2}{Class Variables}{subsection.11.2}% 101
+\BOOKMARK [1][-]{section.12}{Module pygame-asteroids.credit'}{}% 102
+\BOOKMARK [2][-]{subsection.12.1}{Functions}{section.12}% 103
+\BOOKMARK [2][-]{subsection.12.2}{Variables}{section.12}% 104
+\BOOKMARK [1][-]{section.13}{Module pygame-asteroids.file'}{}% 105
+\BOOKMARK [2][-]{subsection.13.1}{Variables}{section.13}% 106
+\BOOKMARK [2][-]{subsection.13.2}{Class DataHandler}{section.13}% 107
+\BOOKMARK [3][-]{subsubsection.13.2.1}{Methods}{subsection.13.2}% 108
+\BOOKMARK [2][-]{subsection.13.3}{Class FileManager}{section.13}% 109
+\BOOKMARK [3][-]{subsubsection.13.3.1}{Methods}{subsection.13.3}% 110
+\BOOKMARK [3][-]{subsubsection.13.3.2}{Class Variables}{subsection.13.3}% 111
+\BOOKMARK [1][-]{section.14}{Module pygame-asteroids.font'}{}% 112
+\BOOKMARK [2][-]{subsection.14.1}{Variables}{section.14}% 113
+\BOOKMARK [2][-]{subsection.14.2}{Class Font}{section.14}% 114
+\BOOKMARK [3][-]{subsubsection.14.2.1}{Class Variables}{subsection.14.2}% 115
+\BOOKMARK [1][-]{section.15}{Module pygame-asteroids.game'}{}% 116
+\BOOKMARK [2][-]{subsection.15.1}{Functions}{section.15}% 117
+\BOOKMARK [2][-]{subsection.15.2}{Variables}{section.15}% 118
+\BOOKMARK [2][-]{subsection.15.3}{Class Asteroid}{section.15}% 119
+\BOOKMARK [3][-]{subsubsection.15.3.1}{Methods}{subsection.15.3}% 120
+\BOOKMARK [3][-]{subsubsection.15.3.2}{Properties}{subsection.15.3}% 121
+\BOOKMARK [3][-]{subsubsection.15.3.3}{Class Variables}{subsection.15.3}% 122
+\BOOKMARK [2][-]{subsection.15.4}{Class Bullet}{section.15}% 123
+\BOOKMARK [3][-]{subsubsection.15.4.1}{Methods}{subsection.15.4}% 124
+\BOOKMARK [3][-]{subsubsection.15.4.2}{Properties}{subsection.15.4}% 125
+\BOOKMARK [2][-]{subsection.15.5}{Class Color}{section.15}% 126
+\BOOKMARK [3][-]{subsubsection.15.5.1}{Methods}{subsection.15.5}% 127
+\BOOKMARK [3][-]{subsubsection.15.5.2}{Class Variables}{subsection.15.5}% 128
+\BOOKMARK [2][-]{subsection.15.6}{Class DataHandler}{section.15}% 129
+\BOOKMARK [3][-]{subsubsection.15.6.1}{Methods}{subsection.15.6}% 130
+\BOOKMARK [2][-]{subsection.15.7}{Class FileManager}{section.15}% 131
+\BOOKMARK [3][-]{subsubsection.15.7.1}{Methods}{subsection.15.7}% 132
+\BOOKMARK [3][-]{subsubsection.15.7.2}{Class Variables}{subsection.15.7}% 133
+\BOOKMARK [2][-]{subsection.15.8}{Class Font}{section.15}% 134
+\BOOKMARK [3][-]{subsubsection.15.8.1}{Class Variables}{subsection.15.8}% 135
+\BOOKMARK [2][-]{subsection.15.9}{Class Game}{section.15}% 136
+\BOOKMARK [3][-]{subsubsection.15.9.1}{Methods}{subsection.15.9}% 137
+\BOOKMARK [2][-]{subsection.15.10}{Class GameController}{section.15}% 138
+\BOOKMARK [3][-]{subsubsection.15.10.1}{Methods}{subsection.15.10}% 139
+\BOOKMARK [3][-]{subsubsection.15.10.2}{Properties}{subsection.15.10}% 140
+\BOOKMARK [3][-]{subsubsection.15.10.3}{Class Variables}{subsection.15.10}% 141
+\BOOKMARK [2][-]{subsection.15.11}{Class Ship}{section.15}% 142
+\BOOKMARK [3][-]{subsubsection.15.11.1}{Methods}{subsection.15.11}% 143
+\BOOKMARK [3][-]{subsubsection.15.11.2}{Properties}{subsection.15.11}% 144
+\BOOKMARK [3][-]{subsubsection.15.11.3}{Class Variables}{subsection.15.11}% 145
+\BOOKMARK [2][-]{subsection.15.12}{Class SpriteCollision}{section.15}% 146
+\BOOKMARK [3][-]{subsubsection.15.12.1}{Methods}{subsection.15.12}% 147
+\BOOKMARK [2][-]{subsection.15.13}{Class SpriteGroup}{section.15}% 148
+\BOOKMARK [3][-]{subsubsection.15.13.1}{Methods}{subsection.15.13}% 149
+\BOOKMARK [3][-]{subsubsection.15.13.2}{Properties}{subsection.15.13}% 150
+\BOOKMARK [2][-]{subsection.15.14}{Class StarField}{section.15}% 151
+\BOOKMARK [3][-]{subsubsection.15.14.1}{Methods}{subsection.15.14}% 152
+\BOOKMARK [3][-]{subsubsection.15.14.2}{Properties}{subsection.15.14}% 153
+\BOOKMARK [3][-]{subsubsection.15.14.3}{Class Variables}{subsection.15.14}% 154
+\BOOKMARK [2][-]{subsection.15.15}{Class TextInput}{section.15}% 155
+\BOOKMARK [3][-]{subsubsection.15.15.1}{Methods}{subsection.15.15}% 156
+\BOOKMARK [3][-]{subsubsection.15.15.2}{Properties}{subsection.15.15}% 157
+\BOOKMARK [2][-]{subsection.15.16}{Class TouchButtons}{section.15}% 158
+\BOOKMARK [3][-]{subsubsection.15.16.1}{Methods}{subsection.15.16}% 159
+\BOOKMARK [2][-]{subsection.15.17}{Class VirtualKey}{section.15}% 160
+\BOOKMARK [3][-]{subsubsection.15.17.1}{Methods}{subsection.15.17}% 161
+\BOOKMARK [3][-]{subsubsection.15.17.2}{Properties}{subsection.15.17}% 162
+\BOOKMARK [2][-]{subsection.15.18}{Class VirtualKeyboard}{section.15}% 163
+\BOOKMARK [3][-]{subsubsection.15.18.1}{Methods}{subsection.15.18}% 164
+\BOOKMARK [3][-]{subsubsection.15.18.2}{Properties}{subsection.15.18}% 165
+\BOOKMARK [2][-]{subsection.15.19}{Class error}{section.15}% 166
+\BOOKMARK [3][-]{subsubsection.15.19.1}{Methods}{subsection.15.19}% 167
+\BOOKMARK [3][-]{subsubsection.15.19.2}{Properties}{subsection.15.19}% 168
+\BOOKMARK [2][-]{subsection.15.20}{Class struct\137rusage}{section.15}% 169
+\BOOKMARK [3][-]{subsubsection.15.20.1}{Methods}{subsection.15.20}% 170
+\BOOKMARK [3][-]{subsubsection.15.20.2}{Properties}{subsection.15.20}% 171
+\BOOKMARK [3][-]{subsubsection.15.20.3}{Class Variables}{subsection.15.20}% 172
+\BOOKMARK [1][-]{section.16}{Module pygame-asteroids.main}{}% 173
+\BOOKMARK [2][-]{subsection.16.1}{Functions}{section.16}% 174
+\BOOKMARK [1][-]{section.17}{Module pygame-asteroids.menu\137helper}{}% 175
+\BOOKMARK [2][-]{subsection.17.1}{Class MenuItem}{section.17}% 176
+\BOOKMARK [3][-]{subsubsection.17.1.1}{Methods}{subsection.17.1}% 177
+\BOOKMARK [2][-]{subsection.17.2}{Class Menu}{section.17}% 178
+\BOOKMARK [3][-]{subsubsection.17.2.1}{Methods}{subsection.17.2}% 179
+\BOOKMARK [2][-]{subsection.17.3}{Class MainMenu}{section.17}% 180
+\BOOKMARK [3][-]{subsubsection.17.3.1}{Methods}{subsection.17.3}% 181
+\BOOKMARK [1][-]{section.18}{Module pygame-asteroids.polygon'}{}% 182
+\BOOKMARK [2][-]{subsection.18.1}{Variables}{section.18}% 183
+\BOOKMARK [2][-]{subsection.18.2}{Class Color}{section.18}% 184
+\BOOKMARK [3][-]{subsubsection.18.2.1}{Methods}{subsection.18.2}% 185
+\BOOKMARK [3][-]{subsubsection.18.2.2}{Class Variables}{subsection.18.2}% 186
+\BOOKMARK [2][-]{subsection.18.3}{Class Cube}{section.18}% 187
+\BOOKMARK [3][-]{subsubsection.18.3.1}{Methods}{subsection.18.3}% 188
+\BOOKMARK [2][-]{subsection.18.4}{Class Point3D}{section.18}% 189
+\BOOKMARK [3][-]{subsubsection.18.4.1}{Methods}{subsection.18.4}% 190
+\BOOKMARK [2][-]{subsection.18.5}{Class itemgetter}{section.18}% 191
+\BOOKMARK [3][-]{subsubsection.18.5.1}{Methods}{subsection.18.5}% 192
+\BOOKMARK [3][-]{subsubsection.18.5.2}{Properties}{subsection.18.5}% 193
+\BOOKMARK [1][-]{section.19}{Module pygame-asteroids.resource\137manager'}{}% 194
+\BOOKMARK [2][-]{subsection.19.1}{Variables}{section.19}% 195
+\BOOKMARK [2][-]{subsection.19.2}{Class Font}{section.19}% 196
+\BOOKMARK [3][-]{subsubsection.19.2.1}{Class Variables}{subsection.19.2}% 197
+\BOOKMARK [2][-]{subsection.19.3}{Class ResourceManager}{section.19}% 198
+\BOOKMARK [3][-]{subsubsection.19.3.1}{Methods}{subsection.19.3}% 199
+\BOOKMARK [3][-]{subsubsection.19.3.2}{Class Variables}{subsection.19.3}% 200
+\BOOKMARK [1][-]{section.20}{Module pygame-asteroids.score}{}% 201
+\BOOKMARK [2][-]{subsection.20.1}{Variables}{section.20}% 202
+\BOOKMARK [2][-]{subsection.20.2}{Class DataHandler}{section.20}% 203
+\BOOKMARK [3][-]{subsubsection.20.2.1}{Methods}{subsection.20.2}% 204
+\BOOKMARK [1][-]{section.21}{Module pygame-asteroids.ship}{}% 205
+\BOOKMARK [2][-]{subsection.21.1}{Variables}{section.21}% 206
+\BOOKMARK [2][-]{subsection.21.2}{Class Ship}{section.21}% 207
+\BOOKMARK [3][-]{subsubsection.21.2.1}{Methods}{subsection.21.2}% 208
+\BOOKMARK [3][-]{subsubsection.21.2.2}{Properties}{subsection.21.2}% 209
+\BOOKMARK [3][-]{subsubsection.21.2.3}{Class Variables}{subsection.21.2}% 210
+\BOOKMARK [1][-]{section.22}{Module pygame-asteroids.sprite\137collision}{}% 211
+\BOOKMARK [2][-]{subsection.22.1}{Variables}{section.22}% 212
+\BOOKMARK [2][-]{subsection.22.2}{Class SpriteCollision}{section.22}% 213
+\BOOKMARK [3][-]{subsubsection.22.2.1}{Methods}{subsection.22.2}% 214
+\BOOKMARK [1][-]{section.23}{Module pygame-asteroids.start\137field}{}% 215
+\BOOKMARK [2][-]{subsection.23.1}{Variables}{section.23}% 216
+\BOOKMARK [2][-]{subsection.23.2}{Class StarField}{section.23}% 217
+\BOOKMARK [3][-]{subsubsection.23.2.1}{Methods}{subsection.23.2}% 218
+\BOOKMARK [3][-]{subsubsection.23.2.2}{Properties}{subsection.23.2}% 219
+\BOOKMARK [3][-]{subsubsection.23.2.3}{Class Variables}{subsection.23.2}% 220
+\BOOKMARK [1][-]{section.24}{Module pygame-asteroids.state\137machine'}{}% 221
+\BOOKMARK [2][-]{subsection.24.1}{Variables}{section.24}% 222
+\BOOKMARK [2][-]{subsection.24.2}{Class StateMachine}{section.24}% 223
+\BOOKMARK [3][-]{subsubsection.24.2.1}{Methods}{subsection.24.2}% 224
+\BOOKMARK [3][-]{subsubsection.24.2.2}{Properties}{subsection.24.2}% 225
+\BOOKMARK [1][-]{section.25}{Module pygame-asteroids.states.franchise'}{}% 226
+\BOOKMARK [2][-]{subsection.25.1}{Functions}{section.25}% 227
+\BOOKMARK [2][-]{subsection.25.2}{Variables}{section.25}% 228
+\BOOKMARK [2][-]{subsection.25.3}{Class Color}{section.25}% 229
+\BOOKMARK [3][-]{subsubsection.25.3.1}{Methods}{subsection.25.3}% 230
+\BOOKMARK [3][-]{subsubsection.25.3.2}{Class Variables}{subsection.25.3}% 231
+\BOOKMARK [2][-]{subsection.25.4}{Class Cube}{section.25}% 232
+\BOOKMARK [3][-]{subsubsection.25.4.1}{Methods}{subsection.25.4}% 233
+\BOOKMARK [2][-]{subsection.25.5}{Class Font}{section.25}% 234
+\BOOKMARK [3][-]{subsubsection.25.5.1}{Class Variables}{subsection.25.5}% 235
+\BOOKMARK [2][-]{subsection.25.6}{Class Franchise}{section.25}% 236
+\BOOKMARK [3][-]{subsubsection.25.6.1}{Methods}{subsection.25.6}% 237
+\BOOKMARK [3][-]{subsubsection.25.6.2}{Properties}{subsection.25.6}% 238
+\BOOKMARK [2][-]{subsection.25.7}{Class Point3D}{section.25}% 239
+\BOOKMARK [3][-]{subsubsection.25.7.1}{Methods}{subsection.25.7}% 240
+\BOOKMARK [2][-]{subsection.25.8}{Class error}{section.25}% 241
+\BOOKMARK [3][-]{subsubsection.25.8.1}{Methods}{subsection.25.8}% 242
+\BOOKMARK [3][-]{subsubsection.25.8.2}{Properties}{subsection.25.8}% 243
+\BOOKMARK [2][-]{subsection.25.9}{Class itemgetter}{section.25}% 244
+\BOOKMARK [3][-]{subsubsection.25.9.1}{Methods}{subsection.25.9}% 245
+\BOOKMARK [3][-]{subsubsection.25.9.2}{Properties}{subsection.25.9}% 246
+\BOOKMARK [2][-]{subsection.25.10}{Class struct\137rusage}{section.25}% 247
+\BOOKMARK [3][-]{subsubsection.25.10.1}{Methods}{subsection.25.10}% 248
+\BOOKMARK [3][-]{subsubsection.25.10.2}{Properties}{subsection.25.10}% 249
+\BOOKMARK [3][-]{subsubsection.25.10.3}{Class Variables}{subsection.25.10}% 250
+\BOOKMARK [1][-]{section.26}{Module pygame-asteroids.states.intro'}{}% 251
+\BOOKMARK [2][-]{subsection.26.1}{Functions}{section.26}% 252
+\BOOKMARK [2][-]{subsection.26.2}{Variables}{section.26}% 253
+\BOOKMARK [2][-]{subsection.26.3}{Class Color}{section.26}% 254
+\BOOKMARK [3][-]{subsubsection.26.3.1}{Methods}{subsection.26.3}% 255
+\BOOKMARK [3][-]{subsubsection.26.3.2}{Class Variables}{subsection.26.3}% 256
+\BOOKMARK [2][-]{subsection.26.4}{Class Font}{section.26}% 257
+\BOOKMARK [3][-]{subsubsection.26.4.1}{Class Variables}{subsection.26.4}% 258
+\BOOKMARK [2][-]{subsection.26.5}{Class Introduction}{section.26}% 259
+\BOOKMARK [3][-]{subsubsection.26.5.1}{Methods}{subsection.26.5}% 260
+\BOOKMARK [3][-]{subsubsection.26.5.2}{Properties}{subsection.26.5}% 261
+\BOOKMARK [1][-]{section.27}{Module pygame-asteroids.states.menu}{}% 262
+\BOOKMARK [2][-]{subsection.27.1}{Class Menu}{section.27}% 263
+\BOOKMARK [3][-]{subsubsection.27.1.1}{Methods}{subsection.27.1}% 264
+\BOOKMARK [3][-]{subsubsection.27.1.2}{Properties}{subsection.27.1}% 265
+\BOOKMARK [1][-]{section.28}{Module pygame-asteroids.states.seal'}{}% 266
+\BOOKMARK [2][-]{subsection.28.1}{Functions}{section.28}% 267
+\BOOKMARK [2][-]{subsection.28.2}{Variables}{section.28}% 268
+\BOOKMARK [2][-]{subsection.28.3}{Class Color}{section.28}% 269
+\BOOKMARK [3][-]{subsubsection.28.3.1}{Methods}{subsection.28.3}% 270
+\BOOKMARK [3][-]{subsubsection.28.3.2}{Class Variables}{subsection.28.3}% 271
+\BOOKMARK [2][-]{subsection.28.4}{Class Font}{section.28}% 272
+\BOOKMARK [3][-]{subsubsection.28.4.1}{Class Variables}{subsection.28.4}% 273
+\BOOKMARK [2][-]{subsection.28.5}{Class Seal}{section.28}% 274
+\BOOKMARK [3][-]{subsubsection.28.5.1}{Methods}{subsection.28.5}% 275
+\BOOKMARK [3][-]{subsubsection.28.5.2}{Properties}{subsection.28.5}% 276
+\BOOKMARK [2][-]{subsection.28.6}{Class error}{section.28}% 277
+\BOOKMARK [3][-]{subsubsection.28.6.1}{Methods}{subsection.28.6}% 278
+\BOOKMARK [3][-]{subsubsection.28.6.2}{Properties}{subsection.28.6}% 279
+\BOOKMARK [2][-]{subsection.28.7}{Class struct\137rusage}{section.28}% 280
+\BOOKMARK [3][-]{subsubsection.28.7.1}{Methods}{subsection.28.7}% 281
+\BOOKMARK [3][-]{subsubsection.28.7.2}{Properties}{subsection.28.7}% 282
+\BOOKMARK [3][-]{subsubsection.28.7.3}{Class Variables}{subsection.28.7}% 283
+\BOOKMARK [1][-]{section.29}{Package pygame-asteroids.states'}{}% 284
+\BOOKMARK [2][-]{subsection.29.1}{Modules}{section.29}% 285
+\BOOKMARK [2][-]{subsection.29.2}{Variables}{section.29}% 286
+\BOOKMARK [1][-]{section.30}{Module pygame-asteroids.test\137audio'}{}% 287
+\BOOKMARK [2][-]{subsection.30.1}{Functions}{section.30}% 288
+\BOOKMARK [2][-]{subsection.30.2}{Variables}{section.30}% 289
+\BOOKMARK [2][-]{subsection.30.3}{Class Asteroid}{section.30}% 290
+\BOOKMARK [3][-]{subsubsection.30.3.1}{Methods}{subsection.30.3}% 291
+\BOOKMARK [3][-]{subsubsection.30.3.2}{Properties}{subsection.30.3}% 292
+\BOOKMARK [3][-]{subsubsection.30.3.3}{Class Variables}{subsection.30.3}% 293
+\BOOKMARK [2][-]{subsection.30.4}{Class Bullet}{section.30}% 294
+\BOOKMARK [3][-]{subsubsection.30.4.1}{Methods}{subsection.30.4}% 295
+\BOOKMARK [3][-]{subsubsection.30.4.2}{Properties}{subsection.30.4}% 296
+\BOOKMARK [2][-]{subsection.30.5}{Class Color}{section.30}% 297
+\BOOKMARK [3][-]{subsubsection.30.5.1}{Methods}{subsection.30.5}% 298
+\BOOKMARK [3][-]{subsubsection.30.5.2}{Class Variables}{subsection.30.5}% 299
+\BOOKMARK [2][-]{subsection.30.6}{Class DataHandler}{section.30}% 300
+\BOOKMARK [3][-]{subsubsection.30.6.1}{Methods}{subsection.30.6}% 301
+\BOOKMARK [2][-]{subsection.30.7}{Class FileManager}{section.30}% 302
+\BOOKMARK [3][-]{subsubsection.30.7.1}{Methods}{subsection.30.7}% 303
+\BOOKMARK [3][-]{subsubsection.30.7.2}{Class Variables}{subsection.30.7}% 304
+\BOOKMARK [2][-]{subsection.30.8}{Class Font}{section.30}% 305
+\BOOKMARK [3][-]{subsubsection.30.8.1}{Class Variables}{subsection.30.8}% 306
+\BOOKMARK [2][-]{subsection.30.9}{Class Game}{section.30}% 307
+\BOOKMARK [3][-]{subsubsection.30.9.1}{Methods}{subsection.30.9}% 308
+\BOOKMARK [2][-]{subsection.30.10}{Class GameController}{section.30}% 309
+\BOOKMARK [3][-]{subsubsection.30.10.1}{Methods}{subsection.30.10}% 310
+\BOOKMARK [3][-]{subsubsection.30.10.2}{Properties}{subsection.30.10}% 311
+\BOOKMARK [3][-]{subsubsection.30.10.3}{Class Variables}{subsection.30.10}% 312
+\BOOKMARK [2][-]{subsection.30.11}{Class ResourceManager}{section.30}% 313
+\BOOKMARK [3][-]{subsubsection.30.11.1}{Methods}{subsection.30.11}% 314
+\BOOKMARK [3][-]{subsubsection.30.11.2}{Class Variables}{subsection.30.11}% 315
+\BOOKMARK [2][-]{subsection.30.12}{Class Ship}{section.30}% 316
+\BOOKMARK [3][-]{subsubsection.30.12.1}{Methods}{subsection.30.12}% 317
+\BOOKMARK [3][-]{subsubsection.30.12.2}{Properties}{subsection.30.12}% 318
+\BOOKMARK [3][-]{subsubsection.30.12.3}{Class Variables}{subsection.30.12}% 319
+\BOOKMARK [2][-]{subsection.30.13}{Class SpriteCollision}{section.30}% 320
+\BOOKMARK [3][-]{subsubsection.30.13.1}{Methods}{subsection.30.13}% 321
+\BOOKMARK [2][-]{subsection.30.14}{Class SpriteGroup}{section.30}% 322
+\BOOKMARK [3][-]{subsubsection.30.14.1}{Methods}{subsection.30.14}% 323
+\BOOKMARK [3][-]{subsubsection.30.14.2}{Properties}{subsection.30.14}% 324
+\BOOKMARK [2][-]{subsection.30.15}{Class StarField}{section.30}% 325
+\BOOKMARK [3][-]{subsubsection.30.15.1}{Methods}{subsection.30.15}% 326
+\BOOKMARK [3][-]{subsubsection.30.15.2}{Properties}{subsection.30.15}% 327
+\BOOKMARK [3][-]{subsubsection.30.15.3}{Class Variables}{subsection.30.15}% 328
+\BOOKMARK [2][-]{subsection.30.16}{Class TextInput}{section.30}% 329
+\BOOKMARK [3][-]{subsubsection.30.16.1}{Methods}{subsection.30.16}% 330
+\BOOKMARK [3][-]{subsubsection.30.16.2}{Properties}{subsection.30.16}% 331
+\BOOKMARK [2][-]{subsection.30.17}{Class TouchButtons}{section.30}% 332
+\BOOKMARK [3][-]{subsubsection.30.17.1}{Methods}{subsection.30.17}% 333
+\BOOKMARK [2][-]{subsection.30.18}{Class VirtualKey}{section.30}% 334
+\BOOKMARK [3][-]{subsubsection.30.18.1}{Methods}{subsection.30.18}% 335
+\BOOKMARK [3][-]{subsubsection.30.18.2}{Properties}{subsection.30.18}% 336
+\BOOKMARK [2][-]{subsection.30.19}{Class VirtualKeyboard}{section.30}% 337
+\BOOKMARK [3][-]{subsubsection.30.19.1}{Methods}{subsection.30.19}% 338
+\BOOKMARK [3][-]{subsubsection.30.19.2}{Properties}{subsection.30.19}% 339
+\BOOKMARK [2][-]{subsection.30.20}{Class error}{section.30}% 340
+\BOOKMARK [3][-]{subsubsection.30.20.1}{Methods}{subsection.30.20}% 341
+\BOOKMARK [3][-]{subsubsection.30.20.2}{Properties}{subsection.30.20}% 342
+\BOOKMARK [2][-]{subsection.30.21}{Class struct\137rusage}{section.30}% 343
+\BOOKMARK [3][-]{subsubsection.30.21.1}{Methods}{subsection.30.21}% 344
+\BOOKMARK [3][-]{subsubsection.30.21.2}{Properties}{subsection.30.21}% 345
+\BOOKMARK [3][-]{subsubsection.30.21.3}{Class Variables}{subsection.30.21}% 346
+\BOOKMARK [1][-]{section.31}{Module pygame-asteroids.test\137rotation'}{}% 347
+\BOOKMARK [2][-]{subsection.31.1}{Functions}{section.31}% 348
+\BOOKMARK [2][-]{subsection.31.2}{Variables}{section.31}% 349
+\BOOKMARK [2][-]{subsection.31.3}{Class Asteroid}{section.31}% 350
+\BOOKMARK [3][-]{subsubsection.31.3.1}{Methods}{subsection.31.3}% 351
+\BOOKMARK [3][-]{subsubsection.31.3.2}{Properties}{subsection.31.3}% 352
+\BOOKMARK [3][-]{subsubsection.31.3.3}{Class Variables}{subsection.31.3}% 353
+\BOOKMARK [2][-]{subsection.31.4}{Class Bullet}{section.31}% 354
+\BOOKMARK [3][-]{subsubsection.31.4.1}{Methods}{subsection.31.4}% 355
+\BOOKMARK [3][-]{subsubsection.31.4.2}{Properties}{subsection.31.4}% 356
+\BOOKMARK [2][-]{subsection.31.5}{Class Color}{section.31}% 357
+\BOOKMARK [3][-]{subsubsection.31.5.1}{Methods}{subsection.31.5}% 358
+\BOOKMARK [3][-]{subsubsection.31.5.2}{Class Variables}{subsection.31.5}% 359
+\BOOKMARK [2][-]{subsection.31.6}{Class DataHandler}{section.31}% 360
+\BOOKMARK [3][-]{subsubsection.31.6.1}{Methods}{subsection.31.6}% 361
+\BOOKMARK [2][-]{subsection.31.7}{Class FileManager}{section.31}% 362
+\BOOKMARK [3][-]{subsubsection.31.7.1}{Methods}{subsection.31.7}% 363
+\BOOKMARK [3][-]{subsubsection.31.7.2}{Class Variables}{subsection.31.7}% 364
+\BOOKMARK [2][-]{subsection.31.8}{Class Font}{section.31}% 365
+\BOOKMARK [3][-]{subsubsection.31.8.1}{Class Variables}{subsection.31.8}% 366
+\BOOKMARK [2][-]{subsection.31.9}{Class Game}{section.31}% 367
+\BOOKMARK [3][-]{subsubsection.31.9.1}{Methods}{subsection.31.9}% 368
+\BOOKMARK [2][-]{subsection.31.10}{Class GameController}{section.31}% 369
+\BOOKMARK [3][-]{subsubsection.31.10.1}{Methods}{subsection.31.10}% 370
+\BOOKMARK [3][-]{subsubsection.31.10.2}{Properties}{subsection.31.10}% 371
+\BOOKMARK [3][-]{subsubsection.31.10.3}{Class Variables}{subsection.31.10}% 372
+\BOOKMARK [2][-]{subsection.31.11}{Class ResourceManager}{section.31}% 373
+\BOOKMARK [3][-]{subsubsection.31.11.1}{Methods}{subsection.31.11}% 374
+\BOOKMARK [3][-]{subsubsection.31.11.2}{Class Variables}{subsection.31.11}% 375
+\BOOKMARK [2][-]{subsection.31.12}{Class Ship}{section.31}% 376
+\BOOKMARK [3][-]{subsubsection.31.12.1}{Methods}{subsection.31.12}% 377
+\BOOKMARK [3][-]{subsubsection.31.12.2}{Properties}{subsection.31.12}% 378
+\BOOKMARK [3][-]{subsubsection.31.12.3}{Class Variables}{subsection.31.12}% 379
+\BOOKMARK [2][-]{subsection.31.13}{Class SpriteCollision}{section.31}% 380
+\BOOKMARK [3][-]{subsubsection.31.13.1}{Methods}{subsection.31.13}% 381
+\BOOKMARK [2][-]{subsection.31.14}{Class SpriteGroup}{section.31}% 382
+\BOOKMARK [3][-]{subsubsection.31.14.1}{Methods}{subsection.31.14}% 383
+\BOOKMARK [3][-]{subsubsection.31.14.2}{Properties}{subsection.31.14}% 384
+\BOOKMARK [2][-]{subsection.31.15}{Class StarField}{section.31}% 385
+\BOOKMARK [3][-]{subsubsection.31.15.1}{Methods}{subsection.31.15}% 386
+\BOOKMARK [3][-]{subsubsection.31.15.2}{Properties}{subsection.31.15}% 387
+\BOOKMARK [3][-]{subsubsection.31.15.3}{Class Variables}{subsection.31.15}% 388
+\BOOKMARK [2][-]{subsection.31.16}{Class TextInput}{section.31}% 389
+\BOOKMARK [3][-]{subsubsection.31.16.1}{Methods}{subsection.31.16}% 390
+\BOOKMARK [3][-]{subsubsection.31.16.2}{Properties}{subsection.31.16}% 391
+\BOOKMARK [2][-]{subsection.31.17}{Class TouchButtons}{section.31}% 392
+\BOOKMARK [3][-]{subsubsection.31.17.1}{Methods}{subsection.31.17}% 393
+\BOOKMARK [2][-]{subsection.31.18}{Class VirtualKey}{section.31}% 394
+\BOOKMARK [3][-]{subsubsection.31.18.1}{Methods}{subsection.31.18}% 395
+\BOOKMARK [3][-]{subsubsection.31.18.2}{Properties}{subsection.31.18}% 396
+\BOOKMARK [2][-]{subsection.31.19}{Class VirtualKeyboard}{section.31}% 397
+\BOOKMARK [3][-]{subsubsection.31.19.1}{Methods}{subsection.31.19}% 398
+\BOOKMARK [3][-]{subsubsection.31.19.2}{Properties}{subsection.31.19}% 399
+\BOOKMARK [2][-]{subsection.31.20}{Class error}{section.31}% 400
+\BOOKMARK [3][-]{subsubsection.31.20.1}{Methods}{subsection.31.20}% 401
+\BOOKMARK [3][-]{subsubsection.31.20.2}{Properties}{subsection.31.20}% 402
+\BOOKMARK [2][-]{subsection.31.21}{Class struct\137rusage}{section.31}% 403
+\BOOKMARK [3][-]{subsubsection.31.21.1}{Methods}{subsection.31.21}% 404
+\BOOKMARK [3][-]{subsubsection.31.21.2}{Properties}{subsection.31.21}% 405
+\BOOKMARK [3][-]{subsubsection.31.21.3}{Class Variables}{subsection.31.21}% 406
+\BOOKMARK [1][-]{section.32}{Module pygame-asteroids.test\137startfield'}{}% 407
+\BOOKMARK [2][-]{subsection.32.1}{Functions}{section.32}% 408
+\BOOKMARK [2][-]{subsection.32.2}{Variables}{section.32}% 409
+\BOOKMARK [2][-]{subsection.32.3}{Class StarField}{section.32}% 410
+\BOOKMARK [3][-]{subsubsection.32.3.1}{Methods}{subsection.32.3}% 411
+\BOOKMARK [3][-]{subsubsection.32.3.2}{Properties}{subsection.32.3}% 412
+\BOOKMARK [3][-]{subsubsection.32.3.3}{Class Variables}{subsection.32.3}% 413
+\BOOKMARK [1][-]{section.33}{Module pygame-asteroids.test\137touch\137buttons'}{}% 414
+\BOOKMARK [2][-]{subsection.33.1}{Functions}{section.33}% 415
+\BOOKMARK [2][-]{subsection.33.2}{Variables}{section.33}% 416
+\BOOKMARK [2][-]{subsection.33.3}{Class Asteroid}{section.33}% 417
+\BOOKMARK [3][-]{subsubsection.33.3.1}{Methods}{subsection.33.3}% 418
+\BOOKMARK [3][-]{subsubsection.33.3.2}{Properties}{subsection.33.3}% 419
+\BOOKMARK [3][-]{subsubsection.33.3.3}{Class Variables}{subsection.33.3}% 420
+\BOOKMARK [2][-]{subsection.33.4}{Class Bullet}{section.33}% 421
+\BOOKMARK [3][-]{subsubsection.33.4.1}{Methods}{subsection.33.4}% 422
+\BOOKMARK [3][-]{subsubsection.33.4.2}{Properties}{subsection.33.4}% 423
+\BOOKMARK [2][-]{subsection.33.5}{Class Color}{section.33}% 424
+\BOOKMARK [3][-]{subsubsection.33.5.1}{Methods}{subsection.33.5}% 425
+\BOOKMARK [3][-]{subsubsection.33.5.2}{Class Variables}{subsection.33.5}% 426
+\BOOKMARK [2][-]{subsection.33.6}{Class DataHandler}{section.33}% 427
+\BOOKMARK [3][-]{subsubsection.33.6.1}{Methods}{subsection.33.6}% 428
+\BOOKMARK [2][-]{subsection.33.7}{Class FileManager}{section.33}% 429
+\BOOKMARK [3][-]{subsubsection.33.7.1}{Methods}{subsection.33.7}% 430
+\BOOKMARK [3][-]{subsubsection.33.7.2}{Class Variables}{subsection.33.7}% 431
+\BOOKMARK [2][-]{subsection.33.8}{Class Font}{section.33}% 432
+\BOOKMARK [3][-]{subsubsection.33.8.1}{Class Variables}{subsection.33.8}% 433
+\BOOKMARK [2][-]{subsection.33.9}{Class Game}{section.33}% 434
+\BOOKMARK [3][-]{subsubsection.33.9.1}{Methods}{subsection.33.9}% 435
+\BOOKMARK [2][-]{subsection.33.10}{Class ResourceManager}{section.33}% 436
+\BOOKMARK [3][-]{subsubsection.33.10.1}{Methods}{subsection.33.10}% 437
+\BOOKMARK [3][-]{subsubsection.33.10.2}{Class Variables}{subsection.33.10}% 438
+\BOOKMARK [2][-]{subsection.33.11}{Class Ship}{section.33}% 439
+\BOOKMARK [3][-]{subsubsection.33.11.1}{Methods}{subsection.33.11}% 440
+\BOOKMARK [3][-]{subsubsection.33.11.2}{Properties}{subsection.33.11}% 441
+\BOOKMARK [3][-]{subsubsection.33.11.3}{Class Variables}{subsection.33.11}% 442
+\BOOKMARK [2][-]{subsection.33.12}{Class SpriteCollision}{section.33}% 443
+\BOOKMARK [3][-]{subsubsection.33.12.1}{Methods}{subsection.33.12}% 444
+\BOOKMARK [2][-]{subsection.33.13}{Class StarField}{section.33}% 445
+\BOOKMARK [3][-]{subsubsection.33.13.1}{Methods}{subsection.33.13}% 446
+\BOOKMARK [3][-]{subsubsection.33.13.2}{Properties}{subsection.33.13}% 447
+\BOOKMARK [3][-]{subsubsection.33.13.3}{Class Variables}{subsection.33.13}% 448
+\BOOKMARK [2][-]{subsection.33.14}{Class TextInput}{section.33}% 449
+\BOOKMARK [3][-]{subsubsection.33.14.1}{Methods}{subsection.33.14}% 450
+\BOOKMARK [3][-]{subsubsection.33.14.2}{Properties}{subsection.33.14}% 451
+\BOOKMARK [2][-]{subsection.33.15}{Class TouchButtons}{section.33}% 452
+\BOOKMARK [3][-]{subsubsection.33.15.1}{Methods}{subsection.33.15}% 453
+\BOOKMARK [2][-]{subsection.33.16}{Class VirtualKey}{section.33}% 454
+\BOOKMARK [3][-]{subsubsection.33.16.1}{Methods}{subsection.33.16}% 455
+\BOOKMARK [3][-]{subsubsection.33.16.2}{Properties}{subsection.33.16}% 456
+\BOOKMARK [2][-]{subsection.33.17}{Class VirtualKeyboard}{section.33}% 457
+\BOOKMARK [3][-]{subsubsection.33.17.1}{Methods}{subsection.33.17}% 458
+\BOOKMARK [3][-]{subsubsection.33.17.2}{Properties}{subsection.33.17}% 459
+\BOOKMARK [2][-]{subsection.33.18}{Class error}{section.33}% 460
+\BOOKMARK [3][-]{subsubsection.33.18.1}{Methods}{subsection.33.18}% 461
+\BOOKMARK [3][-]{subsubsection.33.18.2}{Properties}{subsection.33.18}% 462
+\BOOKMARK [2][-]{subsection.33.19}{Class struct\137rusage}{section.33}% 463
+\BOOKMARK [3][-]{subsubsection.33.19.1}{Methods}{subsection.33.19}% 464
+\BOOKMARK [3][-]{subsubsection.33.19.2}{Properties}{subsection.33.19}% 465
+\BOOKMARK [3][-]{subsubsection.33.19.3}{Class Variables}{subsection.33.19}% 466
+\BOOKMARK [1][-]{section.34}{Module pygame-asteroids.test\137virtual\137keyboard'}{}% 467
+\BOOKMARK [2][-]{subsection.34.1}{Functions}{section.34}% 468
+\BOOKMARK [2][-]{subsection.34.2}{Variables}{section.34}% 469
+\BOOKMARK [1][-]{section.35}{Module pygame-asteroids.tools'}{}% 470
+\BOOKMARK [2][-]{subsection.35.1}{Functions}{section.35}% 471
+\BOOKMARK [2][-]{subsection.35.2}{Variables}{section.35}% 472
+\BOOKMARK [2][-]{subsection.35.3}{Class Anim}{section.35}% 473
+\BOOKMARK [3][-]{subsubsection.35.3.1}{Methods}{subsection.35.3}% 474
+\BOOKMARK [3][-]{subsubsection.35.3.2}{Properties}{subsection.35.3}% 475
+\BOOKMARK [2][-]{subsection.35.4}{Class Control}{section.35}% 476
+\BOOKMARK [3][-]{subsubsection.35.4.1}{Methods}{subsection.35.4}% 477
+\BOOKMARK [3][-]{subsubsection.35.4.2}{Properties}{subsection.35.4}% 478
+\BOOKMARK [2][-]{subsection.35.5}{Class StateMachine}{section.35}% 479
+\BOOKMARK [3][-]{subsubsection.35.5.1}{Methods}{subsection.35.5}% 480
+\BOOKMARK [3][-]{subsubsection.35.5.2}{Properties}{subsection.35.5}% 481
+\BOOKMARK [2][-]{subsection.35.6}{Class Timer}{section.35}% 482
+\BOOKMARK [3][-]{subsubsection.35.6.1}{Methods}{subsection.35.6}% 483
+\BOOKMARK [3][-]{subsubsection.35.6.2}{Properties}{subsection.35.6}% 484
+\BOOKMARK [1][-]{section.36}{Module pygame-asteroids.touch\137buttons}{}% 485
+\BOOKMARK [2][-]{subsection.36.1}{Variables}{section.36}% 486
+\BOOKMARK [2][-]{subsection.36.2}{Class TouchButtons}{section.36}% 487
+\BOOKMARK [3][-]{subsubsection.36.2.1}{Methods}{subsection.36.2}% 488
+\BOOKMARK [1][-]{section.37}{Module pygame-asteroids.virtual\137controller}{}% 489
+\BOOKMARK [2][-]{subsection.37.1}{Functions}{section.37}% 490
+\BOOKMARK [2][-]{subsection.37.2}{Variables}{section.37}% 491
+\BOOKMARK [1][-]{section.38}{Module pygame-asteroids.virtual\137keyboard}{}% 492
+\BOOKMARK [2][-]{subsection.38.1}{Variables}{section.38}% 493
+\BOOKMARK [2][-]{subsection.38.2}{Class TextInput}{section.38}% 494
+\BOOKMARK [3][-]{subsubsection.38.2.1}{Methods}{subsection.38.2}% 495
+\BOOKMARK [3][-]{subsubsection.38.2.2}{Properties}{subsection.38.2}% 496
+\BOOKMARK [2][-]{subsection.38.3}{Class VirtualKey}{section.38}% 497
+\BOOKMARK [3][-]{subsubsection.38.3.1}{Methods}{subsection.38.3}% 498
+\BOOKMARK [3][-]{subsubsection.38.3.2}{Properties}{subsection.38.3}% 499
+\BOOKMARK [2][-]{subsection.38.4}{Class VirtualKeyboard}{section.38}% 500
+\BOOKMARK [3][-]{subsubsection.38.4.1}{Methods}{subsection.38.4}% 501
+\BOOKMARK [3][-]{subsubsection.38.4.2}{Properties}{subsection.38.4}% 502
+\BOOKMARK [1][-]{section.39}{Module random}{}% 503
+\BOOKMARK [2][-]{subsection.39.1}{Functions}{section.39}% 504
+\BOOKMARK [2][-]{subsection.39.2}{Class Random}{section.39}% 505
+\BOOKMARK [3][-]{subsubsection.39.2.1}{Methods}{subsection.39.2}% 506
+\BOOKMARK [3][-]{subsubsection.39.2.2}{Properties}{subsection.39.2}% 507
+\BOOKMARK [3][-]{subsubsection.39.2.3}{Class Variables}{subsection.39.2}% 508
+\BOOKMARK [2][-]{subsection.39.3}{Class SystemRandom}{section.39}% 509
+\BOOKMARK [3][-]{subsubsection.39.3.1}{Methods}{subsection.39.3}% 510
+\BOOKMARK [3][-]{subsubsection.39.3.2}{Properties}{subsection.39.3}% 511
+\BOOKMARK [3][-]{subsubsection.39.3.3}{Class Variables}{subsection.39.3}% 512
+\BOOKMARK [2][-]{subsection.39.4}{Class WichmannHill}{section.39}% 513
+\BOOKMARK [3][-]{subsubsection.39.4.1}{Methods}{subsection.39.4}% 514
+\BOOKMARK [3][-]{subsubsection.39.4.2}{Properties}{subsection.39.4}% 515
+\BOOKMARK [3][-]{subsubsection.39.4.3}{Class Variables}{subsection.39.4}% 516
+\BOOKMARK [1][-]{section.40}{Module state\137machine}{}% 517
+\BOOKMARK [2][-]{subsection.40.1}{Variables}{section.40}% 518
+\BOOKMARK [2][-]{subsection.40.2}{Class StateMachine}{section.40}% 519
+\BOOKMARK [3][-]{subsubsection.40.2.1}{Methods}{subsection.40.2}% 520
+\BOOKMARK [3][-]{subsubsection.40.2.2}{Properties}{subsection.40.2}% 521
+\BOOKMARK [1][-]{section.41}{Module sys}{}% 522
+\BOOKMARK [2][-]{subsection.41.1}{Functions}{section.41}% 523
+\BOOKMARK [2][-]{subsection.41.2}{Variables}{section.41}% 524
+\BOOKMARK [1][-]{section.42}{Module time}{}% 525
+\BOOKMARK [2][-]{subsection.42.1}{Functions}{section.42}% 526
+\BOOKMARK [2][-]{subsection.42.2}{Variables}{section.42}% 527
+\BOOKMARK [2][-]{subsection.42.3}{Class struct\137time}{section.42}% 528
+\BOOKMARK [3][-]{subsubsection.42.3.1}{Methods}{subsection.42.3}% 529
+\BOOKMARK [3][-]{subsubsection.42.3.2}{Properties}{subsection.42.3}% 530
+\BOOKMARK [3][-]{subsubsection.42.3.3}{Class Variables}{subsection.42.3}% 531
+\BOOKMARK [1][-]{section*.2}{Index}{}% 532

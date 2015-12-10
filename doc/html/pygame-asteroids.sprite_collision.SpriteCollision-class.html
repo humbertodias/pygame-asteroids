@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>pygame-asteroids.sprite_collision.SpriteCollision</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="pygame-asteroids-module.html">Package&nbsp;pygame-asteroids</a> ::
+        <a href="pygame-asteroids.sprite_collision-module.html">Module&nbsp;sprite_collision</a> ::
+        Class&nbsp;SpriteCollision
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="pygame-asteroids.sprite_collision.SpriteCollision-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class SpriteCollision</h1><p class="nomargin-top"><span class="codelink"><a href="pygame-asteroids.sprite_collision-pysrc.html#SpriteCollision">source&nbsp;code</a></span></p>
+<center>
+<center>  <map id="uml_class_diagram_for_pygame_a_7" name="uml_class_diagram_for_pygame_a_7">
+<area shape="rect" id="node1_6" href="pygame-asteroids.sprite_collision.SpriteCollision-class.html#initrect" title="Iniciliza ret&#226;ngulo" alt="" coords="106,36,335,55"/>
+<area shape="rect" id="node1_7" href="pygame-asteroids.sprite_collision.SpriteCollision-class.html#get_class_name" title="Retorna nome da classe instanciada" alt="" coords="106,55,335,73"/>
+<area shape="rect" id="node1_8" href="pygame-asteroids.sprite_collision.SpriteCollision-class.html#screencollision" title="Envolve a tela do jogo para objetos" alt="" coords="106,73,335,92"/>
+<area shape="rect" id="node1_9" href="pygame-asteroids.sprite_collision.SpriteCollision-class.html#rectupdate" title="define qual borda colide com o objeto de colis&#227;o / blitting" alt="" coords="106,92,335,111"/>
+<area shape="rect" id="node1_10" href="pygame-asteroids.sprite_collision.SpriteCollision-class.html#draw2" title="blit de imagens para corrigir os lugares quando perto cantos / lados." alt="" coords="106,111,335,129"/>
+<area shape="rect" id="node1_11" href="pygame-asteroids.sprite_collision.SpriteCollision-class.html#collision" title="Detecta colis&#227;o" alt="" coords="106,129,335,148"/>
+<area shape="rect" id="node1" href="pygame-asteroids.sprite_collision.SpriteCollision-class.html" title="Classe principal que controla sprite e aplicada a todos os objetos em movimento" alt="" coords="94,5,347,155"/>
+<area shape="rect" id="node2" href="pygame-asteroids.asteroid.Asteroid-class.html" title="Representa o asteroid" alt="" coords="5,173,140,211"/>
+<area shape="rect" id="node3" href="pygame-asteroids.bullet.Bullet-class.html" title="Bala" alt="" coords="169,173,272,211"/>
+<area shape="rect" id="node4" href="pygame-asteroids.ship.Ship-class.html" title="Nave" alt="" coords="301,173,391,211"/>
+</map>
+  <img src="uml_class_diagram_for_pygame_a_7.gif" alt='' usemap="#uml_class_diagram_for_pygame_a_7" ismap="ismap" class="graph-without-title" />
+</center>
+</center>
+<hr />
+<p>Classe principal que controla sprite e aplicada a todos os objetos em 
+  movimento</p>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pygame-asteroids.sprite_collision.SpriteCollision-class.html#initrect" class="summary-sig-name">initrect</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">location</span>,
+        <span class="summary-sig-arg">game_controller</span>)</span><br />
+      Iniciliza ret&#226;ngulo</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-asteroids.sprite_collision-pysrc.html#SpriteCollision.initrect">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pygame-asteroids.sprite_collision.SpriteCollision-class.html#get_class_name" class="summary-sig-name">get_class_name</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Retorna nome da classe instanciada</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-asteroids.sprite_collision-pysrc.html#SpriteCollision.get_class_name">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pygame-asteroids.sprite_collision.SpriteCollision-class.html#screencollision" class="summary-sig-name">screencollision</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">time</span>)</span><br />
+      Envolve a tela do jogo para objetos</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-asteroids.sprite_collision-pysrc.html#SpriteCollision.screencollision">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="rectupdate"></a><span class="summary-sig-name">rectupdate</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      define qual borda colide com o objeto de colis&#227;o / blitting</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-asteroids.sprite_collision-pysrc.html#SpriteCollision.rectupdate">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pygame-asteroids.sprite_collision.SpriteCollision-class.html#draw2" class="summary-sig-name">draw2</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">screen</span>)</span><br />
+      blit de imagens para corrigir os lugares quando perto cantos / lados.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-asteroids.sprite_collision-pysrc.html#SpriteCollision.draw2">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pygame-asteroids.sprite_collision.SpriteCollision-class.html#collision" class="summary-sig-name">collision</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">object</span>)</span><br />
+      Detecta colis&#227;o</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pygame-asteroids.sprite_collision-pysrc.html#SpriteCollision.collision">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="initrect"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">initrect</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">location</span>,
+        <span class="sig-arg">game_controller</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pygame-asteroids.sprite_collision-pysrc.html#SpriteCollision.initrect">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Iniciliza ret&#226;ngulo</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>location</code></strong></li>
+        <li><strong class="pname"><code>game_controller</code></strong></li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_class_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_class_name</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pygame-asteroids.sprite_collision-pysrc.html#SpriteCollision.get_class_name">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Retorna nome da classe instanciada</p>
+  <dl class="fields">
+    <dt>Returns:</dt>
+        <dd>Nome</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="screencollision"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">screencollision</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">time</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pygame-asteroids.sprite_collision-pysrc.html#SpriteCollision.screencollision">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Envolve a tela do jogo para objetos</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>time</code></strong> - Delta time</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="draw2"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">draw2</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">screen</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pygame-asteroids.sprite_collision-pysrc.html#SpriteCollision.draw2">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>blit de imagens para corrigir os lugares quando perto cantos / 
+  lados.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>screen</code></strong> - Tela</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="collision"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">collision</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">object</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pygame-asteroids.sprite_collision-pysrc.html#SpriteCollision.collision">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Detecta colis&#227;o</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>object</code></strong> - Objeto</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>Booleano</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Dec 10 09:58:37 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

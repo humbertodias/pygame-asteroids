@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>posix.statvfs_result</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        posix ::
+        statvfs_result ::
+        Class&nbsp;statvfs_result
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="posix.statvfs_result-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class statvfs_result</h1><p class="nomargin-top"></p>
+<center>
+<center>  <map id="uml_class_diagram_for_posix_st_2" name="uml_class_diagram_for_posix_st_2">
+<area shape="rect" id="node1_27" href="posix.statvfs_result-class.html#f_bavail" title="posix.statvfs_result.f_bavail" alt="" coords="18,28,134,47"/>
+<area shape="rect" id="node1_28" href="posix.statvfs_result-class.html#f_bfree" title="posix.statvfs_result.f_bfree" alt="" coords="18,47,134,65"/>
+<area shape="rect" id="node1_29" href="posix.statvfs_result-class.html#f_blocks" title="posix.statvfs_result.f_blocks" alt="" coords="18,65,134,84"/>
+<area shape="rect" id="node1_30" href="posix.statvfs_result-class.html#f_bsize" title="posix.statvfs_result.f_bsize" alt="" coords="18,84,134,103"/>
+<area shape="rect" id="node1_31" href="posix.statvfs_result-class.html#f_favail" title="posix.statvfs_result.f_favail" alt="" coords="18,103,134,121"/>
+<area shape="rect" id="node1_32" href="posix.statvfs_result-class.html#f_ffree" title="posix.statvfs_result.f_ffree" alt="" coords="18,121,134,140"/>
+<area shape="rect" id="node1_33" href="posix.statvfs_result-class.html#f_files" title="posix.statvfs_result.f_files" alt="" coords="18,140,134,159"/>
+<area shape="rect" id="node1_34" href="posix.statvfs_result-class.html#f_flag" title="posix.statvfs_result.f_flag" alt="" coords="18,159,134,177"/>
+<area shape="rect" id="node1_35" href="posix.statvfs_result-class.html#f_frsize" title="posix.statvfs_result.f_frsize" alt="" coords="18,177,134,196"/>
+<area shape="rect" id="node1_36" href="posix.statvfs_result-class.html#f_namemax" title="posix.statvfs_result.f_namemax" alt="" coords="18,196,134,215"/>
+<area shape="rect" id="node1_37" href="posix.statvfs_result-class.html#n_fields" title="posix.statvfs_result.n_fields" alt="" coords="18,215,134,233"/>
+<area shape="rect" id="node1_38" href="posix.statvfs_result-class.html#n_sequence_fields" title="posix.statvfs_result.n_sequence_fields" alt="" coords="18,233,134,252"/>
+<area shape="rect" id="node1_39" href="posix.statvfs_result-class.html#n_unnamed_fields" title="posix.statvfs_result.n_unnamed_fields" alt="" coords="18,252,134,271"/>
+<area shape="rect" id="node1_40" href="posix.statvfs_result-class.html#__add__" title="x+y" alt="" coords="18,273,134,292"/>
+<area shape="rect" id="node1_41" href="posix.statvfs_result-class.html#__contains__" title="y in x" alt="" coords="18,292,134,311"/>
+<area shape="rect" id="node1_42" href="posix.statvfs_result-class.html#__eq__" title="x==y" alt="" coords="18,311,134,329"/>
+<area shape="rect" id="node1_43" href="posix.statvfs_result-class.html#__ge__" title="x&gt;=y" alt="" coords="18,329,134,348"/>
+<area shape="rect" id="node1_44" href="posix.statvfs_result-class.html#__getitem__" title="x[y]" alt="" coords="18,348,134,367"/>
+<area shape="rect" id="node1_45" href="posix.statvfs_result-class.html#__getslice__" title="x[i:j]" alt="" coords="18,367,134,385"/>
+<area shape="rect" id="node1_46" href="posix.statvfs_result-class.html#__gt__" title="x&gt;y" alt="" coords="18,385,134,404"/>
+<area shape="rect" id="node1_47" href="posix.statvfs_result-class.html#__hash__" title="hash(x)" alt="" coords="18,404,134,423"/>
+<area shape="rect" id="node1_48" href="posix.statvfs_result-class.html#__le__" title="x&lt;=y" alt="" coords="18,423,134,441"/>
+<area shape="rect" id="node1_49" href="posix.statvfs_result-class.html#__len__" title="len(x)" alt="" coords="18,441,134,460"/>
+<area shape="rect" id="node1_50" href="posix.statvfs_result-class.html#__lt__" title="x&lt;y" alt="" coords="18,460,134,479"/>
+<area shape="rect" id="node1_51" href="posix.statvfs_result-class.html#__mul__" title="x*n" alt="" coords="18,479,134,497"/>
+<area shape="rect" id="node1_52" href="posix.statvfs_result-class.html#__ne__" title="x!=y" alt="" coords="18,497,134,516"/>
+<area shape="rect" id="node1_53" href="posix.statvfs_result-class.html#__rmul__" title="n*x" alt="" coords="18,535,134,553"/>
+<area shape="rect" id="node1" href="posix.statvfs_result-class.html" title="statvfs_result: Result from statvfs or fstatvfs." alt="" coords="5,5,145,560"/>
+</map>
+  <img src="uml_class_diagram_for_posix_st_2.gif" alt='' usemap="#uml_class_diagram_for_posix_st_2" ismap="ismap" class="graph-without-title" />
+</center>
+</center>
+<hr />
+<pre class="literalblock">
+statvfs_result: Result from statvfs or fstatvfs.
+
+This object may be accessed either as a tuple of
+  (bsize, frsize, blocks, bfree, bavail, files, ffree, favail, flag, namemax),
+or via the attributes f_bsize, f_frsize, f_blocks, f_bfree, and so on.
+
+See os.statvfs for more information.
+
+</pre>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__add__"></a><span class="summary-sig-name">__add__</span>(<span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>)</span><br />
+      x+y</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__contains__"></a><span class="summary-sig-name">__contains__</span>(<span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>)</span><br />
+      y in x</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__eq__"></a><span class="summary-sig-name">__eq__</span>(<span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>)</span><br />
+      x==y</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__ge__"></a><span class="summary-sig-name">__ge__</span>(<span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>)</span><br />
+      x&gt;=y</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__getitem__"></a><span class="summary-sig-name">__getitem__</span>(<span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>)</span><br />
+      x[y]</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="posix.statvfs_result-class.html#__getslice__" class="summary-sig-name">__getslice__</a>(<span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">i</span>,
+        <span class="summary-sig-arg">j</span>)</span><br />
+      x[i:j]</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__gt__"></a><span class="summary-sig-name">__gt__</span>(<span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>)</span><br />
+      x&gt;y</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="posix.statvfs_result-class.html#__hash__" class="summary-sig-name">__hash__</a>(<span class="summary-sig-arg">x</span>)</span><br />
+      hash(x)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__le__"></a><span class="summary-sig-name">__le__</span>(<span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>)</span><br />
+      x&lt;=y</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__len__"></a><span class="summary-sig-name">__len__</span>(<span class="summary-sig-arg">x</span>)</span><br />
+      len(x)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__lt__"></a><span class="summary-sig-name">__lt__</span>(<span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>)</span><br />
+      x&lt;y</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__mul__"></a><span class="summary-sig-name">__mul__</span>(<span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      x*n</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__ne__"></a><span class="summary-sig-name">__ne__</span>(<span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>)</span><br />
+      x!=y</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">a new object with type S, a subtype of T</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="posix.statvfs_result-class.html#__new__" class="summary-sig-name">__new__</a>(<span class="summary-sig-arg">T</span>,
+        <span class="summary-sig-arg">S</span>,
+        <span class="summary-sig-arg">...</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="posix.statvfs_result-class.html#__reduce__" class="summary-sig-name">__reduce__</a>(<span class="summary-sig-arg">...</span>)</span><br />
+      helper for pickle</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="posix.statvfs_result-class.html#__repr__" class="summary-sig-name">__repr__</a>(<span class="summary-sig-arg">x</span>)</span><br />
+      repr(x)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__rmul__"></a><span class="summary-sig-name">__rmul__</span>(<span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      n*x</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__delattr__</code>,
+      <code>__format__</code>,
+      <code>__getattribute__</code>,
+      <code>__init__</code>,
+      <code>__reduce_ex__</code>,
+      <code>__setattr__</code>,
+      <code>__sizeof__</code>,
+      <code>__str__</code>,
+      <code>__subclasshook__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS VARIABLES ==================== -->
+<a name="section-ClassVariables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassVariables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="n_fields"></a><span class="summary-name">n_fields</span> = <code title="10">10</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="n_sequence_fields"></a><span class="summary-name">n_sequence_fields</span> = <code title="10">10</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="n_unnamed_fields"></a><span class="summary-name">n_unnamed_fields</span> = <code title="0">0</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== PROPERTIES ==================== -->
+<a name="section-Properties"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Properties</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Properties"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="f_bavail"></a><span class="summary-name">f_bavail</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="f_bfree"></a><span class="summary-name">f_bfree</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="f_blocks"></a><span class="summary-name">f_blocks</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="f_bsize"></a><span class="summary-name">f_bsize</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="f_favail"></a><span class="summary-name">f_favail</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="f_ffree"></a><span class="summary-name">f_ffree</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="f_files"></a><span class="summary-name">f_files</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="f_flag"></a><span class="summary-name">f_flag</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="f_frsize"></a><span class="summary-name">f_frsize</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="f_namemax"></a><span class="summary-name">f_namemax</span>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__class__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__getslice__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__getslice__</span>(<span class="sig-arg">x</span>,
+        <span class="sig-arg">i</span>,
+        <span class="sig-arg">j</span>)</span>
+    <br /><em class="fname">(Slicling operator)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>x[i:j]</p>
+  <p>Use of negative indices is not supported.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="__hash__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__hash__</span>(<span class="sig-arg">x</span>)</span>
+    <br /><em class="fname">(Hashing function)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>hash(x)</p>
+  <dl class="fields">
+    <dt>Overrides:
+        object.__hash__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__new__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__new__</span>(<span class="sig-arg">T</span>,
+        <span class="sig-arg">S</span>,
+        <span class="sig-arg">...</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Returns: a new object with type S, a subtype of T</dt>
+    <dt>Overrides:
+        object.__new__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__reduce__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__reduce__</span>(<span class="sig-arg">...</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>helper for pickle</p>
+  <dl class="fields">
+    <dt>Overrides:
+        object.__reduce__
+        <dd><em class="note">(inherited documentation)</em></dd>
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__repr__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__repr__</span>(<span class="sig-arg">x</span>)</span>
+    <br /><em class="fname">(Representation operator)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>repr(x)</p>
+  <dl class="fields">
+    <dt>Overrides:
+        object.__repr__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Dec 10 09:58:36 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

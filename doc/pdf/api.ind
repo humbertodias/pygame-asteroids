@@ -1,0 +1,1074 @@
+\begin{theindex}
+
+  \item codecs \textit{(module)}, \hyperpage{2--4}
+  \item codecs.EncodedFile \textit{(function)}, \hyperpage{2}
+  \item codecs.ignore\_errors \textit{(function)}, \hyperpage{2}
+  \item codecs.lookup \textit{(function)}, \hyperpage{2}
+  \item codecs.lookup\_error \textit{(function)}, \hyperpage{2}
+  \item codecs.open \textit{(function)}, \hyperpage{2}
+  \item codecs.register \textit{(function)}, \hyperpage{3}
+  \item codecs.register\_error \textit{(function)}, \hyperpage{3}
+  \item codecs.replace\_errors \textit{(function)}, \hyperpage{3}
+  \item codecs.strict\_errors \textit{(function)}, \hyperpage{3}
+  \item codecs.xmlcharrefreplace\_errors \textit{(function)}, 
+		\hyperpage{3}
+  \item color.Color \textit{(class)}, \hyperpage{153--154}, 
+		\hyperpage{161--163}, \hyperpage{168--169}
+  \item color.Color.color\_replace \textit{(static method)}, 
+		\hyperpage{153}, \hyperpage{162}, \hyperpage{168}
+  \item color.Color.hex\_to\_rgb \textit{(static method)}, 
+		\hyperpage{153}, \hyperpage{162}, \hyperpage{168}
+  \item color.Color.random\_color \textit{(static method)}, 
+		\hyperpage{153}, \hyperpage{162}, \hyperpage{168}
+  \item color.Color.rgb\_to\_hex \textit{(static method)}, 
+		\hyperpage{153}, \hyperpage{162}, \hyperpage{168}
+  \item credit \textit{(module)}, \hyperpage{5}
+  \item credit.credit \textit{(function)}, \hyperpage{5}
+  \item credit.credit\_from\_file \textit{(function)}, \hyperpage{5}
+
+  \indexspace
+
+  \item exceptions.OSError \textit{(class)}, \hyperpage{28--29}
+
+  \indexspace
+
+  \item font.Font \textit{(class)}, \hyperpage{154}, \hyperpage{163}, 
+		\hyperpage{169}
+
+  \indexspace
+
+  \item genericpath.commonprefix \textit{(function)}, \hyperpage{47}
+  \item genericpath.exists \textit{(function)}, \hyperpage{47}
+  \item genericpath.getatime \textit{(function)}, \hyperpage{47}
+  \item genericpath.getctime \textit{(function)}, \hyperpage{47}
+  \item genericpath.getmtime \textit{(function)}, \hyperpage{48}
+  \item genericpath.getsize \textit{(function)}, \hyperpage{48}
+  \item genericpath.isdir \textit{(function)}, \hyperpage{48}
+  \item genericpath.isfile \textit{(function)}, \hyperpage{48}
+
+  \indexspace
+
+  \item math \textit{(module)}, \hyperpage{6--9}
+  \item math.acos \textit{(function)}, \hyperpage{6}
+  \item math.acosh \textit{(function)}, \hyperpage{6}
+  \item math.asin \textit{(function)}, \hyperpage{6}
+  \item math.asinh \textit{(function)}, \hyperpage{6}
+  \item math.atan \textit{(function)}, \hyperpage{6}
+  \item math.atan2 \textit{(function)}, \hyperpage{6}
+  \item math.atanh \textit{(function)}, \hyperpage{6}
+  \item math.ceil \textit{(function)}, \hyperpage{6}
+  \item math.copysign \textit{(function)}, \hyperpage{6}
+  \item math.cos \textit{(function)}, \hyperpage{6}
+  \item math.cosh \textit{(function)}, \hyperpage{6}
+  \item math.degrees \textit{(function)}, \hyperpage{6}
+  \item math.erf \textit{(function)}, \hyperpage{7}
+  \item math.erfc \textit{(function)}, \hyperpage{7}
+  \item math.exp \textit{(function)}, \hyperpage{7}
+  \item math.expm1 \textit{(function)}, \hyperpage{7}
+  \item math.fabs \textit{(function)}, \hyperpage{7}
+  \item math.factorial \textit{(function)}, \hyperpage{7}
+  \item math.floor \textit{(function)}, \hyperpage{7}
+  \item math.fmod \textit{(function)}, \hyperpage{7}
+  \item math.frexp \textit{(function)}, \hyperpage{7}
+  \item math.fsum \textit{(function)}, \hyperpage{7}
+  \item math.gamma \textit{(function)}, \hyperpage{7}
+  \item math.hypot \textit{(function)}, \hyperpage{7}
+  \item math.isinf \textit{(function)}, \hyperpage{8}
+  \item math.isnan \textit{(function)}, \hyperpage{8}
+  \item math.ldexp \textit{(function)}, \hyperpage{8}
+  \item math.lgamma \textit{(function)}, \hyperpage{8}
+  \item math.log \textit{(function)}, \hyperpage{8}
+  \item math.log10 \textit{(function)}, \hyperpage{8}
+  \item math.log1p \textit{(function)}, \hyperpage{8}
+  \item math.modf \textit{(function)}, \hyperpage{8}
+  \item math.pow \textit{(function)}, \hyperpage{8}
+  \item math.radians \textit{(function)}, \hyperpage{8}
+  \item math.sin \textit{(function)}, \hyperpage{8}
+  \item math.sinh \textit{(function)}, \hyperpage{8}
+  \item math.sqrt \textit{(function)}, \hyperpage{9}
+  \item math.tan \textit{(function)}, \hyperpage{9}
+  \item math.tanh \textit{(function)}, \hyperpage{9}
+  \item math.trunc \textit{(function)}, \hyperpage{9}
+
+  \indexspace
+
+  \item operator.itemgetter \textit{(class)}, \hyperpage{136--137}, 
+		\hyperpage{157--158}
+  \item operator.itemgetter.\_\_call\_\_ \textit{(function)}, 
+		\hyperpage{136}, \hyperpage{157}
+  \item os \textit{(module)}, \hyperpage{10--35}
+  \item os.abort \textit{(function)}, \hyperpage{11}
+  \item os.access \textit{(function)}, \hyperpage{11}
+  \item os.chdir \textit{(function)}, \hyperpage{11}
+  \item os.chflags \textit{(function)}, \hyperpage{11}
+  \item os.chmod \textit{(function)}, \hyperpage{11}
+  \item os.chown \textit{(function)}, \hyperpage{11}
+  \item os.chroot \textit{(function)}, \hyperpage{12}
+  \item os.close \textit{(function)}, \hyperpage{12}
+  \item os.closerange \textit{(function)}, \hyperpage{12}
+  \item os.confstr \textit{(function)}, \hyperpage{12}
+  \item os.ctermid \textit{(function)}, \hyperpage{12}
+  \item os.dup \textit{(function)}, \hyperpage{12}
+  \item os.dup2 \textit{(function)}, \hyperpage{12}
+  \item os.execl \textit{(function)}, \hyperpage{12}
+  \item os.execle \textit{(function)}, \hyperpage{12}
+  \item os.execlp \textit{(function)}, \hyperpage{12}
+  \item os.execlpe \textit{(function)}, \hyperpage{12}
+  \item os.execv \textit{(function)}, \hyperpage{13}
+  \item os.execve \textit{(function)}, \hyperpage{13}
+  \item os.execvp \textit{(function)}, \hyperpage{13}
+  \item os.execvpe \textit{(function)}, \hyperpage{13}
+  \item os.fchdir \textit{(function)}, \hyperpage{13}
+  \item os.fchmod \textit{(function)}, \hyperpage{13}
+  \item os.fchown \textit{(function)}, \hyperpage{13}
+  \item os.fdopen \textit{(function)}, \hyperpage{13}
+  \item os.fork \textit{(function)}, \hyperpage{13}
+  \item os.forkpty \textit{(function)}, \hyperpage{14}
+  \item os.fpathconf \textit{(function)}, \hyperpage{14}
+  \item os.fstat \textit{(function)}, \hyperpage{14}
+  \item os.fstatvfs \textit{(function)}, \hyperpage{14}
+  \item os.fsync \textit{(function)}, \hyperpage{14}
+  \item os.ftruncate \textit{(function)}, \hyperpage{14}
+  \item os.getcwd \textit{(function)}, \hyperpage{14}
+  \item os.getcwdu \textit{(function)}, \hyperpage{14}
+  \item os.getegid \textit{(function)}, \hyperpage{15}
+  \item os.getenv \textit{(function)}, \hyperpage{15}
+  \item os.geteuid \textit{(function)}, \hyperpage{15}
+  \item os.getgid \textit{(function)}, \hyperpage{15}
+  \item os.getgroups \textit{(function)}, \hyperpage{15}
+  \item os.getloadavg \textit{(function)}, \hyperpage{15}
+  \item os.getlogin \textit{(function)}, \hyperpage{15}
+  \item os.getpgid \textit{(function)}, \hyperpage{15}
+  \item os.getpgrp \textit{(function)}, \hyperpage{16}
+  \item os.getpid \textit{(function)}, \hyperpage{16}
+  \item os.getppid \textit{(function)}, \hyperpage{16}
+  \item os.getsid \textit{(function)}, \hyperpage{16}
+  \item os.getuid \textit{(function)}, \hyperpage{16}
+  \item os.initgroups \textit{(function)}, \hyperpage{16}
+  \item os.isatty \textit{(function)}, \hyperpage{16}
+  \item os.kill \textit{(function)}, \hyperpage{16}
+  \item os.killpg \textit{(function)}, \hyperpage{17}
+  \item os.lchflags \textit{(function)}, \hyperpage{17}
+  \item os.lchmod \textit{(function)}, \hyperpage{17}
+  \item os.lchown \textit{(function)}, \hyperpage{17}
+  \item os.link \textit{(function)}, \hyperpage{17}
+  \item os.listdir \textit{(function)}, \hyperpage{17}
+  \item os.lseek \textit{(function)}, \hyperpage{17}
+  \item os.lstat \textit{(function)}, \hyperpage{17}
+  \item os.major \textit{(function)}, \hyperpage{17}
+  \item os.makedev \textit{(function)}, \hyperpage{18}
+  \item os.makedirs \textit{(function)}, \hyperpage{18}
+  \item os.minor \textit{(function)}, \hyperpage{18}
+  \item os.mkdir \textit{(function)}, \hyperpage{18}
+  \item os.mkfifo \textit{(function)}, \hyperpage{18}
+  \item os.mknod \textit{(function)}, \hyperpage{18}
+  \item os.nice \textit{(function)}, \hyperpage{18}
+  \item os.open \textit{(function)}, \hyperpage{18}
+  \item os.openpty \textit{(function)}, \hyperpage{18}
+  \item os.pathconf \textit{(function)}, \hyperpage{19}
+  \item os.pipe \textit{(function)}, \hyperpage{19}
+  \item os.popen \textit{(function)}, \hyperpage{19}
+  \item os.popen2 \textit{(function)}, \hyperpage{19}
+  \item os.popen3 \textit{(function)}, \hyperpage{19}
+  \item os.popen4 \textit{(function)}, \hyperpage{19}
+  \item os.putenv \textit{(function)}, \hyperpage{19}
+  \item os.read \textit{(function)}, \hyperpage{20}
+  \item os.readlink \textit{(function)}, \hyperpage{20}
+  \item os.remove \textit{(function)}, \hyperpage{20}
+  \item os.removedirs \textit{(function)}, \hyperpage{20}
+  \item os.rename \textit{(function)}, \hyperpage{20}
+  \item os.renames \textit{(function)}, \hyperpage{20}
+  \item os.rmdir \textit{(function)}, \hyperpage{20}
+  \item os.setegid \textit{(function)}, \hyperpage{20}
+  \item os.seteuid \textit{(function)}, \hyperpage{20}
+  \item os.setgid \textit{(function)}, \hyperpage{21}
+  \item os.setgroups \textit{(function)}, \hyperpage{21}
+  \item os.setpgid \textit{(function)}, \hyperpage{21}
+  \item os.setpgrp \textit{(function)}, \hyperpage{21}
+  \item os.setregid \textit{(function)}, \hyperpage{21}
+  \item os.setreuid \textit{(function)}, \hyperpage{21}
+  \item os.setsid \textit{(function)}, \hyperpage{21}
+  \item os.setuid \textit{(function)}, \hyperpage{21}
+  \item os.spawnl \textit{(function)}, \hyperpage{21}
+  \item os.spawnle \textit{(function)}, \hyperpage{21}
+  \item os.spawnlp \textit{(function)}, \hyperpage{21}
+  \item os.spawnlpe \textit{(function)}, \hyperpage{22}
+  \item os.spawnv \textit{(function)}, \hyperpage{22}
+  \item os.spawnve \textit{(function)}, \hyperpage{22}
+  \item os.spawnvp \textit{(function)}, \hyperpage{22}
+  \item os.spawnvpe \textit{(function)}, \hyperpage{22}
+  \item os.stat \textit{(function)}, \hyperpage{23}
+  \item os.stat\_float\_times \textit{(function)}, \hyperpage{23}
+  \item os.statvfs \textit{(function)}, \hyperpage{23}
+  \item os.strerror \textit{(function)}, \hyperpage{23}
+  \item os.symlink \textit{(function)}, \hyperpage{23}
+  \item os.sysconf \textit{(function)}, \hyperpage{23}
+  \item os.system \textit{(function)}, \hyperpage{23}
+  \item os.tcgetpgrp \textit{(function)}, \hyperpage{23}
+  \item os.tcsetpgrp \textit{(function)}, \hyperpage{24}
+  \item os.tempnam \textit{(function)}, \hyperpage{24}
+  \item os.times \textit{(function)}, \hyperpage{24}
+  \item os.tmpfile \textit{(function)}, \hyperpage{24}
+  \item os.tmpnam \textit{(function)}, \hyperpage{24}
+  \item os.ttyname \textit{(function)}, \hyperpage{24}
+  \item os.umask \textit{(function)}, \hyperpage{24}
+  \item os.uname \textit{(function)}, \hyperpage{24}
+  \item os.unlink \textit{(function)}, \hyperpage{25}
+  \item os.unsetenv \textit{(function)}, \hyperpage{25}
+  \item os.urandom \textit{(function)}, \hyperpage{25}
+  \item os.utime \textit{(function)}, \hyperpage{25}
+  \item os.wait \textit{(function)}, \hyperpage{25}
+  \item os.wait3 \textit{(function)}, \hyperpage{25}
+  \item os.wait4 \textit{(function)}, \hyperpage{25}
+  \item os.waitpid \textit{(function)}, \hyperpage{25}
+  \item os.walk \textit{(function)}, \hyperpage{25}
+  \item os.WCOREDUMP \textit{(function)}, \hyperpage{10}
+  \item os.WEXITSTATUS \textit{(function)}, \hyperpage{10}
+  \item os.WIFCONTINUED \textit{(function)}, \hyperpage{10}
+  \item os.WIFEXITED \textit{(function)}, \hyperpage{10}
+  \item os.WIFSIGNALED \textit{(function)}, \hyperpage{10}
+  \item os.WIFSTOPPED \textit{(function)}, \hyperpage{11}
+  \item os.write \textit{(function)}, \hyperpage{26}
+  \item os.WSTOPSIG \textit{(function)}, \hyperpage{11}
+  \item os.WTERMSIG \textit{(function)}, \hyperpage{11}
+
+  \indexspace
+
+  \item pickle \textit{(module)}, \hyperpage{36--46}
+  \item pickle.dump \textit{(function)}, \hyperpage{36}
+  \item pickle.dumps \textit{(function)}, \hyperpage{36}
+  \item pickle.load \textit{(function)}, \hyperpage{36}
+  \item pickle.loads \textit{(function)}, \hyperpage{36}
+  \item pickle.PickleError \textit{(class)}, \hyperpage{38--39}
+  \item pickle.Pickler \textit{(class)}, \hyperpage{39--41}
+  \item pickle.Pickler.\_\_init\_\_ \textit{(function)}, \hyperpage{39}
+  \item pickle.Pickler.clear\_memo \textit{(function)}, \hyperpage{39}
+  \item pickle.Pickler.dump \textit{(function)}, \hyperpage{39}
+  \item pickle.Pickler.get \textit{(function)}, \hyperpage{39}
+  \item pickle.Pickler.memoize \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.persistent\_id \textit{(function)}, 
+		\hyperpage{40}
+  \item pickle.Pickler.put \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_bool \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_dict \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_empty\_tuple \textit{(function)}, 
+		\hyperpage{40}
+  \item pickle.Pickler.save\_float \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_global \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_inst \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_int \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_list \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_long \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_none \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_pers \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_reduce \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_string \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_tuple \textit{(function)}, \hyperpage{40}
+  \item pickle.Pickler.save\_unicode \textit{(function)}, 
+		\hyperpage{41}
+  \item pickle.PicklingError \textit{(class)}, \hyperpage{41--42}
+  \item pickle.Unpickler \textit{(class)}, \hyperpage{42--45}
+  \item pickle.Unpickler.\_\_init\_\_ \textit{(function)}, 
+		\hyperpage{42}
+  \item pickle.Unpickler.find\_class \textit{(function)}, 
+		\hyperpage{42}
+  \item pickle.Unpickler.get\_extension \textit{(function)}, 
+		\hyperpage{42}
+  \item pickle.Unpickler.load \textit{(function)}, \hyperpage{42}
+  \item pickle.Unpickler.load\_append \textit{(function)}, 
+		\hyperpage{42}
+  \item pickle.Unpickler.load\_appends \textit{(function)}, 
+		\hyperpage{42}
+  \item pickle.Unpickler.load\_binfloat \textit{(function)}, 
+		\hyperpage{42}
+  \item pickle.Unpickler.load\_binget \textit{(function)}, 
+		\hyperpage{42}
+  \item pickle.Unpickler.load\_binint \textit{(function)}, 
+		\hyperpage{42}
+  \item pickle.Unpickler.load\_binint1 \textit{(function)}, 
+		\hyperpage{42}
+  \item pickle.Unpickler.load\_binint2 \textit{(function)}, 
+		\hyperpage{43}
+  \item pickle.Unpickler.load\_binpersid \textit{(function)}, 
+		\hyperpage{43}
+  \item pickle.Unpickler.load\_binput \textit{(function)}, 
+		\hyperpage{43}
+  \item pickle.Unpickler.load\_binstring \textit{(function)}, 
+		\hyperpage{43}
+  \item pickle.Unpickler.load\_binunicode \textit{(function)}, 
+		\hyperpage{43}
+  \item pickle.Unpickler.load\_build \textit{(function)}, 
+		\hyperpage{43}
+  \item pickle.Unpickler.load\_dict \textit{(function)}, \hyperpage{43}
+  \item pickle.Unpickler.load\_dup \textit{(function)}, \hyperpage{43}
+  \item pickle.Unpickler.load\_empty\_dictionary \textit{(function)}, 
+		\hyperpage{43}
+  \item pickle.Unpickler.load\_empty\_list \textit{(function)}, 
+		\hyperpage{43}
+  \item pickle.Unpickler.load\_empty\_tuple \textit{(function)}, 
+		\hyperpage{43}
+  \item pickle.Unpickler.load\_eof \textit{(function)}, \hyperpage{43}
+  \item pickle.Unpickler.load\_ext1 \textit{(function)}, \hyperpage{43}
+  \item pickle.Unpickler.load\_ext2 \textit{(function)}, \hyperpage{43}
+  \item pickle.Unpickler.load\_ext4 \textit{(function)}, \hyperpage{43}
+  \item pickle.Unpickler.load\_false \textit{(function)}, 
+		\hyperpage{43}
+  \item pickle.Unpickler.load\_float \textit{(function)}, 
+		\hyperpage{43}
+  \item pickle.Unpickler.load\_get \textit{(function)}, \hyperpage{43}
+  \item pickle.Unpickler.load\_global \textit{(function)}, 
+		\hyperpage{43}
+  \item pickle.Unpickler.load\_inst \textit{(function)}, \hyperpage{43}
+  \item pickle.Unpickler.load\_int \textit{(function)}, \hyperpage{44}
+  \item pickle.Unpickler.load\_list \textit{(function)}, \hyperpage{44}
+  \item pickle.Unpickler.load\_long \textit{(function)}, \hyperpage{44}
+  \item pickle.Unpickler.load\_long1 \textit{(function)}, 
+		\hyperpage{44}
+  \item pickle.Unpickler.load\_long4 \textit{(function)}, 
+		\hyperpage{44}
+  \item pickle.Unpickler.load\_long\_binget \textit{(function)}, 
+		\hyperpage{44}
+  \item pickle.Unpickler.load\_long\_binput \textit{(function)}, 
+		\hyperpage{44}
+  \item pickle.Unpickler.load\_mark \textit{(function)}, \hyperpage{44}
+  \item pickle.Unpickler.load\_newobj \textit{(function)}, 
+		\hyperpage{44}
+  \item pickle.Unpickler.load\_none \textit{(function)}, \hyperpage{44}
+  \item pickle.Unpickler.load\_obj \textit{(function)}, \hyperpage{44}
+  \item pickle.Unpickler.load\_persid \textit{(function)}, 
+		\hyperpage{44}
+  \item pickle.Unpickler.load\_pop \textit{(function)}, \hyperpage{44}
+  \item pickle.Unpickler.load\_pop\_mark \textit{(function)}, 
+		\hyperpage{44}
+  \item pickle.Unpickler.load\_proto \textit{(function)}, 
+		\hyperpage{44}
+  \item pickle.Unpickler.load\_put \textit{(function)}, \hyperpage{44}
+  \item pickle.Unpickler.load\_reduce \textit{(function)}, 
+		\hyperpage{44}
+  \item pickle.Unpickler.load\_setitem \textit{(function)}, 
+		\hyperpage{44}
+  \item pickle.Unpickler.load\_setitems \textit{(function)}, 
+		\hyperpage{44}
+  \item pickle.Unpickler.load\_short\_binstring \textit{(function)}, 
+		\hyperpage{44}
+  \item pickle.Unpickler.load\_stop \textit{(function)}, \hyperpage{45}
+  \item pickle.Unpickler.load\_string \textit{(function)}, 
+		\hyperpage{45}
+  \item pickle.Unpickler.load\_true \textit{(function)}, \hyperpage{45}
+  \item pickle.Unpickler.load\_tuple \textit{(function)}, 
+		\hyperpage{45}
+  \item pickle.Unpickler.load\_tuple1 \textit{(function)}, 
+		\hyperpage{45}
+  \item pickle.Unpickler.load\_tuple2 \textit{(function)}, 
+		\hyperpage{45}
+  \item pickle.Unpickler.load\_tuple3 \textit{(function)}, 
+		\hyperpage{45}
+  \item pickle.Unpickler.load\_unicode \textit{(function)}, 
+		\hyperpage{45}
+  \item pickle.Unpickler.marker \textit{(function)}, \hyperpage{45}
+  \item pickle.UnpicklingError \textit{(class)}, \hyperpage{45--46}
+  \item polygon.Cube \textit{(class)}, \hyperpage{154}
+  \item polygon.Cube.\_\_init\_\_ \textit{(function)}, \hyperpage{154}
+  \item polygon.Cube.draw \textit{(function)}, \hyperpage{154}
+  \item polygon.Point3D \textit{(class)}, \hyperpage{155--156}
+  \item polygon.Point3D.\_\_init\_\_ \textit{(function)}, 
+		\hyperpage{156}
+  \item polygon.Point3D.project \textit{(function)}, \hyperpage{156}
+  \item polygon.Point3D.rotateX \textit{(function)}, \hyperpage{156}
+  \item polygon.Point3D.rotateY \textit{(function)}, \hyperpage{156}
+  \item polygon.Point3D.rotateZ \textit{(function)}, \hyperpage{156}
+  \item posix.stat\_result \textit{(class)}, \hyperpage{29--32}
+  \item posix.stat\_result.\_\_add\_\_ \textit{(function)}, 
+		\hyperpage{30}
+  \item posix.stat\_result.\_\_contains\_\_ \textit{(function)}, 
+		\hyperpage{30}
+  \item posix.stat\_result.\_\_eq\_\_ \textit{(function)}, 
+		\hyperpage{30}
+  \item posix.stat\_result.\_\_ge\_\_ \textit{(function)}, 
+		\hyperpage{30}
+  \item posix.stat\_result.\_\_getitem\_\_ \textit{(function)}, 
+		\hyperpage{30}
+  \item posix.stat\_result.\_\_getslice\_\_ \textit{(function)}, 
+		\hyperpage{30}
+  \item posix.stat\_result.\_\_gt\_\_ \textit{(function)}, 
+		\hyperpage{30}
+  \item posix.stat\_result.\_\_le\_\_ \textit{(function)}, 
+		\hyperpage{30}
+  \item posix.stat\_result.\_\_len\_\_ \textit{(function)}, 
+		\hyperpage{30}
+  \item posix.stat\_result.\_\_lt\_\_ \textit{(function)}, 
+		\hyperpage{30}
+  \item posix.stat\_result.\_\_mul\_\_ \textit{(function)}, 
+		\hyperpage{31}
+  \item posix.stat\_result.\_\_ne\_\_ \textit{(function)}, 
+		\hyperpage{31}
+  \item posix.stat\_result.\_\_rmul\_\_ \textit{(function)}, 
+		\hyperpage{31}
+  \item posix.statvfs\_result \textit{(class)}, \hyperpage{32--35}
+  \item posix.statvfs\_result.\_\_add\_\_ \textit{(function)}, 
+		\hyperpage{32}
+  \item posix.statvfs\_result.\_\_contains\_\_ \textit{(function)}, 
+		\hyperpage{32}
+  \item posix.statvfs\_result.\_\_eq\_\_ \textit{(function)}, 
+		\hyperpage{33}
+  \item posix.statvfs\_result.\_\_ge\_\_ \textit{(function)}, 
+		\hyperpage{33}
+  \item posix.statvfs\_result.\_\_getitem\_\_ \textit{(function)}, 
+		\hyperpage{33}
+  \item posix.statvfs\_result.\_\_getslice\_\_ \textit{(function)}, 
+		\hyperpage{33}
+  \item posix.statvfs\_result.\_\_gt\_\_ \textit{(function)}, 
+		\hyperpage{33}
+  \item posix.statvfs\_result.\_\_le\_\_ \textit{(function)}, 
+		\hyperpage{33}
+  \item posix.statvfs\_result.\_\_len\_\_ \textit{(function)}, 
+		\hyperpage{33}
+  \item posix.statvfs\_result.\_\_lt\_\_ \textit{(function)}, 
+		\hyperpage{33}
+  \item posix.statvfs\_result.\_\_mul\_\_ \textit{(function)}, 
+		\hyperpage{33}
+  \item posix.statvfs\_result.\_\_ne\_\_ \textit{(function)}, 
+		\hyperpage{33}
+  \item posix.statvfs\_result.\_\_rmul\_\_ \textit{(function)}, 
+		\hyperpage{34}
+  \item posixpath \textit{(module)}, \hyperpage{47--50}
+  \item posixpath.abspath \textit{(function)}, \hyperpage{47}
+  \item posixpath.basename \textit{(function)}, \hyperpage{47}
+  \item posixpath.dirname \textit{(function)}, \hyperpage{47}
+  \item posixpath.expanduser \textit{(function)}, \hyperpage{47}
+  \item posixpath.expandvars \textit{(function)}, \hyperpage{47}
+  \item posixpath.isabs \textit{(function)}, \hyperpage{48}
+  \item posixpath.islink \textit{(function)}, \hyperpage{48}
+  \item posixpath.ismount \textit{(function)}, \hyperpage{48}
+  \item posixpath.join \textit{(function)}, \hyperpage{48}
+  \item posixpath.lexists \textit{(function)}, \hyperpage{48}
+  \item posixpath.normcase \textit{(function)}, \hyperpage{48}
+  \item posixpath.normpath \textit{(function)}, \hyperpage{48}
+  \item posixpath.realpath \textit{(function)}, \hyperpage{49}
+  \item posixpath.relpath \textit{(function)}, \hyperpage{49}
+  \item posixpath.samefile \textit{(function)}, \hyperpage{49}
+  \item posixpath.sameopenfile \textit{(function)}, \hyperpage{49}
+  \item posixpath.samestat \textit{(function)}, \hyperpage{49}
+  \item posixpath.split \textit{(function)}, \hyperpage{49}
+  \item posixpath.splitdrive \textit{(function)}, \hyperpage{49}
+  \item posixpath.splitext \textit{(function)}, \hyperpage{49}
+  \item posixpath.walk \textit{(function)}, \hyperpage{49}
+  \item pygame \textit{(package)}, \hyperpage{51--89}
+  \item pygame-asteroids \textit{(package)}, \hyperpage{90--91}
+    \subitem pygame-asteroids.asteroid \textit{(module)}
+      \subsubitem pygame-asteroids.asteroid.Asteroid \textit{(class)}, 
+		\hyperpage{92--93}, \hyperpage{107--108}, 
+		\hyperpage{177--178}, \hyperpage{203--204}, 
+		\hyperpage{231--232}
+    \subitem pygame-asteroids.asteroid' \textit{(module)}, 
+		\hyperpage{92--96}
+    \subitem pygame-asteroids.bullet \textit{(module)}
+      \subsubitem pygame-asteroids.bullet.Bullet \textit{(class)}, 
+		\hyperpage{97--98}, \hyperpage{108--110}, 
+		\hyperpage{178--180}, \hyperpage{204--206}, 
+		\hyperpage{232--234}
+    \subitem pygame-asteroids.bullet' \textit{(module)}, 
+		\hyperpage{97--99}
+    \subitem pygame-asteroids.color \textit{(module)}, 
+		\hyperpage{100--101}
+      \subsubitem pygame-asteroids.color.Color \textit{(class)}, 
+		\hyperpage{93--95}, \hyperpage{100--101}, 
+		\hyperpage{110--111}, \hyperpage{134--135}, 
+		\hyperpage{180--181}, \hyperpage{206--207}, 
+		\hyperpage{234--235}
+    \subitem pygame-asteroids.credit \textit{(module)}
+      \subsubitem pygame-asteroids.credit.credit \textit{(function)}, 
+		\hyperpage{102}
+      \subsubitem pygame-asteroids.credit.credit\_from\_file \textit{(function)}, 
+		\hyperpage{102}
+    \subitem pygame-asteroids.credit' \textit{(module)}, 
+		\hyperpage{102}
+    \subitem pygame-asteroids.file \textit{(module)}
+      \subsubitem pygame-asteroids.file.FileManager \textit{(class)}, 
+		\hyperpage{103--104}, \hyperpage{111--112}, 
+		\hyperpage{181--182}, \hyperpage{207--208}, 
+		\hyperpage{235--236}
+    \subitem pygame-asteroids.file' \textit{(module)}, 
+		\hyperpage{103--104}
+    \subitem pygame-asteroids.font \textit{(module)}
+      \subsubitem pygame-asteroids.font.Font \textit{(class)}, 
+		\hyperpage{105}, \hyperpage{112}, \hyperpage{138}, 
+		\hyperpage{182}, \hyperpage{208}, \hyperpage{236}
+    \subitem pygame-asteroids.font' \textit{(module)}, \hyperpage{105}
+    \subitem pygame-asteroids.game \textit{(module)}
+      \subsubitem pygame-asteroids.game.Game \textit{(class)}, 
+		\hyperpage{112--113}, \hyperpage{182--183}, 
+		\hyperpage{208--209}, \hyperpage{236--237}
+      \subsubitem pygame-asteroids.game.GameController \textit{(class)}, 
+		\hyperpage{113--115}, \hyperpage{183--185}, 
+		\hyperpage{209--211}
+      \subsubitem pygame-asteroids.game.SpriteGroup \textit{(class)}, 
+		\hyperpage{119--120}, \hyperpage{192--193}, 
+		\hyperpage{218--219}
+    \subitem pygame-asteroids.game' \textit{(module)}, 
+		\hyperpage{106--128}
+    \subitem pygame-asteroids.main \textit{(module)}, \hyperpage{129}
+      \subsubitem pygame-asteroids.main.main \textit{(function)}, 
+		\hyperpage{129}
+    \subitem pygame-asteroids.menu\_helper \textit{(module)}, 
+		\hyperpage{130--133}
+      \subsubitem pygame-asteroids.menu\_helper.MainMenu \textit{(class)}, 
+		\hyperpage{132--133}
+      \subsubitem pygame-asteroids.menu\_helper.Menu \textit{(class)}, 
+		\hyperpage{130--132}
+      \subsubitem pygame-asteroids.menu\_helper.MenuItem \textit{(class)}, 
+		\hyperpage{130}
+    \subitem pygame-asteroids.polygon \textit{(module)}
+      \subsubitem pygame-asteroids.polygon.Cube \textit{(class)}, 
+		\hyperpage{135}
+      \subsubitem pygame-asteroids.polygon.Point3D \textit{(class)}, 
+		\hyperpage{135--136}
+    \subitem pygame-asteroids.polygon' \textit{(module)}, 
+		\hyperpage{134--137}
+    \subitem pygame-asteroids.resource\_manager \textit{(module)}
+      \subsubitem pygame-asteroids.resource\_manager.ResourceManager \textit{(class)}, 
+		\hyperpage{138--141}, \hyperpage{185--188}, 
+		\hyperpage{211--214}, \hyperpage{237--240}
+    \subitem pygame-asteroids.resource\_manager' \textit{(module)}, 
+		\hyperpage{138--141}
+    \subitem pygame-asteroids.score \textit{(module)}, \hyperpage{142}
+      \subsubitem pygame-asteroids.score.DataHandler \textit{(class)}, 
+		\hyperpage{103}, \hyperpage{111}, \hyperpage{142}, 
+		\hyperpage{181}, \hyperpage{207}, \hyperpage{235}
+    \subitem pygame-asteroids.ship \textit{(module)}, 
+		\hyperpage{143--145}
+      \subsubitem pygame-asteroids.ship.Ship \textit{(class)}, 
+		\hyperpage{115--117}, \hyperpage{143--145}, 
+		\hyperpage{188--191}, \hyperpage{214--217}, 
+		\hyperpage{240--242}
+    \subitem pygame-asteroids.sprite\_collision \textit{(module)}, 
+		\hyperpage{146--147}
+      \subsubitem pygame-asteroids.sprite\_collision.SpriteCollision \textit{(class)}, 
+		\hyperpage{95--96}, \hyperpage{98--99}, 
+		\hyperpage{117--119}, \hyperpage{146--147}, 
+		\hyperpage{191--192}, \hyperpage{217--218}, 
+		\hyperpage{242--244}
+    \subitem pygame-asteroids.start\_field \textit{(module)}, 
+		\hyperpage{148--149}
+      \subsubitem pygame-asteroids.start\_field.StarField \textit{(class)}, 
+		\hyperpage{120--121}, \hyperpage{148--149}, 
+		\hyperpage{193--194}, \hyperpage{219--220}, 
+		\hyperpage{228--229}, \hyperpage{244--245}
+    \subitem pygame-asteroids.state\_machine \textit{(module)}
+      \subsubitem pygame-asteroids.state\_machine.StateMachine \textit{(class)}, 
+		\hyperpage{150--151}, \hyperpage{257--259}
+    \subitem pygame-asteroids.state\_machine' \textit{(module)}, 
+		\hyperpage{150--151}
+    \subitem pygame-asteroids.states \textit{(package)}
+      \subsubitem pygame-asteroids.states.menu \textit{(module)}, 
+		\hyperpage{165--166}
+    \subitem pygame-asteroids.states' \textit{(package)}, 
+		\hyperpage{175}
+      \subsubitem pygame-asteroids.states.franchise' \textit{(module)}, 
+		\hyperpage{152--160}
+      \subsubitem pygame-asteroids.states.intro' \textit{(module)}, 
+		\hyperpage{161--164}
+      \subsubitem pygame-asteroids.states.seal' \textit{(module)}, 
+		\hyperpage{167--174}
+    \subitem pygame-asteroids.test\_audio \textit{(module)}
+      \subsubitem pygame-asteroids.test\_audio.main \textit{(function)}, 
+		\hyperpage{176}
+    \subitem pygame-asteroids.test\_audio' \textit{(module)}, 
+		\hyperpage{176--201}
+    \subitem pygame-asteroids.test\_rotation \textit{(module)}
+      \subsubitem pygame-asteroids.test\_rotation.main \textit{(function)}, 
+		\hyperpage{202}
+    \subitem pygame-asteroids.test\_rotation' \textit{(module)}, 
+		\hyperpage{202--227}
+    \subitem pygame-asteroids.test\_startfield \textit{(module)}
+      \subsubitem pygame-asteroids.test\_startfield.main \textit{(function)}, 
+		\hyperpage{228}
+    \subitem pygame-asteroids.test\_startfield' \textit{(module)}, 
+		\hyperpage{228--229}
+    \subitem pygame-asteroids.test\_touch\_buttons \textit{(module)}
+      \subsubitem pygame-asteroids.test\_touch\_buttons.main \textit{(function)}, 
+		\hyperpage{230}
+    \subitem pygame-asteroids.test\_touch\_buttons' \textit{(module)}, 
+		\hyperpage{230--252}
+    \subitem pygame-asteroids.test\_virtual\_keyboard \textit{(module)}
+      \subsubitem pygame-asteroids.test\_virtual\_keyboard.main \textit{(function)}, 
+		\hyperpage{253}
+    \subitem pygame-asteroids.test\_virtual\_keyboard' \textit{(module)}, 
+		\hyperpage{253}
+    \subitem pygame-asteroids.tools \textit{(module)}
+      \subsubitem pygame-asteroids.tools.Anim \textit{(class)}, 
+		\hyperpage{255--256}
+      \subsubitem pygame-asteroids.tools.Control \textit{(class)}, 
+		\hyperpage{256--257}
+      \subsubitem pygame-asteroids.tools.cursor\_from\_image \textit{(function)}, 
+		\hyperpage{254}
+      \subsubitem pygame-asteroids.tools.get\_cell\_coordinates \textit{(function)}, 
+		\hyperpage{254}
+      \subsubitem pygame-asteroids.tools.get\_rendered \textit{(function)}, 
+		\hyperpage{254}
+      \subsubitem pygame-asteroids.tools.load\_all\_fonts \textit{(function)}, 
+		\hyperpage{254}
+      \subsubitem pygame-asteroids.tools.load\_all\_gfx \textit{(function)}, 
+		\hyperpage{254}
+      \subsubitem pygame-asteroids.tools.load\_all\_music \textit{(function)}, 
+		\hyperpage{254}
+      \subsubitem pygame-asteroids.tools.load\_all\_sfx \textit{(function)}, 
+		\hyperpage{255}
+      \subsubitem pygame-asteroids.tools.rect\_then\_mask \textit{(function)}, 
+		\hyperpage{255}
+      \subsubitem pygame-asteroids.tools.strip\_coords\_from\_sheet \textit{(function)}, 
+		\hyperpage{255}
+      \subsubitem pygame-asteroids.tools.strip\_from\_sheet \textit{(function)}, 
+		\hyperpage{255}
+      \subsubitem pygame-asteroids.tools.Timer \textit{(class)}, 
+		\hyperpage{259}
+    \subitem pygame-asteroids.tools' \textit{(module)}, 
+		\hyperpage{254--259}
+    \subitem pygame-asteroids.touch\_buttons \textit{(module)}, 
+		\hyperpage{260}
+      \subsubitem pygame-asteroids.touch\_buttons.TouchButtons \textit{(class)}, 
+		\hyperpage{122}, \hyperpage{195}, \hyperpage{221}, 
+		\hyperpage{246}, \hyperpage{260}
+    \subitem pygame-asteroids.virtual\_controller \textit{(module)}, 
+		\hyperpage{261}
+      \subsubitem pygame-asteroids.virtual\_controller.decode\_joystick\_arrow\_to\_keyboard\_key \textit{(function)}, 
+		\hyperpage{102}, \hyperpage{106}, \hyperpage{176}, 
+		\hyperpage{202}, \hyperpage{230}, \hyperpage{261}
+      \subsubitem pygame-asteroids.virtual\_controller.is\_event\_type\_an\_input\_down \textit{(function)}, 
+		\hyperpage{102}, \hyperpage{106}, \hyperpage{176}, 
+		\hyperpage{202}, \hyperpage{230}, \hyperpage{261}
+      \subsubitem pygame-asteroids.virtual\_controller.vc\_get\_angle \textit{(function)}, 
+		\hyperpage{102}, \hyperpage{106}, \hyperpage{176}, 
+		\hyperpage{202}, \hyperpage{230}, \hyperpage{261}
+    \subitem pygame-asteroids.virtual\_keyboard \textit{(module)}, 
+		\hyperpage{262--265}
+      \subsubitem pygame-asteroids.virtual\_keyboard.TextInput \textit{(class)}, 
+		\hyperpage{121--122}, \hyperpage{194--195}, 
+		\hyperpage{220--221}, \hyperpage{245--246}, 
+		\hyperpage{262--263}
+      \subsubitem pygame-asteroids.virtual\_keyboard.VirtualKey \textit{(class)}, 
+		\hyperpage{122--123}, \hyperpage{195--196}, 
+		\hyperpage{221--222}, \hyperpage{246--247}, 
+		\hyperpage{263--264}
+      \subsubitem pygame-asteroids.virtual\_keyboard.VirtualKeyboard \textit{(class)}, 
+		\hyperpage{123--124}, \hyperpage{196--197}, 
+		\hyperpage{222--223}, \hyperpage{247--248}, 
+		\hyperpage{264--265}
+  \item pygame-asteroids.states.franchise.Franchise \textit{(class)}, 
+		\hyperpage{154--155}
+  \item pygame-asteroids.states.franchise.Franchise.draw \textit{(function)}, 
+		\hyperpage{155}
+  \item pygame-asteroids.states.intro.Introduction \textit{(class)}, 
+		\hyperpage{163--164}
+  \item pygame-asteroids.states.intro.Introduction.draw \textit{(function)}, 
+		\hyperpage{163}
+  \item pygame-asteroids.states.seal.Seal \textit{(class)}, 
+		\hyperpage{169--170}
+  \item pygame-asteroids.states.seal.Seal.draw \textit{(function)}, 
+		\hyperpage{170}
+  \item pygame.BufferError \textit{(class)}, \hyperpage{57--58}
+  \item pygame.BufferProxy \textit{(class)}, \hyperpage{58--59}
+  \item pygame.BufferProxy.write \textit{(function)}, \hyperpage{59}
+  \item pygame.Color \textit{(class)}, \hyperpage{59--64}
+  \item pygame.Color.\_\_add\_\_ \textit{(function)}, \hyperpage{60}
+  \item pygame.Color.\_\_coerce\_\_ \textit{(function)}, \hyperpage{60}
+  \item pygame.Color.\_\_delitem\_\_ \textit{(function)}, 
+		\hyperpage{60}
+  \item pygame.Color.\_\_div\_\_ \textit{(function)}, \hyperpage{60}
+  \item pygame.Color.\_\_eq\_\_ \textit{(function)}, \hyperpage{60}
+  \item pygame.Color.\_\_float\_\_ \textit{(function)}, \hyperpage{60}
+  \item pygame.Color.\_\_floordiv\_\_ \textit{(function)}, 
+		\hyperpage{60}
+  \item pygame.Color.\_\_ge\_\_ \textit{(function)}, \hyperpage{60}
+  \item pygame.Color.\_\_getitem\_\_ \textit{(function)}, 
+		\hyperpage{60}
+  \item pygame.Color.\_\_getslice\_\_ \textit{(function)}, 
+		\hyperpage{60}
+  \item pygame.Color.\_\_gt\_\_ \textit{(function)}, \hyperpage{61}
+  \item pygame.Color.\_\_hex\_\_ \textit{(function)}, \hyperpage{61}
+  \item pygame.Color.\_\_index\_\_ \textit{(function)}, \hyperpage{61}
+  \item pygame.Color.\_\_int\_\_ \textit{(function)}, \hyperpage{61}
+  \item pygame.Color.\_\_invert\_\_ \textit{(function)}, \hyperpage{61}
+  \item pygame.Color.\_\_le\_\_ \textit{(function)}, \hyperpage{61}
+  \item pygame.Color.\_\_len\_\_ \textit{(function)}, \hyperpage{61}
+  \item pygame.Color.\_\_long\_\_ \textit{(function)}, \hyperpage{61}
+  \item pygame.Color.\_\_lt\_\_ \textit{(function)}, \hyperpage{61}
+  \item pygame.Color.\_\_mod\_\_ \textit{(function)}, \hyperpage{61}
+  \item pygame.Color.\_\_mul\_\_ \textit{(function)}, \hyperpage{61}
+  \item pygame.Color.\_\_ne\_\_ \textit{(function)}, \hyperpage{62}
+  \item pygame.Color.\_\_oct\_\_ \textit{(function)}, \hyperpage{62}
+  \item pygame.Color.\_\_radd\_\_ \textit{(function)}, \hyperpage{62}
+  \item pygame.Color.\_\_rdiv\_\_ \textit{(function)}, \hyperpage{62}
+  \item pygame.Color.\_\_rfloordiv\_\_ \textit{(function)}, 
+		\hyperpage{62}
+  \item pygame.Color.\_\_rmod\_\_ \textit{(function)}, \hyperpage{62}
+  \item pygame.Color.\_\_rmul\_\_ \textit{(function)}, \hyperpage{62}
+  \item pygame.Color.\_\_rsub\_\_ \textit{(function)}, \hyperpage{62}
+  \item pygame.Color.\_\_setitem\_\_ \textit{(function)}, 
+		\hyperpage{62}
+  \item pygame.Color.\_\_sub\_\_ \textit{(function)}, \hyperpage{63}
+  \item pygame.Color.correct\_gamma \textit{(function)}, \hyperpage{63}
+  \item pygame.Color.normalize \textit{(function)}, \hyperpage{63}
+  \item pygame.Color.set\_length \textit{(function)}, \hyperpage{63}
+  \item pygame.error \textit{(class)}, \hyperpage{88--89}
+  \item pygame.Overlay \textit{(class)}, \hyperpage{64--65}
+  \item pygame.Overlay.display \textit{(function)}, \hyperpage{64}
+  \item pygame.Overlay.get\_hardware \textit{(function)}, 
+		\hyperpage{64}
+  \item pygame.Overlay.set\_location \textit{(function)}, 
+		\hyperpage{64}
+  \item pygame.packager\_imports \textit{(function)}, \hyperpage{51}
+  \item pygame.PixelArray \textit{(class)}, \hyperpage{65--67}
+  \item pygame.PixelArray.\_\_contains\_\_ \textit{(function)}, 
+		\hyperpage{65}
+  \item pygame.PixelArray.\_\_delitem\_\_ \textit{(function)}, 
+		\hyperpage{65}
+  \item pygame.PixelArray.\_\_getitem\_\_ \textit{(function)}, 
+		\hyperpage{65}
+  \item pygame.PixelArray.\_\_iter\_\_ \textit{(function)}, 
+		\hyperpage{65}
+  \item pygame.PixelArray.\_\_len\_\_ \textit{(function)}, 
+		\hyperpage{65}
+  \item pygame.PixelArray.\_\_setitem\_\_ \textit{(function)}, 
+		\hyperpage{66}
+  \item pygame.PixelArray.compare \textit{(function)}, \hyperpage{66}
+  \item pygame.PixelArray.extract \textit{(function)}, \hyperpage{66}
+  \item pygame.PixelArray.make\_surface \textit{(function)}, 
+		\hyperpage{66}
+  \item pygame.PixelArray.replace \textit{(function)}, \hyperpage{66}
+  \item pygame.PixelArray.transpose \textit{(function)}, \hyperpage{66}
+  \item pygame.Rect \textit{(class)}, \hyperpage{67--73}
+  \item pygame.Rect.\_\_coerce\_\_ \textit{(function)}, \hyperpage{67}
+  \item pygame.Rect.\_\_copy\_\_ \textit{(function)}, \hyperpage{67}
+  \item pygame.Rect.\_\_delitem\_\_ \textit{(function)}, \hyperpage{67}
+  \item pygame.Rect.\_\_delslice\_\_ \textit{(function)}, 
+		\hyperpage{67}
+  \item pygame.Rect.\_\_eq\_\_ \textit{(function)}, \hyperpage{67}
+  \item pygame.Rect.\_\_ge\_\_ \textit{(function)}, \hyperpage{68}
+  \item pygame.Rect.\_\_getitem\_\_ \textit{(function)}, \hyperpage{68}
+  \item pygame.Rect.\_\_getslice\_\_ \textit{(function)}, 
+		\hyperpage{68}
+  \item pygame.Rect.\_\_gt\_\_ \textit{(function)}, \hyperpage{68}
+  \item pygame.Rect.\_\_le\_\_ \textit{(function)}, \hyperpage{68}
+  \item pygame.Rect.\_\_len\_\_ \textit{(function)}, \hyperpage{68}
+  \item pygame.Rect.\_\_lt\_\_ \textit{(function)}, \hyperpage{68}
+  \item pygame.Rect.\_\_ne\_\_ \textit{(function)}, \hyperpage{68}
+  \item pygame.Rect.\_\_nonzero\_\_ \textit{(function)}, \hyperpage{69}
+  \item pygame.Rect.\_\_setitem\_\_ \textit{(function)}, \hyperpage{69}
+  \item pygame.Rect.\_\_setslice\_\_ \textit{(function)}, 
+		\hyperpage{69}
+  \item pygame.Rect.clamp \textit{(function)}, \hyperpage{69}
+  \item pygame.Rect.clamp\_ip \textit{(function)}, \hyperpage{69}
+  \item pygame.Rect.clip \textit{(function)}, \hyperpage{70}
+  \item pygame.Rect.collidedict \textit{(function)}, \hyperpage{70}
+  \item pygame.Rect.collidedictall \textit{(function)}, \hyperpage{70}
+  \item pygame.Rect.collidelist \textit{(function)}, \hyperpage{70}
+  \item pygame.Rect.collidelistall \textit{(function)}, \hyperpage{70}
+  \item pygame.Rect.collidepoint \textit{(function)}, \hyperpage{70}
+  \item pygame.Rect.colliderect \textit{(function)}, \hyperpage{70}
+  \item pygame.Rect.contains \textit{(function)}, \hyperpage{71}
+  \item pygame.Rect.copy \textit{(function)}, \hyperpage{71}
+  \item pygame.Rect.fit \textit{(function)}, \hyperpage{71}
+  \item pygame.Rect.inflate \textit{(function)}, \hyperpage{71}
+  \item pygame.Rect.inflate\_ip \textit{(function)}, \hyperpage{71}
+  \item pygame.Rect.move \textit{(function)}, \hyperpage{71}
+  \item pygame.Rect.move\_ip \textit{(function)}, \hyperpage{71}
+  \item pygame.Rect.normalize \textit{(function)}, \hyperpage{72}
+  \item pygame.Rect.union \textit{(function)}, \hyperpage{72}
+  \item pygame.Rect.union\_ip \textit{(function)}, \hyperpage{72}
+  \item pygame.Rect.unionall \textit{(function)}, \hyperpage{72}
+  \item pygame.Rect.unionall\_ip \textit{(function)}, \hyperpage{72}
+  \item pygame.Surface \textit{(class)}, \hyperpage{73--88}
+  \item pygame.Surface.\_\_copy\_\_ \textit{(function)}, \hyperpage{73}, 
+		\hyperpage{81}
+  \item pygame.Surface.blit \textit{(function)}, \hyperpage{74}, 
+		\hyperpage{81}
+  \item pygame.Surface.convert \textit{(function)}, \hyperpage{74}, 
+		\hyperpage{81}
+  \item pygame.Surface.convert\_alpha \textit{(function)}, 
+		\hyperpage{74}, \hyperpage{82}
+  \item pygame.Surface.copy \textit{(function)}, \hyperpage{74}, 
+		\hyperpage{82}
+  \item pygame.Surface.fill \textit{(function)}, \hyperpage{74}, 
+		\hyperpage{82}
+  \item pygame.Surface.get\_abs\_offset \textit{(function)}, 
+		\hyperpage{75}, \hyperpage{82}
+  \item pygame.Surface.get\_abs\_parent \textit{(function)}, 
+		\hyperpage{75}, \hyperpage{82}
+  \item pygame.Surface.get\_alpha \textit{(function)}, \hyperpage{75}, 
+		\hyperpage{82}
+  \item pygame.Surface.get\_at \textit{(function)}, \hyperpage{75}, 
+		\hyperpage{82}
+  \item pygame.Surface.get\_at\_mapped \textit{(function)}, 
+		\hyperpage{75}, \hyperpage{83}
+  \item pygame.Surface.get\_bitsize \textit{(function)}, \hyperpage{75}, 
+		\hyperpage{83}
+  \item pygame.Surface.get\_bounding\_rect \textit{(function)}, 
+		\hyperpage{75}, \hyperpage{83}
+  \item pygame.Surface.get\_buffer \textit{(function)}, \hyperpage{75}, 
+		\hyperpage{83}
+  \item pygame.Surface.get\_bytesize \textit{(function)}, 
+		\hyperpage{76}, \hyperpage{83}
+  \item pygame.Surface.get\_clip \textit{(function)}, \hyperpage{76}, 
+		\hyperpage{83}
+  \item pygame.Surface.get\_colorkey \textit{(function)}, 
+		\hyperpage{76}, \hyperpage{83}
+  \item pygame.Surface.get\_flags \textit{(function)}, \hyperpage{76}, 
+		\hyperpage{83}
+  \item pygame.Surface.get\_height \textit{(function)}, \hyperpage{76}, 
+		\hyperpage{84}
+  \item pygame.Surface.get\_locked \textit{(function)}, \hyperpage{76}, 
+		\hyperpage{84}
+  \item pygame.Surface.get\_locks \textit{(function)}, \hyperpage{76}, 
+		\hyperpage{84}
+  \item pygame.Surface.get\_losses \textit{(function)}, \hyperpage{77}, 
+		\hyperpage{84}
+  \item pygame.Surface.get\_masks \textit{(function)}, \hyperpage{77}, 
+		\hyperpage{84}
+  \item pygame.Surface.get\_offset \textit{(function)}, \hyperpage{77}, 
+		\hyperpage{84}
+  \item pygame.Surface.get\_palette \textit{(function)}, \hyperpage{77}, 
+		\hyperpage{84}
+  \item pygame.Surface.get\_palette\_at \textit{(function)}, 
+		\hyperpage{77}, \hyperpage{85}
+  \item pygame.Surface.get\_parent \textit{(function)}, \hyperpage{77}, 
+		\hyperpage{85}
+  \item pygame.Surface.get\_pitch \textit{(function)}, \hyperpage{77}, 
+		\hyperpage{85}
+  \item pygame.Surface.get\_rect \textit{(function)}, \hyperpage{78}, 
+		\hyperpage{85}
+  \item pygame.Surface.get\_shifts \textit{(function)}, \hyperpage{78}, 
+		\hyperpage{85}
+  \item pygame.Surface.get\_size \textit{(function)}, \hyperpage{78}, 
+		\hyperpage{85}
+  \item pygame.Surface.get\_view \textit{(function)}, \hyperpage{78}, 
+		\hyperpage{85}
+  \item pygame.Surface.get\_width \textit{(function)}, \hyperpage{78}, 
+		\hyperpage{86}
+  \item pygame.Surface.lock \textit{(function)}, \hyperpage{78}, 
+		\hyperpage{86}
+  \item pygame.Surface.map\_rgb \textit{(function)}, \hyperpage{78}, 
+		\hyperpage{86}
+  \item pygame.Surface.mustlock \textit{(function)}, \hyperpage{79}, 
+		\hyperpage{86}
+  \item pygame.Surface.scroll \textit{(function)}, \hyperpage{79}, 
+		\hyperpage{86}
+  \item pygame.Surface.set\_alpha \textit{(function)}, \hyperpage{79}, 
+		\hyperpage{86}
+  \item pygame.Surface.set\_at \textit{(function)}, \hyperpage{79}, 
+		\hyperpage{86}
+  \item pygame.Surface.set\_clip \textit{(function)}, \hyperpage{79}, 
+		\hyperpage{86}
+  \item pygame.Surface.set\_colorkey \textit{(function)}, 
+		\hyperpage{79}, \hyperpage{87}
+  \item pygame.Surface.set\_masks \textit{(function)}, \hyperpage{79}, 
+		\hyperpage{87}
+  \item pygame.Surface.set\_palette \textit{(function)}, \hyperpage{79}, 
+		\hyperpage{87}
+  \item pygame.Surface.set\_palette\_at \textit{(function)}, 
+		\hyperpage{80}, \hyperpage{87}
+  \item pygame.Surface.set\_shifts \textit{(function)}, \hyperpage{80}, 
+		\hyperpage{87}
+  \item pygame.Surface.subsurface \textit{(function)}, \hyperpage{80}, 
+		\hyperpage{87}
+  \item pygame.Surface.unlock \textit{(function)}, \hyperpage{80}, 
+		\hyperpage{87}
+  \item pygame.Surface.unmap\_rgb \textit{(function)}, \hyperpage{80}, 
+		\hyperpage{87}
+  \item pygame.warn\_unwanted\_files \textit{(function)}, 
+		\hyperpage{51}
+
+  \indexspace
+
+  \item random \textit{(module)}, \hyperpage{266--280}
+  \item random.betavariate \textit{(function)}, \hyperpage{267}
+  \item random.choice \textit{(function)}, \hyperpage{267}
+  \item random.expovariate \textit{(function)}, \hyperpage{267}
+  \item random.gammavariate \textit{(function)}, \hyperpage{267}
+  \item random.gauss \textit{(function)}, \hyperpage{267}
+  \item random.getrandbits \textit{(function)}, \hyperpage{267}
+  \item random.getstate \textit{(function)}, \hyperpage{268}
+  \item random.jumpahead \textit{(function)}, \hyperpage{268}
+  \item random.lognormvariate \textit{(function)}, \hyperpage{268}
+  \item random.normalvariate \textit{(function)}, \hyperpage{268}
+  \item random.paretovariate \textit{(function)}, \hyperpage{268}
+  \item random.randint \textit{(function)}, \hyperpage{268}
+  \item random.Random \textit{(class)}, \hyperpage{270--275}
+  \item random.random \textit{(function)}, \hyperpage{268}
+  \item random.Random.\_\_getstate\_\_ \textit{(function)}, 
+		\hyperpage{271}
+  \item random.Random.\_\_setstate\_\_ \textit{(function)}, 
+		\hyperpage{271}
+  \item random.Random.betavariate \textit{(function)}, \hyperpage{271}
+  \item random.Random.choice \textit{(function)}, \hyperpage{271}
+  \item random.Random.expovariate \textit{(function)}, \hyperpage{271}
+  \item random.Random.gammavariate \textit{(function)}, \hyperpage{271}
+  \item random.Random.gauss \textit{(function)}, \hyperpage{272}
+  \item random.Random.lognormvariate \textit{(function)}, 
+		\hyperpage{272}
+  \item random.Random.normalvariate \textit{(function)}, 
+		\hyperpage{272}
+  \item random.Random.paretovariate \textit{(function)}, 
+		\hyperpage{273}
+  \item random.Random.randint \textit{(function)}, \hyperpage{273}
+  \item random.Random.randrange \textit{(function)}, \hyperpage{273}
+  \item random.Random.sample \textit{(function)}, \hyperpage{273}
+  \item random.Random.shuffle \textit{(function)}, \hyperpage{274}
+  \item random.Random.triangular \textit{(function)}, \hyperpage{274}
+  \item random.Random.uniform \textit{(function)}, \hyperpage{274}
+  \item random.Random.vonmisesvariate \textit{(function)}, 
+		\hyperpage{274}
+  \item random.Random.weibullvariate \textit{(function)}, 
+		\hyperpage{275}
+  \item random.randrange \textit{(function)}, \hyperpage{268}
+  \item random.sample \textit{(function)}, \hyperpage{269}
+  \item random.seed \textit{(function)}, \hyperpage{269}
+  \item random.setstate \textit{(function)}, \hyperpage{269}
+  \item random.shuffle \textit{(function)}, \hyperpage{269}
+  \item random.SystemRandom \textit{(class)}, \hyperpage{275--277}
+  \item random.triangular \textit{(function)}, \hyperpage{269}
+  \item random.uniform \textit{(function)}, \hyperpage{270}
+  \item random.vonmisesvariate \textit{(function)}, \hyperpage{270}
+  \item random.weibullvariate \textit{(function)}, \hyperpage{270}
+  \item random.WichmannHill \textit{(class)}, \hyperpage{277--280}
+  \item random.WichmannHill.whseed \textit{(function)}, \hyperpage{279}
+  \item resource.error \textit{(class)}, \hyperpage{124--125}, 
+		\hyperpage{156--157}, \hyperpage{170--171}, 
+		\hyperpage{197--198}, \hyperpage{223--224}, 
+		\hyperpage{248--249}
+  \item resource.struct\_rusage \textit{(class)}, \hyperpage{125--128}, 
+		\hyperpage{158--160}, \hyperpage{171--174}, 
+		\hyperpage{198--201}, \hyperpage{224--227}, 
+		\hyperpage{249--252}
+  \item resource.struct\_rusage.\_\_add\_\_ \textit{(function)}, 
+		\hyperpage{126}, \hyperpage{158}, \hyperpage{172}, 
+		\hyperpage{199}, \hyperpage{225}, \hyperpage{250}
+  \item resource.struct\_rusage.\_\_contains\_\_ \textit{(function)}, 
+		\hyperpage{126}, \hyperpage{158}, \hyperpage{172}, 
+		\hyperpage{199}, \hyperpage{225}, \hyperpage{250}
+  \item resource.struct\_rusage.\_\_eq\_\_ \textit{(function)}, 
+		\hyperpage{126}, \hyperpage{158}, \hyperpage{172}, 
+		\hyperpage{199}, \hyperpage{225}, \hyperpage{250}
+  \item resource.struct\_rusage.\_\_ge\_\_ \textit{(function)}, 
+		\hyperpage{126}, \hyperpage{158}, \hyperpage{172}, 
+		\hyperpage{199}, \hyperpage{225}, \hyperpage{250}
+  \item resource.struct\_rusage.\_\_getitem\_\_ \textit{(function)}, 
+		\hyperpage{126}, \hyperpage{158}, \hyperpage{172}, 
+		\hyperpage{199}, \hyperpage{225}, \hyperpage{250}
+  \item resource.struct\_rusage.\_\_getslice\_\_ \textit{(function)}, 
+		\hyperpage{126}, \hyperpage{158}, \hyperpage{172}, 
+		\hyperpage{199}, \hyperpage{225}, \hyperpage{250}
+  \item resource.struct\_rusage.\_\_gt\_\_ \textit{(function)}, 
+		\hyperpage{126}, \hyperpage{159}, \hyperpage{172}, 
+		\hyperpage{199}, \hyperpage{225}, \hyperpage{250}
+  \item resource.struct\_rusage.\_\_le\_\_ \textit{(function)}, 
+		\hyperpage{126}, \hyperpage{159}, \hyperpage{172}, 
+		\hyperpage{199}, \hyperpage{225}, \hyperpage{250}
+  \item resource.struct\_rusage.\_\_len\_\_ \textit{(function)}, 
+		\hyperpage{126}, \hyperpage{159}, \hyperpage{172}, 
+		\hyperpage{199}, \hyperpage{225}, \hyperpage{250}
+  \item resource.struct\_rusage.\_\_lt\_\_ \textit{(function)}, 
+		\hyperpage{127}, \hyperpage{159}, \hyperpage{173}, 
+		\hyperpage{200}, \hyperpage{226}, \hyperpage{251}
+  \item resource.struct\_rusage.\_\_mul\_\_ \textit{(function)}, 
+		\hyperpage{127}, \hyperpage{159}, \hyperpage{173}, 
+		\hyperpage{200}, \hyperpage{226}, \hyperpage{251}
+  \item resource.struct\_rusage.\_\_ne\_\_ \textit{(function)}, 
+		\hyperpage{127}, \hyperpage{159}, \hyperpage{173}, 
+		\hyperpage{200}, \hyperpage{226}, \hyperpage{251}
+  \item resource.struct\_rusage.\_\_rmul\_\_ \textit{(function)}, 
+		\hyperpage{127}, \hyperpage{160}, \hyperpage{173}, 
+		\hyperpage{200}, \hyperpage{226}, \hyperpage{251}
+
+  \indexspace
+
+  \item state\_machine \textit{(module)}, \hyperpage{281--282}
+  \item state\_machine.StateMachine \textit{(class)}, 
+		\hyperpage{281--282}
+  \item state\_machine.StateMachine.draw \textit{(function)}, 
+		\hyperpage{281}
+  \item state\_machine.StateMachine.flip\_state \textit{(function)}, 
+		\hyperpage{281}
+  \item state\_machine.StateMachine.get\_event \textit{(function)}, 
+		\hyperpage{281}
+  \item state\_machine.StateMachine.setup\_states \textit{(function)}, 
+		\hyperpage{281}
+  \item state\_machine.StateMachine.update \textit{(function)}, 
+		\hyperpage{281}
+  \item sys \textit{(module)}, \hyperpage{283--290}
+  \item sys.call\_tracing \textit{(function)}, \hyperpage{285}
+  \item sys.callstats \textit{(function)}, \hyperpage{285}
+  \item sys.displayhook \textit{(function)}, \hyperpage{284, 285}
+  \item sys.exc\_clear \textit{(function)}, \hyperpage{285}
+  \item sys.exc\_info \textit{(function)}, \hyperpage{286}
+  \item sys.excepthook \textit{(function)}, \hyperpage{284}, 
+		\hyperpage{286}
+  \item sys.exit \textit{(function)}, \hyperpage{286}
+  \item sys.getcheckinterval \textit{(function)}, \hyperpage{286}
+  \item sys.getdefaultencoding \textit{(function)}, \hyperpage{286}
+  \item sys.getdlopenflags \textit{(function)}, \hyperpage{286}
+  \item sys.getfilesystemencoding \textit{(function)}, \hyperpage{287}
+  \item sys.getprofile \textit{(function)}, \hyperpage{287}
+  \item sys.getrecursionlimit \textit{(function)}, \hyperpage{287}
+  \item sys.getrefcount \textit{(function)}, \hyperpage{287}
+  \item sys.getsizeof \textit{(function)}, \hyperpage{287}
+  \item sys.gettrace \textit{(function)}, \hyperpage{287}
+  \item sys.setcheckinterval \textit{(function)}, \hyperpage{287}
+  \item sys.setdlopenflags \textit{(function)}, \hyperpage{288}
+  \item sys.setprofile \textit{(function)}, \hyperpage{288}
+  \item sys.setrecursionlimit \textit{(function)}, \hyperpage{288}
+  \item sys.settrace \textit{(function)}, \hyperpage{288}
+
+  \indexspace
+
+  \item time \textit{(module)}, \hyperpage{291--297}
+  \item time.asctime \textit{(function)}, \hyperpage{292}
+  \item time.clock \textit{(function)}, \hyperpage{292}
+  \item time.ctime \textit{(function)}, \hyperpage{292}
+  \item time.gmtime \textit{(function)}, \hyperpage{292}
+  \item time.localtime \textit{(function)}, \hyperpage{292}
+  \item time.mktime \textit{(function)}, \hyperpage{293}
+  \item time.sleep \textit{(function)}, \hyperpage{293}
+  \item time.strftime \textit{(function)}, \hyperpage{293}
+  \item time.strptime \textit{(function)}, \hyperpage{293}
+  \item time.struct\_time \textit{(class)}, \hyperpage{294--297}
+  \item time.struct\_time.\_\_add\_\_ \textit{(function)}, 
+		\hyperpage{294}
+  \item time.struct\_time.\_\_contains\_\_ \textit{(function)}, 
+		\hyperpage{294}
+  \item time.struct\_time.\_\_eq\_\_ \textit{(function)}, 
+		\hyperpage{294}
+  \item time.struct\_time.\_\_ge\_\_ \textit{(function)}, 
+		\hyperpage{295}
+  \item time.struct\_time.\_\_getitem\_\_ \textit{(function)}, 
+		\hyperpage{295}
+  \item time.struct\_time.\_\_getslice\_\_ \textit{(function)}, 
+		\hyperpage{295}
+  \item time.struct\_time.\_\_gt\_\_ \textit{(function)}, 
+		\hyperpage{295}
+  \item time.struct\_time.\_\_le\_\_ \textit{(function)}, 
+		\hyperpage{295}
+  \item time.struct\_time.\_\_len\_\_ \textit{(function)}, 
+		\hyperpage{295}
+  \item time.struct\_time.\_\_lt\_\_ \textit{(function)}, 
+		\hyperpage{295}
+  \item time.struct\_time.\_\_mul\_\_ \textit{(function)}, 
+		\hyperpage{295}
+  \item time.struct\_time.\_\_ne\_\_ \textit{(function)}, 
+		\hyperpage{295}
+  \item time.struct\_time.\_\_rmul\_\_ \textit{(function)}, 
+		\hyperpage{296}
+  \item time.time \textit{(function)}, \hyperpage{293}
+  \item time.tzset \textit{(function)}, \hyperpage{293}
+
+  \indexspace
+
+  \item virtual\_controller.decode\_joystick\_arrow\_to\_keyboard\_key \textit{(function)}, 
+		\hyperpage{152}, \hyperpage{161}, \hyperpage{167}
+  \item virtual\_controller.is\_event\_type\_an\_input\_down \textit{(function)}, 
+		\hyperpage{152}, \hyperpage{161}, \hyperpage{167}
+  \item virtual\_controller.vc\_get\_angle \textit{(function)}, 
+		\hyperpage{152}, \hyperpage{161}, \hyperpage{167}
+
+\end{theindex}

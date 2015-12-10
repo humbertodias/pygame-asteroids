@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>codecs.StreamWriter</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        codecs ::
+        StreamWriter ::
+        Class&nbsp;StreamWriter
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="codecs.StreamWriter-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class StreamWriter</h1><p class="nomargin-top"><span class="codelink"><a href="codecs-pysrc.html#StreamWriter">source&nbsp;code</a></span></p>
+<center>
+<center>  <map id="uml_class_diagram_for_codecs_s_2" name="uml_class_diagram_for_codecs_s_2">
+<area shape="rect" id="node1_10" href="codecs.StreamWriter-class.html#__enter__" title="codecs.StreamWriter.__enter__" alt="" coords="18,129,361,148"/>
+<area shape="rect" id="node1_11" href="codecs.StreamWriter-class.html#__exit__" title="codecs.StreamWriter.__exit__" alt="" coords="18,148,361,167"/>
+<area shape="rect" id="node1_12" href="codecs.StreamWriter-class.html#__getattr__" title="Inherit all other methods from the underlying stream." alt="" coords="18,167,361,185"/>
+<area shape="rect" id="node1_13" href="codecs.StreamWriter-class.html#__init__" title="Creates a StreamWriter instance." alt="" coords="18,185,361,204"/>
+<area shape="rect" id="node1_14" href="codecs.StreamWriter-class.html#reset" title="Flushes and resets the codec buffers used for keeping state." alt="" coords="18,204,361,223"/>
+<area shape="rect" id="node1_15" href="codecs.StreamWriter-class.html#seek" title="codecs.StreamWriter.seek" alt="" coords="18,223,361,241"/>
+<area shape="rect" id="node1_16" href="codecs.StreamWriter-class.html#write" title="Writes the object&#39;s contents encoded to self.stream." alt="" coords="18,241,361,260"/>
+<area shape="rect" id="node1_17" href="codecs.StreamWriter-class.html#writelines" title="Writes the concatenated list of strings to the stream using .write()." alt="" coords="18,260,361,279"/>
+<area shape="rect" id="node1" href="codecs.StreamWriter-class.html" title="codecs.StreamWriter" alt="" coords="5,99,372,285"/>
+<area shape="rect" id="node2_18" href="codecs.Codec-class.html#decode" title="Decodes the object input and returns a tuple (output object, length &#160;consumed)." alt="" coords="91,36,289,55"/>
+<area shape="rect" id="node2_19" href="codecs.Codec-class.html#encode" title="Encodes the object input and returns a tuple (output object, length &#160;consumed)." alt="" coords="91,55,289,73"/>
+<area shape="rect" id="node2" href="codecs.Codec-class.html" title="Defines the interface for stateless encoders/decoders." alt="" coords="79,5,301,80"/>
+</map>
+  <img src="uml_class_diagram_for_codecs_s_2.gif" alt='' usemap="#uml_class_diagram_for_codecs_s_2" ismap="ismap" class="graph-without-title" />
+</center>
+</center>
+<hr />
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__enter__"></a><span class="summary-sig-name">__enter__</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#StreamWriter.__enter__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__exit__"></a><span class="summary-sig-name">__exit__</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">type</span>,
+        <span class="summary-sig-arg">value</span>,
+        <span class="summary-sig-arg">tb</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#StreamWriter.__exit__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__getattr__"></a><span class="summary-sig-name">__getattr__</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">getattr</span>=<span class="summary-sig-default">&lt;built-in function getattr&gt;</span>)</span><br />
+      Inherit all other methods from the underlying stream.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#StreamWriter.__getattr__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs.StreamWriter-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">stream</span>,
+        <span class="summary-sig-arg">errors</span>=<span class="summary-sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>)</span><br />
+      Creates a StreamWriter instance.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#StreamWriter.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs.StreamWriter-class.html#reset" class="summary-sig-name">reset</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Flushes and resets the codec buffers used for keeping state.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#StreamWriter.reset">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="seek"></a><span class="summary-sig-name">seek</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">offset</span>,
+        <span class="summary-sig-arg">whence</span>=<span class="summary-sig-default">0</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#StreamWriter.seek">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="write"></a><span class="summary-sig-name">write</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">object</span>)</span><br />
+      Writes the object's contents encoded to self.stream.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#StreamWriter.write">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="writelines"></a><span class="summary-sig-name">writelines</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">list</span>)</span><br />
+      Writes the concatenated list of strings to the stream using .write().</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#StreamWriter.writelines">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="codecs.Codec-class.html">Codec</a></code></b>:
+      <code><a href="codecs.Codec-class.html#decode">decode</a></code>,
+      <code><a href="codecs.Codec-class.html#encode">encode</a></code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">stream</span>,
+        <span class="sig-arg">errors</span>=<span class="sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#StreamWriter.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Creates a StreamWriter instance.
+
+stream must be a file-like object open for writing
+(binary) data.
+
+The StreamWriter may use different error handling
+schemes by providing the errors keyword argument. These
+parameters are predefined:
+
+ 'strict' - raise a ValueError (or a subclass)
+ 'ignore' - ignore the character and continue with the next
+ 'replace'- replace with a suitable replacement character
+ 'xmlcharrefreplace' - Replace with the appropriate XML
+                       character reference.
+ 'backslashreplace'  - Replace with backslashed escape
+                       sequences (only for encoding).
+
+The set of allowed parameter values can be extended via
+register_error.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="reset"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">reset</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#StreamWriter.reset">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Flushes and resets the codec buffers used for keeping state.</p>
+  <p>Calling this method should ensure that the data on the output is put 
+  into a clean state, that allows appending of new fresh data without 
+  having to rescan the whole stream to recover state.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Dec 10 09:58:35 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

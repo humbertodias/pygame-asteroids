@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>pygame-asteroids.states.intro'</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="pygame-asteroids-module.html">Package&nbsp;pygame-asteroids</a> ::
+        <a href="pygame-asteroids.states%27-module.html">Package&nbsp;states'</a> ::
+        Module&nbsp;intro'
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="pygame-asteroids.states.intro%27-pysrc.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="pygame-asteroids.states.intro%27-module.html">Module pygame-asteroids.states.intro'</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno"> 1</tt>  <tt class="py-line"><tt class="py-comment"># coding: utf-8</tt> </tt>
+<a name="L2"></a><tt class="py-lineno"> 2</tt>  <tt class="py-line"> </tt>
+<a name="L3"></a><tt class="py-lineno"> 3</tt>  <tt class="py-line"><tt class="py-docstring">"""</tt> </tt>
+<a name="L4"></a><tt class="py-lineno"> 4</tt>  <tt class="py-line"><tt class="py-docstring">Tela inicial do jogo.</tt> </tt>
+<a name="L5"></a><tt class="py-lineno"> 5</tt>  <tt class="py-line"><tt class="py-docstring">Primeira coisa que o jogador visualiza.</tt> </tt>
+<a name="L6"></a><tt class="py-lineno"> 6</tt>  <tt class="py-line"><tt class="py-docstring">"""</tt> </tt>
+<a name="L7"></a><tt class="py-lineno"> 7</tt>  <tt class="py-line"> </tt>
+<a name="L8"></a><tt class="py-lineno"> 8</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt id="link-0" class="py-name" targets="Package pygame=pygame-module.html"><a title="pygame" class="py-name" href="#" onclick="return doclink('link-0', 'pygame', 'link-0');">pygame</a></tt> <tt class="py-keyword">as</tt> <tt class="py-name">pg</tt> </tt>
+<a name="L9"></a><tt class="py-lineno"> 9</tt>  <tt class="py-line"> </tt>
+<a name="L10"></a><tt class="py-lineno">10</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt id="link-1" class="py-name" targets="Module pygame-asteroids.color=pygame-asteroids.color-module.html"><a title="pygame-asteroids.color" class="py-name" href="#" onclick="return doclink('link-1', 'color', 'link-1');">color</a></tt> <tt class="py-keyword">import</tt> <tt class="py-op">*</tt> </tt>
+<a name="L11"></a><tt class="py-lineno">11</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-name">font</tt> <tt class="py-keyword">import</tt> <tt class="py-op">*</tt> </tt>
+<a name="L12"></a><tt class="py-lineno">12</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt id="link-2" class="py-name" targets="Module credit=credit-module.html"><a title="credit" class="py-name" href="#" onclick="return doclink('link-2', 'credit', 'link-2');">credit</a></tt> </tt>
+<a name="L13"></a><tt class="py-lineno">13</tt>  <tt class="py-line"> </tt>
+<a name="L14"></a><tt class="py-lineno">14</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt id="link-3" class="py-name" targets="Module state_machine=state_machine-module.html"><a title="state_machine" class="py-name" href="#" onclick="return doclink('link-3', 'state_machine', 'link-3');">state_machine</a></tt> </tt>
+<a name="L15"></a><tt class="py-lineno">15</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt id="link-4" class="py-name" targets="Module pygame-asteroids.virtual_controller=pygame-asteroids.virtual_controller-module.html"><a title="pygame-asteroids.virtual_controller" class="py-name" href="#" onclick="return doclink('link-4', 'virtual_controller', 'link-4');">virtual_controller</a></tt> <tt class="py-keyword">import</tt> <tt class="py-op">*</tt> </tt>
+<a name="L16"></a><tt class="py-lineno">16</tt>  <tt class="py-line"> </tt>
+<a name="Introduction"></a><div id="Introduction-def"><a name="L17"></a><tt class="py-lineno">17</tt> <a class="py-toggle" href="#" id="Introduction-toggle" onclick="return toggle('Introduction');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="pygame-asteroids.states.intro'.Introduction-class.html">Introduction</a><tt class="py-op">(</tt><tt class="py-base-class">state_machine</tt><tt class="py-op">.</tt><tt class="py-base-class">_State</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Introduction-collapsed" style="display:none;" pad="++" indent="++++"></div><div id="Introduction-expanded"><a name="L18"></a><tt class="py-lineno">18</tt>  <tt class="py-line">    <tt class="py-docstring">"""This State is updated while our game shows the splash screen."""</tt> </tt>
+<a name="L19"></a><tt class="py-lineno">19</tt>  <tt class="py-line"> </tt>
+<a name="Introduction.__init__"></a><div id="Introduction.__init__-def"><a name="L20"></a><tt class="py-lineno">20</tt> <a class="py-toggle" href="#" id="Introduction.__init__-toggle" onclick="return toggle('Introduction.__init__');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="pygame-asteroids.states.intro'.Introduction-class.html#__init__">__init__</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">game_controller</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Introduction.__init__-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="Introduction.__init__-expanded"><a name="L21"></a><tt class="py-lineno">21</tt>  <tt class="py-line">        <tt id="link-5" class="py-name"><a title="state_machine" class="py-name" href="#" onclick="return doclink('link-5', 'state_machine', 'link-3');">state_machine</a></tt><tt class="py-op">.</tt><tt id="link-6" class="py-name" targets="Class pygame-asteroids.state_machine._State=pygame-asteroids.state_machine._State-class.html,Class state_machine._State=state_machine._State-class.html"><a title="pygame-asteroids.state_machine._State
+state_machine._State" class="py-name" href="#" onclick="return doclink('link-6', '_State', 'link-6');">_State</a></tt><tt class="py-op">.</tt><tt id="link-7" class="py-name" targets="Method pygame-asteroids.menu_helper.MainMenu.__init__()=pygame-asteroids.menu_helper.MainMenu-class.html#__init__,Method pygame-asteroids.menu_helper.Menu.__init__()=pygame-asteroids.menu_helper.Menu-class.html#__init__,Method pygame-asteroids.menu_helper.MenuItem.__init__()=pygame-asteroids.menu_helper.MenuItem-class.html#__init__,Method pygame-asteroids.ship.Ship.__init__()=pygame-asteroids.ship.Ship-class.html#__init__,Method pygame-asteroids.start_field.StarField.__init__()=pygame-asteroids.start_field.StarField-class.html#__init__,Method pygame-asteroids.states.menu.Menu.__init__()=pygame-asteroids.states.menu.Menu-class.html#__init__,Method pygame-asteroids.touch_buttons.TouchButtons.__init__()=pygame-asteroids.touch_buttons.TouchButtons-class.html#__init__,Method pygame-asteroids.virtual_keyboard.TextInput.__init__()=pygame-asteroids.virtual_keyboard.TextInput-class.html#__init__,Method pygame-asteroids.virtual_keyboard.VirtualKey.__init__()=pygame-asteroids.virtual_keyboard.VirtualKey-class.html#__init__"><a title="pygame-asteroids.menu_helper.MainMenu.__init__
+pygame-asteroids.menu_helper.Menu.__init__
+pygame-asteroids.menu_helper.MenuItem.__init__
+pygame-asteroids.ship.Ship.__init__
+pygame-asteroids.start_field.StarField.__init__
+pygame-asteroids.states.menu.Menu.__init__
+pygame-asteroids.touch_buttons.TouchButtons.__init__
+pygame-asteroids.virtual_keyboard.TextInput.__init__
+pygame-asteroids.virtual_keyboard.VirtualKey.__init__" class="py-name" href="#" onclick="return doclink('link-7', '__init__', 'link-7');">__init__</a></tt><tt class="py-op">(</tt><tt class="py-name">self</tt><tt class="py-op">)</tt> </tt>
+<a name="L22"></a><tt class="py-lineno">22</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">game_controller</tt> <tt class="py-op">=</tt> <tt class="py-name">game_controller</tt> </tt>
+<a name="L23"></a><tt class="py-lineno">23</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">next</tt> <tt class="py-op">=</tt> <tt class="py-string">"MENU"</tt> </tt>
+<a name="L24"></a><tt class="py-lineno">24</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">timeout</tt> <tt class="py-op">=</tt> <tt class="py-number">0</tt> </tt>
+<a name="L25"></a><tt class="py-lineno">25</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">font</tt> <tt class="py-op">=</tt> <tt class="py-name">game_controller</tt><tt class="py-op">.</tt><tt class="py-name">asset_manager</tt><tt class="py-op">.</tt><tt class="py-name">get_font</tt><tt class="py-op">(</tt><tt id="link-8" class="py-name" targets="Class font.Font=font.Font-class.html,Class pygame-asteroids.font.Font=pygame-asteroids.font.Font-class.html"><a title="font.Font
+pygame-asteroids.font.Font" class="py-name" href="#" onclick="return doclink('link-8', 'Font', 'link-8');">Font</a></tt><tt class="py-op">.</tt><tt id="link-9" class="py-name" targets="Variable font.Font.NORMAL=font.Font-class.html#NORMAL,Variable pygame-asteroids.font.Font.NORMAL=pygame-asteroids.font.Font-class.html#NORMAL"><a title="font.Font.NORMAL
+pygame-asteroids.font.Font.NORMAL" class="py-name" href="#" onclick="return doclink('link-9', 'NORMAL', 'link-9');">NORMAL</a></tt><tt class="py-op">)</tt> </tt>
+<a name="L26"></a><tt class="py-lineno">26</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">image</tt> <tt class="py-op">=</tt> <tt class="py-name">game_controller</tt><tt class="py-op">.</tt><tt class="py-name">asset_manager</tt><tt class="py-op">.</tt><tt class="py-name">get_scalled_image</tt><tt class="py-op">(</tt><tt class="py-string">'splash.png'</tt><tt class="py-op">,</tt> <tt class="py-number">0.25</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L27"></a><tt class="py-lineno">27</tt>  <tt class="py-line"> </tt>
+<a name="L28"></a><tt class="py-lineno">28</tt>  <tt class="py-line"> </tt>
+<a name="Introduction.update"></a><div id="Introduction.update-def"><a name="L29"></a><tt class="py-lineno">29</tt> <a class="py-toggle" href="#" id="Introduction.update-toggle" onclick="return toggle('Introduction.update');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="pygame-asteroids.states.intro'.Introduction-class.html#update">update</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">keys</tt><tt class="py-op">,</tt> <tt class="py-param">now</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Introduction.update-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="Introduction.update-expanded"><a name="L30"></a><tt class="py-lineno">30</tt>  <tt class="py-line">        <tt class="py-docstring">"""Updates the splash screen."""</tt> </tt>
+<a name="L31"></a><tt class="py-lineno">31</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">now</tt> <tt class="py-op">=</tt> <tt class="py-name">now</tt> </tt>
+<a name="L32"></a><tt class="py-lineno">32</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">now</tt><tt class="py-op">-</tt><tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">start_time</tt> <tt class="py-op">&gt;</tt> <tt class="py-number">1000.0</tt><tt class="py-op">*</tt><tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">timeout</tt><tt class="py-op">:</tt> </tt>
+<a name="L33"></a><tt class="py-lineno">33</tt>  <tt class="py-line">            <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">done</tt> <tt class="py-op">=</tt> <tt class="py-name">True</tt> </tt>
+</div><a name="L34"></a><tt class="py-lineno">34</tt>  <tt class="py-line"> </tt>
+<a name="Introduction.draw"></a><div id="Introduction.draw-def"><a name="L35"></a><tt class="py-lineno">35</tt> <a class="py-toggle" href="#" id="Introduction.draw-toggle" onclick="return toggle('Introduction.draw');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="pygame-asteroids.states.intro'.Introduction-class.html#draw">draw</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">surface</tt><tt class="py-op">,</tt> <tt class="py-param">interpolate</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Introduction.draw-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="Introduction.draw-expanded"><a name="L36"></a><tt class="py-lineno">36</tt>  <tt class="py-line">        <tt class="py-keyword">pass</tt> </tt>
+</div><a name="L37"></a><tt class="py-lineno">37</tt>  <tt class="py-line"> </tt>
+<a name="Introduction.get_event"></a><div id="Introduction.get_event-def"><a name="L38"></a><tt class="py-lineno">38</tt> <a class="py-toggle" href="#" id="Introduction.get_event-toggle" onclick="return toggle('Introduction.get_event');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="pygame-asteroids.states.intro'.Introduction-class.html#get_event">get_event</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">event</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Introduction.get_event-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="Introduction.get_event-expanded"><a name="L39"></a><tt class="py-lineno">39</tt>  <tt class="py-line">        <tt class="py-docstring">"""</tt> </tt>
+<a name="L40"></a><tt class="py-lineno">40</tt>  <tt class="py-line"><tt class="py-docstring">        Get events from Control. Changes to next state on any key press.</tt> </tt>
+<a name="L41"></a><tt class="py-lineno">41</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L42"></a><tt class="py-lineno">42</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">done</tt> <tt class="py-op">=</tt> <tt id="link-10" class="py-name" targets="Function pygame-asteroids.virtual_controller.is_event_type_an_input_down()=pygame-asteroids.virtual_controller-module.html#is_event_type_an_input_down"><a title="pygame-asteroids.virtual_controller.is_event_type_an_input_down" class="py-name" href="#" onclick="return doclink('link-10', 'is_event_type_an_input_down', 'link-10');">is_event_type_an_input_down</a></tt><tt class="py-op">(</tt><tt class="py-name">event</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L43"></a><tt class="py-lineno">43</tt>  <tt class="py-line"> </tt>
+<a name="L44"></a><tt class="py-lineno">44</tt>  <tt class="py-line"> </tt>
+<a name="Introduction.startup"></a><div id="Introduction.startup-def"><a name="L45"></a><tt class="py-lineno">45</tt> <a class="py-toggle" href="#" id="Introduction.startup-toggle" onclick="return toggle('Introduction.startup');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="pygame-asteroids.states.intro'.Introduction-class.html#startup">startup</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">now</tt><tt class="py-op">,</tt> <tt class="py-param">persistant</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Introduction.startup-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="Introduction.startup-expanded"><a name="L46"></a><tt class="py-lineno">46</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">game_controller</tt><tt class="py-op">.</tt><tt class="py-name">screen</tt><tt class="py-op">.</tt><tt class="py-name">fill</tt><tt class="py-op">(</tt><tt id="link-11" class="py-name" targets="Class color.Color=color.Color-class.html,Class pygame.Color=pygame.Color-class.html,Class pygame-asteroids.color.Color=pygame-asteroids.color.Color-class.html"><a title="color.Color
+pygame.Color
+pygame-asteroids.color.Color" class="py-name" href="#" onclick="return doclink('link-11', 'Color', 'link-11');">Color</a></tt><tt class="py-op">.</tt><tt id="link-12" class="py-name" targets="Variable color.Color.BLACK=color.Color-class.html#BLACK,Variable pygame-asteroids.color.Color.BLACK=pygame-asteroids.color.Color-class.html#BLACK"><a title="color.Color.BLACK
+pygame-asteroids.color.Color.BLACK" class="py-name" href="#" onclick="return doclink('link-12', 'BLACK', 'link-12');">BLACK</a></tt><tt class="py-op">)</tt> </tt>
+<a name="L47"></a><tt class="py-lineno">47</tt>  <tt class="py-line"> </tt>
+<a name="L48"></a><tt class="py-lineno">48</tt>  <tt class="py-line">        <tt class="py-keyword">def</tt> <tt class="py-def-name">callback</tt><tt class="py-op">(</tt><tt class="py-param">sc</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L49"></a><tt class="py-lineno">49</tt>  <tt class="py-line">            <tt class="py-name">sc</tt><tt class="py-op">.</tt><tt class="py-name">blit</tt><tt class="py-op">(</tt><tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">image</tt><tt class="py-op">,</tt> <tt class="py-op">(</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L50"></a><tt class="py-lineno">50</tt>  <tt class="py-line"> </tt>
+<a name="L51"></a><tt class="py-lineno">51</tt>  <tt class="py-line">        <tt id="link-13" class="py-name"><a title="credit" class="py-name" href="#" onclick="return doclink('link-13', 'credit', 'link-2');">credit</a></tt><tt class="py-op">.</tt><tt class="py-name">credit_from_file</tt><tt class="py-op">(</tt><tt class="py-string">'resource/text/intro.txt'</tt><tt class="py-op">,</tt><tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">font</tt><tt class="py-op">,</tt> <tt id="link-14" class="py-name"><a title="color.Color
+pygame.Color
+pygame-asteroids.color.Color" class="py-name" href="#" onclick="return doclink('link-14', 'Color', 'link-11');">Color</a></tt><tt class="py-op">.</tt><tt id="link-15" class="py-name" targets="Variable color.Color.WHITE=color.Color-class.html#WHITE,Variable pygame-asteroids.color.Color.WHITE=pygame-asteroids.color.Color-class.html#WHITE,Variable pygame-asteroids.start_field.StarField.WHITE=pygame-asteroids.start_field.StarField-class.html#WHITE"><a title="color.Color.WHITE
+pygame-asteroids.color.Color.WHITE
+pygame-asteroids.start_field.StarField.WHITE" class="py-name" href="#" onclick="return doclink('link-15', 'WHITE', 'link-15');">WHITE</a></tt><tt class="py-op">,</tt> <tt class="py-number">15</tt><tt class="py-op">,</tt> <tt class="py-name">callback</tt><tt class="py-op">)</tt> </tt>
+</div></div><a name="L52"></a><tt class="py-lineno">52</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Dec 10 09:58:39 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

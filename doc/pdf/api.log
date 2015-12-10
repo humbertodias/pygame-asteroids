@@ -1,0 +1,4651 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  10 DEC 2015 09:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**api.tex
+(./api.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/boxedminipage/boxedminipage.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen103
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count87
+\LTcapwidth=\dimen104
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count88
+\LT@rows=\count89
+\c@LT@tables=\count90
+\c@LT@chunks=\count91
+\LT@p@ftn=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has section divisions on input line 50.
+
+
+Package tocbibind Note: Using section or other style headings.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip56
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 142.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+))
+\BCL=\skip57
+Package color Info: Redefining color py@inputcolour on input line 35.
+\funcindent=\skip58
+\funcwidth=\skip59
+\varindent=\skip60
+\varnamewidth=\skip61
+\vardescrwidth=\skip62
+\varwidth=\skip63
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen105
+\Hy@linkcounter=\count92
+\Hy@pagecounter=\count93
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count94
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 4319.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+
+
+Package hyperref Warning: Option `pagecolor' is not available anymore.
+
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing ON on input line 4461.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2012/07/25 v1.38 Bibliographical back referencing
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+\c@Hy@tempcnt=\count95
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen106
+\Fld@menulength=\count96
+\Field@Width=\dimen107
+\Fld@charsize=\dimen108
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing ON on input line 6308.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count97
+\c@Item=\count98
+\c@Hfootnote=\count99
+)
+
+Package hyperref Message: Driver: hdvips.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
+\pdf@docset=\toks19
+\pdf@box=\box30
+\pdf@toks=\toks20
+\pdf@defaulttoks=\toks21
+\HyField@AnnotCount=\count100
+\Fld@listcount=\count101
+\c@bookmark@seq@number=\count102
+\Hy@SectionHShift=\skip64
+))
+\@indexfile=\write3
+\openout3 = `api.idx'.
+
+
+Writing index file api.idx
+(./api.aux (./codecs-module.aux) (./credit-module.aux) (./math-module.aux)
+(./os-module.aux) (./pickle-module.aux) (./posixpath-module.aux)
+(./pygame-module.aux
+
+LaTeX Warning: Label `pygame:Surface' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:__copy__' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:blit' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:convert' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:convert_alpha' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:copy' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:fill' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_abs_offset' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_abs_parent' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_alpha' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_at' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_at_mapped' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_bitsize' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_bounding_rect' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_buffer' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_bytesize' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_clip' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_colorkey' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_flags' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_height' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_locked' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_locks' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_losses' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_masks' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_offset' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_palette' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_palette_at' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_parent' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_pitch' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_rect' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_shifts' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_size' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_view' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:get_width' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:lock' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:map_rgb' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:mustlock' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:scroll' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:set_alpha' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:set_at' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:set_clip' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:set_colorkey' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:set_masks' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:set_palette' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:set_palette_at' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:set_shifts' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:subsurface' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:unlock' multiply defined.
+
+
+LaTeX Warning: Label `pygame:Surface:unmap_rgb' multiply defined.
+
+) (./pygame-asteroids-module.aux) (./pygame-asteroids.asteroid'-module.aux)
+(./pygame-asteroids.bullet'-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:initrec
+t' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:get_cla
+ss_name' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:screenc
+ollision' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:rectupd
+ate' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:draw2' 
+multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:collisi
+on' multiply defined.
+
+) (./pygame-asteroids.color-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:color:Color' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:hex_to_rgb' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:rgb_to_hex' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:random_color' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:color_replace' multiply defi
+ned.
+
+) (./pygame-asteroids.credit'-module.aux) (./pygame-asteroids.file'-module.aux)
+(./pygame-asteroids.font'-module.aux) (./pygame-asteroids.game'-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:decode_joystick_arrow
+_to_keyboard_key' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:is_event_type_an_inpu
+t_down' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:vc_get_angle' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:destroy' multiply defi
+ned.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:random_angle' multiply
+ defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:rotate' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:scale' multiply define
+d.
+
+
+LaTeX Warning: Label `pygame-asteroids:bullet:Bullet' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:bullet:Bullet:destroy' multiply defined.
+
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:hex_to_rgb' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:rgb_to_hex' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:random_color' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:color_replace' multiply defi
+ned.
+
+
+LaTeX Warning: Label `pygame-asteroids:score:DataHandler' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:score:DataHandler:defaultscore' multiply
+ defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:get_pickle_fixed_protoc
+ol' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:load' multiply defined.
+
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:marshal' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:unmarshal' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:unmarshal_marshal' mult
+iply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:font:Font' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:initrec
+t' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:get_cla
+ss_name' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:screenc
+ollision' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:rectupd
+ate' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:draw2' 
+multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:collisi
+on' multiply defined.
+
+) (./pygame-asteroids.main-module.aux)
+(./pygame-asteroids.menu_helper-module.aux)
+(./pygame-asteroids.polygon'-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:color:Color' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:hex_to_rgb' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:rgb_to_hex' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:random_color' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:color_replace' multiply defi
+ned.
+
+) (./pygame-asteroids.resource_manager'-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:font:Font' multiply defined.
+
+) (./pygame-asteroids.score-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:score:DataHandler' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:score:DataHandler:defaultscore' multiply
+ defined.
+
+) (./pygame-asteroids.ship-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:accelerate' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:accelerate_speed' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:shoot' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:get_center' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:explode' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:left' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:right' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:up' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:rotate' multiply defined.
+
+) (./pygame-asteroids.sprite_collision-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:initrec
+t' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:get_cla
+ss_name' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:screenc
+ollision' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:rectupd
+ate' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:draw2' 
+multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:collisi
+on' multiply defined.
+
+) (./pygame-asteroids.start_field-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField' multiply defined.
+
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:move' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:fix_stars_on_scree
+n' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:draw' multiply def
+ined.
+
+) (./pygame-asteroids.state_machine'-module.aux)
+(./pygame-asteroids.states.franchise'-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getpagesize' multiply 
+defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getrlimit' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getrusage' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':setrlimit' multiply de
+fined.
+
+
+LaTeX Warning: Label `resource:error' multiply defined.
+
+
+LaTeX Warning: Label `operator:itemgetter' multiply defined.
+
+
+LaTeX Warning: Label `operator:itemgetter:__call__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__add__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__contains__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__eq__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__ge__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__getitem__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__getslice__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__gt__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__le__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__len__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__lt__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__mul__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__ne__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__rmul__' multiply defined.
+
+) (./pygame-asteroids.states.intro'-module.aux
+
+LaTeX Warning: Label `virtual_controller:decode_joystick_arrow_to_keyboard_key'
+ multiply defined.
+
+
+LaTeX Warning: Label `virtual_controller:is_event_type_an_input_down' multiply 
+defined.
+
+
+LaTeX Warning: Label `virtual_controller:vc_get_angle' multiply defined.
+
+
+LaTeX Warning: Label `color:Color' multiply defined.
+
+
+LaTeX Warning: Label `color:Color:color_replace' multiply defined.
+
+
+LaTeX Warning: Label `color:Color:hex_to_rgb' multiply defined.
+
+
+LaTeX Warning: Label `color:Color:random_color' multiply defined.
+
+
+LaTeX Warning: Label `color:Color:rgb_to_hex' multiply defined.
+
+
+LaTeX Warning: Label `font:Font' multiply defined.
+
+) (./pygame-asteroids.states.menu-module.aux)
+(./pygame-asteroids.states.seal'-module.aux
+
+LaTeX Warning: Label `virtual_controller:decode_joystick_arrow_to_keyboard_key'
+ multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getpagesize' multiply 
+defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getrlimit' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getrusage' multiply de
+fined.
+
+
+LaTeX Warning: Label `virtual_controller:is_event_type_an_input_down' multiply 
+defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':setrlimit' multiply de
+fined.
+
+
+LaTeX Warning: Label `virtual_controller:vc_get_angle' multiply defined.
+
+
+LaTeX Warning: Label `color:Color' multiply defined.
+
+
+LaTeX Warning: Label `color:Color:color_replace' multiply defined.
+
+
+LaTeX Warning: Label `color:Color:hex_to_rgb' multiply defined.
+
+
+LaTeX Warning: Label `color:Color:random_color' multiply defined.
+
+
+LaTeX Warning: Label `color:Color:rgb_to_hex' multiply defined.
+
+
+LaTeX Warning: Label `font:Font' multiply defined.
+
+
+LaTeX Warning: Label `resource:error' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__add__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__contains__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__eq__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__ge__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__getitem__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__getslice__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__gt__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__le__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__len__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__lt__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__mul__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__ne__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__rmul__' multiply defined.
+
+) (./pygame-asteroids.states'-module.aux)
+(./pygame-asteroids.test_audio'-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:decode_joystick_arrow
+_to_keyboard_key' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getpagesize' multiply 
+defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getrlimit' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getrusage' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:is_event_type_an_inpu
+t_down' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':setrlimit' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:vc_get_angle' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:destroy' multiply defi
+ned.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:random_angle' multiply
+ defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:rotate' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:scale' multiply define
+d.
+
+
+LaTeX Warning: Label `pygame-asteroids:bullet:Bullet' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:bullet:Bullet:destroy' multiply defined.
+
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:hex_to_rgb' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:rgb_to_hex' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:random_color' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:color_replace' multiply defi
+ned.
+
+
+LaTeX Warning: Label `pygame-asteroids:score:DataHandler' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:score:DataHandler:defaultscore' multiply
+ defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:get_pickle_fixed_protoc
+ol' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:load' multiply defined.
+
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:marshal' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:unmarshal' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:unmarshal_marshal' mult
+iply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:font:Font' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:Game' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:Game:__init__' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:Game:create_empty_actions' multiply
+ defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:announcelevel' multi
+ply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:create_asteroids' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:create_random_astero
+ids' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:draw_game_over' mult
+iply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:draw_hud' multiply d
+efined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:get_display_center' 
+multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:get_user_score_on_ra
+nking' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:initialize_joystick'
+ multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:main' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:quit' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:random_position' mul
+tiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:save_score' multiply
+ defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:screen_rect' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:show_fps' multiply d
+efined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:__init_
+_' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_by_name' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_default_name' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_large' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_normal' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_path' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_small' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_very_small' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_ima
+ge' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_sca
+lled_image' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:init_mi
+xer' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:list_fi
+les' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load' m
+ultiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load_fo
+nt' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load_im
+age' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load_mu
+sic' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load_so
+und' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:play_mu
+sic' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:play_so
+und' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:accelerate' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:accelerate_speed' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:shoot' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:get_center' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:explode' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:left' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:right' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:up' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:rotate' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:initrec
+t' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:get_cla
+ss_name' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:screenc
+ollision' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:rectupd
+ate' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:draw2' 
+multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:collisi
+on' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:SpriteGroup' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:SpriteGroup:draw2' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField' multiply defined.
+
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:move' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:fix_stars_on_scree
+n' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:draw' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:draw' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:flashcursor' 
+multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:addcharatcurs
+or' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:backspace' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:deccursor' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:inccursor' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:drawcursor' m
+ultiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:__init__' mul
+tiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:create_touch_
+buttons' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:draw' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:detect_action
+s' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKey' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKey:draw' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:run' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:not_nul
+l' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:unselec
+tall' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:clickat
+mouse' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:togglec
+aps' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:selecta
+tmouse' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:addkeys
+' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:paintke
+ys' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:clear' 
+multiply defined.
+
+
+LaTeX Warning: Label `resource:error' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__add__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__contains__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__eq__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__ge__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__getitem__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__getslice__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__gt__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__le__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__len__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__lt__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__mul__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__ne__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__rmul__' multiply defined.
+
+) (./pygame-asteroids.test_rotation'-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:decode_joystick_arrow
+_to_keyboard_key' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getpagesize' multiply 
+defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getrlimit' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getrusage' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:is_event_type_an_inpu
+t_down' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':setrlimit' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:vc_get_angle' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:destroy' multiply defi
+ned.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:random_angle' multiply
+ defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:rotate' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:scale' multiply define
+d.
+
+
+LaTeX Warning: Label `pygame-asteroids:bullet:Bullet' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:bullet:Bullet:destroy' multiply defined.
+
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:hex_to_rgb' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:rgb_to_hex' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:random_color' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:color_replace' multiply defi
+ned.
+
+
+LaTeX Warning: Label `pygame-asteroids:score:DataHandler' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:score:DataHandler:defaultscore' multiply
+ defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:get_pickle_fixed_protoc
+ol' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:load' multiply defined.
+
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:marshal' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:unmarshal' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:unmarshal_marshal' mult
+iply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:font:Font' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:Game' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:Game:__init__' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:Game:create_empty_actions' multiply
+ defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:announcelevel' multi
+ply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:create_asteroids' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:create_random_astero
+ids' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:draw_game_over' mult
+iply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:draw_hud' multiply d
+efined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:get_display_center' 
+multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:get_user_score_on_ra
+nking' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:initialize_joystick'
+ multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:main' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:quit' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:random_position' mul
+tiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:save_score' multiply
+ defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:screen_rect' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:GameController:show_fps' multiply d
+efined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:__init_
+_' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_by_name' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_default_name' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_large' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_normal' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_path' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_small' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_very_small' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_ima
+ge' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_sca
+lled_image' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:init_mi
+xer' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:list_fi
+les' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load' m
+ultiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load_fo
+nt' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load_im
+age' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load_mu
+sic' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load_so
+und' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:play_mu
+sic' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:play_so
+und' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:accelerate' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:accelerate_speed' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:shoot' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:get_center' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:explode' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:left' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:right' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:up' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:rotate' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:initrec
+t' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:get_cla
+ss_name' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:screenc
+ollision' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:rectupd
+ate' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:draw2' 
+multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:collisi
+on' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:SpriteGroup' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:SpriteGroup:draw2' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField' multiply defined.
+
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:move' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:fix_stars_on_scree
+n' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:draw' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:draw' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:flashcursor' 
+multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:addcharatcurs
+or' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:backspace' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:deccursor' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:inccursor' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:drawcursor' m
+ultiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:__init__' mul
+tiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:create_touch_
+buttons' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:draw' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:detect_action
+s' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKey' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKey:draw' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:run' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:not_nul
+l' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:unselec
+tall' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:clickat
+mouse' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:togglec
+aps' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:selecta
+tmouse' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:addkeys
+' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:paintke
+ys' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:clear' 
+multiply defined.
+
+
+LaTeX Warning: Label `resource:error' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__add__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__contains__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__eq__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__ge__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__getitem__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__getslice__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__gt__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__le__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__len__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__lt__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__mul__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__ne__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__rmul__' multiply defined.
+
+) (./pygame-asteroids.test_startfield'-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField' multiply defined.
+
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:move' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:fix_stars_on_scree
+n' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:draw' multiply def
+ined.
+
+) (./pygame-asteroids.test_touch_buttons'-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:decode_joystick_arrow
+_to_keyboard_key' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getpagesize' multiply 
+defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getrlimit' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':getrusage' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:is_event_type_an_inpu
+t_down' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:states:franchise':setrlimit' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:vc_get_angle' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:destroy' multiply defi
+ned.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:random_angle' multiply
+ defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:rotate' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:asteroid:Asteroid:scale' multiply define
+d.
+
+
+LaTeX Warning: Label `pygame-asteroids:bullet:Bullet' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:bullet:Bullet:destroy' multiply defined.
+
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:hex_to_rgb' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:rgb_to_hex' multiply defined
+.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:random_color' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:color:Color:color_replace' multiply defi
+ned.
+
+
+LaTeX Warning: Label `pygame-asteroids:score:DataHandler' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:score:DataHandler:defaultscore' multiply
+ defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:get_pickle_fixed_protoc
+ol' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:load' multiply defined.
+
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:marshal' multiply defin
+ed.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:unmarshal' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:file:FileManager:unmarshal_marshal' mult
+iply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:font:Font' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:Game' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:Game:__init__' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:game:Game:create_empty_actions' multiply
+ defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:__init_
+_' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_by_name' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_default_name' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_large' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_normal' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_path' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_small' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_fon
+t_very_small' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_ima
+ge' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:get_sca
+lled_image' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:init_mi
+xer' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:list_fi
+les' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load' m
+ultiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load_fo
+nt' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load_im
+age' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load_mu
+sic' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:load_so
+und' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:play_mu
+sic' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:resource_manager:ResourceManager:play_so
+und' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:accelerate' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:accelerate_speed' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:shoot' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:get_center' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:explode' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:left' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:right' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:up' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:ship:Ship:rotate' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:initrec
+t' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:get_cla
+ss_name' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:screenc
+ollision' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:rectupd
+ate' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:draw2' 
+multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:sprite_collision:SpriteCollision:collisi
+on' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField' multiply defined.
+
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:move' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:fix_stars_on_scree
+n' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:start_field:StarField:draw' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:draw' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:flashcursor' 
+multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:addcharatcurs
+or' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:backspace' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:deccursor' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:inccursor' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:drawcursor' m
+ultiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:__init__' mul
+tiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:create_touch_
+buttons' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:draw' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:detect_action
+s' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKey' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKey:draw' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:run' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:not_nul
+l' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:unselec
+tall' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:clickat
+mouse' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:togglec
+aps' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:selecta
+tmouse' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:addkeys
+' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:paintke
+ys' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:clear' 
+multiply defined.
+
+
+LaTeX Warning: Label `resource:error' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__add__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__contains__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__eq__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__ge__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__getitem__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__getslice__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__gt__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__le__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__len__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__lt__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__mul__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__ne__' multiply defined.
+
+
+LaTeX Warning: Label `resource:struct_rusage:__rmul__' multiply defined.
+
+) (./pygame-asteroids.test_virtual_keyboard'-module.aux)
+(./pygame-asteroids.tools'-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:state_machine:StateMachine' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:state_machine:StateMachine:draw' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:state_machine:StateMachine:flip_state' m
+ultiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:state_machine:StateMachine:get_event' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:state_machine:StateMachine:setup_states'
+ multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:state_machine:StateMachine:update' multi
+ply defined.
+
+) (./pygame-asteroids.touch_buttons-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:__init__' mul
+tiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:create_touch_
+buttons' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:draw' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:touch_buttons:TouchButtons:detect_action
+s' multiply defined.
+
+) (./pygame-asteroids.virtual_controller-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:is_event_type_an_inpu
+t_down' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:decode_joystick_arrow
+_to_keyboard_key' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_controller:vc_get_angle' multipl
+y defined.
+
+) (./pygame-asteroids.virtual_keyboard-module.aux
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput' multiply def
+ined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:draw' multipl
+y defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:flashcursor' 
+multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:addcharatcurs
+or' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:backspace' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:deccursor' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:inccursor' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:TextInput:drawcursor' m
+ultiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKey' multiply de
+fined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKey:draw' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard' multip
+ly defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:run' mu
+ltiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:not_nul
+l' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:unselec
+tall' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:clickat
+mouse' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:togglec
+aps' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:selecta
+tmouse' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:addkeys
+' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:paintke
+ys' multiply defined.
+
+
+LaTeX Warning: Label `pygame-asteroids:virtual_keyboard:VirtualKeyboard:clear' 
+multiply defined.
+
+) (./random-module.aux) (./state_machine-module.aux) (./sys-module.aux
+
+LaTeX Warning: Label `sys:displayhook' multiply defined.
+
+
+LaTeX Warning: Label `sys:excepthook' multiply defined.
+
+) (./time-module.aux))
+\openout1 = `api.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring ON on input line 80.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count103
+)
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
+LaTeX Info: Redefining \nameref on input line 80.
+
+(./api.out) (./api.out)
+\@outlinefile=\write4
+\openout4 = `api.out'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 95.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 95.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (./api.toc
+[1
+
+] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11])
+\tf@toc=\write5
+\openout5 = `api.toc'.
+
+ [12]
+\openout2 = `codecs-module.aux'.
+
+ (./codecs-module.tex
+[13
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 296
+.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 296.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbackslash' on input line 296.
+
+[14]) [15]
+\openout2 = `credit-module.aux'.
+
+ (./credit-module.tex) [16
+
+
+]
+\openout2 = `math-module.aux'.
+
+ (./math-module.tex
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 168.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 168.
+ [17
+
+
+] [18]
+[19]) [20]
+\openout2 = `os-module.aux'.
+
+ (./os-module.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 23.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
+ [21
+
+
+] [22]
+[23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36]
+Overfull \vbox (64.65604pt too high) has occurred while \output is active []
+
+
+[37] [38] [39] [40]
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 3731.
+
+ [41]
+Overfull \hbox (1.34746pt too wide) in paragraph at lines 3972--3973
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]init[][](), [][]reduce[]ex[][](), [][]setattr[][](),
+ []
+
+[42]
+Overfull \hbox (11.89522pt too wide) in paragraph at lines 4073--4073
+[]  \OT1/cmtt/m/n/12 (bsize, frsize, blocks, bfree, bavail, files, ffree, favai
+l, flag, namemax),[] 
+ []
+
+[43] [44]
+Overfull \hbox (1.34746pt too wide) in paragraph at lines 4394--4395
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]init[][](), [][]reduce[]ex[][](), [][]setattr[][](),
+ []
+
+[45]) [46]
+\openout2 = `pickle-module.aux'.
+
+ (./pickle-module.tex
+LaTeX Font Info:    Try loading font information for OML+cmtt on input line 32.
+
+LaTeX Font Info:    No file OMLcmtt.fd. on input line 32.
+
+
+LaTeX Font Warning: Font shape `OML/cmtt/m/n' undefined
+(Font)              using `OML/cmm/m/it' instead
+(Font)              for symbol `textgreater' on input line 32.
+
+[47
+
+
+] [48] [49] [50] [51] [52] [53] [54] [55] [56]) [57]
+\openout2 = `posixpath-module.aux'.
+
+ (./posixpath-module.tex
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
+[58
+
+
+] [59] [60]) [61]
+\openout2 = `pygame-module.aux'.
+
+ (./pygame-module.tex [62
+
+
+] [63] [64] [65] [66] [67]
+[68] [69]
+Overfull \hbox (56.38908pt too wide) in paragraph at lines 1075--1076
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]init[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[70] [71] [72] [73]
+Overfull \hbox (56.38908pt too wide) in paragraph at lines 1813--1814
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]init[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[74]
+Overfull \hbox (56.38908pt too wide) in paragraph at lines 1981--1982
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]init[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[75] [76]
+Overfull \hbox (56.38908pt too wide) in paragraph at lines 2311--2312
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]init[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[77] [78] [79] [80] [81] [82]
+Overfull \hbox (7.28767pt too wide) in paragraph at lines 3313--3314
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]reduce[]ex[][](), [][]setattr[][](),
+ []
+
+[83]
+Overfull \hbox (0.75815pt too wide) in paragraph at lines 3400--3403
+[]\OT1/cmr/m/n/12 Surface((width, height), flags=0, depth=0, masks=None) -\OML/
+cmtt/m/n/12 > \OT1/cmr/m/n/12 Sur-face Sur-face((width, height),
+ []
+
+[84] [85] [86] [87] [88] [89] [90]
+Overfull \hbox (6.56963pt too wide) in paragraph at lines 4682--4683
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[91]
+Overfull \hbox (0.75815pt too wide) in paragraph at lines 4723--4726
+[]\OT1/cmr/m/n/12 Surface((width, height), flags=0, depth=0, masks=None) -\OML/
+cmtt/m/n/12 > \OT1/cmr/m/n/12 Sur-face Sur-face((width, height),
+ []
+
+[92] [93] [94] [95] [96] [97] [98]
+Overfull \hbox (6.56963pt too wide) in paragraph at lines 6005--6006
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[99]) [100]
+\openout2 = `pygame-asteroids-module.aux'.
+
+ (./pygame-asteroids-module.tex
+
+LaTeX Warning: Reference `pygame-asteroids:asteroid' on page 101 undefined on i
+nput line 27.
+
+
+LaTeX Warning: Reference `pygame-asteroids:asteroid' on page 101 undefined on i
+nput line 27.
+
+
+LaTeX Warning: Reference `pygame-asteroids:bullet' on page 101 undefined on inp
+ut line 33.
+
+
+LaTeX Warning: Reference `pygame-asteroids:bullet' on page 101 undefined on inp
+ut line 33.
+
+
+LaTeX Warning: Reference `pygame-asteroids:credit' on page 101 undefined on inp
+ut line 42.
+
+
+LaTeX Warning: Reference `pygame-asteroids:credit' on page 101 undefined on inp
+ut line 42.
+
+
+LaTeX Warning: Reference `pygame-asteroids:file' on page 101 undefined on input
+ line 48.
+
+
+LaTeX Warning: Reference `pygame-asteroids:file' on page 101 undefined on input
+ line 48.
+
+
+LaTeX Warning: Reference `pygame-asteroids:font' on page 101 undefined on input
+ line 57.
+
+
+LaTeX Warning: Reference `pygame-asteroids:font' on page 101 undefined on input
+ line 57.
+
+
+LaTeX Warning: Reference `pygame-asteroids:game' on page 101 undefined on input
+ line 63.
+
+
+LaTeX Warning: Reference `pygame-asteroids:game' on page 101 undefined on input
+ line 63.
+
+
+LaTeX Warning: Reference `pygame-asteroids:polygon' on page 101 undefined on in
+put line 75.
+
+
+LaTeX Warning: Reference `pygame-asteroids:polygon' on page 101 undefined on in
+put line 75.
+
+
+LaTeX Warning: Reference `pygame-asteroids:resource_manager' on page 101 undefi
+ned on input line 81.
+
+
+LaTeX Warning: Reference `pygame-asteroids:resource_manager' on page 101 undefi
+ned on input line 81.
+
+
+LaTeX Warning: Reference `pygame-asteroids:state_machine' on page 101 undefined
+ on input line 99.
+
+
+LaTeX Warning: Reference `pygame-asteroids:state_machine' on page 101 undefined
+ on input line 99.
+
+
+LaTeX Warning: Reference `pygame-asteroids:states' on page 101 undefined on inp
+ut line 108.
+
+
+LaTeX Warning: Reference `pygame-asteroids:states' on page 101 undefined on inp
+ut line 108.
+
+
+LaTeX Warning: Reference `pygame-asteroids:states:franchise' on page 101 undefi
+ned on input line 113.
+
+
+LaTeX Warning: Reference `pygame-asteroids:states:franchise' on page 101 undefi
+ned on input line 113.
+
+
+LaTeX Warning: Reference `pygame-asteroids:states:intro' on page 101 undefined 
+on input line 116.
+
+
+LaTeX Warning: Reference `pygame-asteroids:states:intro' on page 101 undefined 
+on input line 116.
+
+
+LaTeX Warning: Reference `pygame-asteroids:states:seal' on page 101 undefined o
+n input line 125.
+
+
+LaTeX Warning: Reference `pygame-asteroids:states:seal' on page 101 undefined o
+n input line 125.
+
+
+LaTeX Warning: Reference `pygame-asteroids:test_audio' on page 101 undefined on
+ input line 153.
+
+
+LaTeX Warning: Reference `pygame-asteroids:test_audio' on page 101 undefined on
+ input line 153.
+
+[101
+
+
+]
+
+LaTeX Warning: Reference `pygame-asteroids:test_rotation' on page 102 undefined
+ on input line 159.
+
+
+LaTeX Warning: Reference `pygame-asteroids:test_rotation' on page 102 undefined
+ on input line 159.
+
+
+LaTeX Warning: Reference `pygame-asteroids:test_startfield' on page 102 undefin
+ed on input line 165.
+
+
+LaTeX Warning: Reference `pygame-asteroids:test_startfield' on page 102 undefin
+ed on input line 165.
+
+
+LaTeX Warning: Reference `pygame-asteroids:test_touch_buttons' on page 102 unde
+fined on input line 171.
+
+
+LaTeX Warning: Reference `pygame-asteroids:test_touch_buttons' on page 102 unde
+fined on input line 171.
+
+
+LaTeX Warning: Reference `pygame-asteroids:test_virtual_keyboard' on page 102 u
+ndefined on input line 177.
+
+
+LaTeX Warning: Reference `pygame-asteroids:test_virtual_keyboard' on page 102 u
+ndefined on input line 177.
+
+
+LaTeX Warning: Reference `pygame-asteroids:tools' on page 102 undefined on inpu
+t line 183.
+
+
+LaTeX Warning: Reference `pygame-asteroids:tools' on page 102 undefined on inpu
+t line 183.
+
+) [102]
+\openout2 = `pygame-asteroids.asteroid'-module.aux'.
+
+ (./pygame-asteroids.asteroid'-module.tex
+Overfull \hbox (16.73085pt too wide) in paragraph at lines 44--70
+[] 
+ []
+
+[103
+
+
+]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 205--206
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 214--215
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 220--221
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[104] [105] [106]) [107]
+\openout2 = `pygame-asteroids.bullet'-module.aux'.
+
+ (./pygame-asteroids.bullet'-module.tex [108
+
+
+]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 173--174
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 182--183
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 188--189
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[109]) [110]
+\openout2 = `pygame-asteroids.color-module.aux'.
+
+ (./pygame-asteroids.color-module.tex [111
+
+
+]) [112]
+\openout2 = `pygame-asteroids.credit'-module.aux'.
+
+
+(./pygame-asteroids.credit'-module.tex) [113
+
+
+]
+\openout2 = `pygame-asteroids.file'-module.aux'.
+
+
+(./pygame-asteroids.file'-module.tex [114
+
+
+]) [115]
+\openout2 = `pygame-asteroids.font'-module.aux'.
+
+
+(./pygame-asteroids.font'-module.tex) [116
+
+
+]
+\openout2 = `pygame-asteroids.game'-module.aux'.
+
+
+(./pygame-asteroids.game'-module.tex [117
+
+
+]
+Overfull \hbox (16.73085pt too wide) in paragraph at lines 216--242
+[] 
+ []
+
+[118]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 377--378
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 386--387
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 392--393
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[119]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 572--573
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 581--582
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 587--588
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[120] [121] [122] [123] [124] [125]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 1458--1459
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[126] [127]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 1786--1787
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 1795--1796
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 1801--1802
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[128] [129]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2159--2160
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[130]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2272--2273
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[131] [132]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2499--2500
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[133]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2654--2655
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[134]
+Overfull \hbox (27.68022pt too wide) in paragraph at lines 2866--2867
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]init[][](), [][]new[][](), [][]reduce[][](),
+ []
+
+[135] [136] [137]
+Overfull \hbox (1.34746pt too wide) in paragraph at lines 3318--3319
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]init[][](), [][]reduce[]ex[][](), [][]setattr[][](),
+ []
+
+[138]) [139]
+\openout2 = `pygame-asteroids.main-module.aux'.
+
+ (./pygame-asteroids.main-module.tex) [140
+
+
+]
+\openout2 = `pygame-asteroids.menu_helper-module.aux'.
+
+
+(./pygame-asteroids.menu_helper-module.tex [141
+
+
+] [142]) [143] [144]
+\openout2 = `pygame-asteroids.polygon'-module.aux'.
+
+
+(./pygame-asteroids.polygon'-module.tex [145
+
+
+] [146] [147]
+Overfull \hbox (15.91728pt too wide) in paragraph at lines 505--506
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]hash[][](), [][]init
+[][](), [][]reduce[][](), [][]reduce[]ex[][](), [][]repr[][](),
+ []
+
+) [148]
+\openout2 = `pygame-asteroids.resource_manager'-module.aux'.
+
+ (./pygame-asteroids.resource_manager'-module.tex [149
+
+
+] [150] [151])
+[152]
+\openout2 = `pygame-asteroids.score-module.aux'.
+
+ (./pygame-asteroids.score-module.tex) [153
+
+
+]
+\openout2 = `pygame-asteroids.ship-module.aux'.
+
+
+(./pygame-asteroids.ship-module.tex [154
+
+
+] [155]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 360--361
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 369--370
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 375--376
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+) [156]
+\openout2 = `pygame-asteroids.sprite_collision-module.aux'.
+
+ (./pygame-asteroids.sprite_collision-module.tex [157
+
+
+]) [158]
+\openout2 = `pygame-asteroids.start_field-module.aux'.
+
+
+(./pygame-asteroids.start_field-module.tex
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 127--128
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[159
+
+
+]) [160]
+\openout2 = `pygame-asteroids.state_machine'-module.aux'.
+
+ (./pygame-asteroids.state_machine'-module.tex [161
+
+
+]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 173--174
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+) [162]
+\openout2 = `pygame-asteroids.states.franchise'-module.aux'.
+
+ (./pygame-asteroids.states.franchise'-module.tex [163
+
+
+] [164] [165]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 614--615
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[166] [167]
+Overfull \hbox (15.91728pt too wide) in paragraph at lines 916--917
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]hash[][](), [][]init
+[][](), [][]reduce[][](), [][]reduce[]ex[][](), [][]repr[][](),
+ []
+
+[168] [169] [170]
+Overfull \hbox (1.34746pt too wide) in paragraph at lines 1281--1282
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]init[][](), [][]reduce[]ex[][](), [][]setattr[][](),
+ []
+
+) [171]
+\openout2 = `pygame-asteroids.states.intro'-module.aux'.
+
+ (./pygame-asteroids.states.intro'-module.tex [172
+
+
+] [173] [174]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 494--495
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+) [175]
+\openout2 = `pygame-asteroids.states.menu-module.aux'.
+
+ (./pygame-asteroids.states.menu-module.tex [176
+
+
+]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 179--180
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+) [177]
+\openout2 = `pygame-asteroids.states.seal'-module.aux'.
+
+ (./pygame-asteroids.states.seal'-module.tex [178
+
+
+] [179] [180]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 571--572
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[181] [182] [183]
+Overfull \hbox (1.34746pt too wide) in paragraph at lines 1023--1024
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]init[][](), [][]reduce[]ex[][](), [][]setattr[][](),
+ []
+
+[184]) [185]
+\openout2 = `pygame-asteroids.states'-module.aux'.
+
+ (./pygame-asteroids.states'-module.tex) [186
+
+
+]
+\openout2 = `pygame-asteroids.test_audio'-module.aux'.
+
+
+(./pygame-asteroids.test_audio'-module.tex [187
+
+
+]
+Overfull \hbox (16.73085pt too wide) in paragraph at lines 226--252
+[] 
+ []
+
+[188]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 387--388
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 396--397
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 402--403
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[189]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 582--583
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 591--592
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 597--598
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[190] [191] [192] [193] [194] [195]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 1468--1469
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[196] [197] [198] [199] [200]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 2452--2453
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 2461--2462
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2467--2468
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[201] [202]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2825--2826
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[203]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2938--2939
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[204] [205]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 3165--3166
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[206]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 3320--3321
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[207]
+Overfull \hbox (27.68022pt too wide) in paragraph at lines 3532--3533
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]init[][](), [][]new[][](), [][]reduce[][](),
+ []
+
+[208] [209] [210]
+Overfull \hbox (1.34746pt too wide) in paragraph at lines 3984--3985
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]init[][](), [][]reduce[]ex[][](), [][]setattr[][](),
+ []
+
+[211]) [212]
+\openout2 = `pygame-asteroids.test_rotation'-module.aux'.
+
+ (./pygame-asteroids.test_rotation'-module.tex [213
+
+
+]
+Overfull \hbox (16.73085pt too wide) in paragraph at lines 226--252
+[] 
+ []
+
+[214]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 387--388
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 396--397
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 402--403
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[215]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 582--583
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 591--592
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 597--598
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[216] [217] [218] [219] [220] [221]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 1468--1469
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[222] [223] [224] [225] [226]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 2452--2453
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 2461--2462
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2467--2468
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[227] [228]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2825--2826
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[229]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2938--2939
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[230] [231]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 3165--3166
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[232]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 3320--3321
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[233]
+Overfull \hbox (27.68022pt too wide) in paragraph at lines 3532--3533
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]init[][](), [][]new[][](), [][]reduce[][](),
+ []
+
+[234] [235] [236]
+Overfull \hbox (1.34746pt too wide) in paragraph at lines 3984--3985
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]init[][](), [][]reduce[]ex[][](), [][]setattr[][](),
+ []
+
+[237]) [238]
+\openout2 = `pygame-asteroids.test_startfield'-module.aux'.
+
+ (./pygame-asteroids.test_startfield'-module.tex
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 147--148
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[239
+
+
+]) [240]
+\openout2 = `pygame-asteroids.test_touch_buttons'-module.aux'.
+
+ (./pygame-asteroids.test_touch_buttons'-module.tex [241
+
+
+]
+Overfull \hbox (16.73085pt too wide) in paragraph at lines 226--252
+[] 
+ []
+
+[242]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 387--388
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 396--397
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 402--403
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[243]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 582--583
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 591--592
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 597--598
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[244] [245] [246] [247] [248] [249] [250] [251] [252]
+Overfull \hbox (3.7212pt too wide) in paragraph at lines 2041--2042
+[]\OT1/cmr/bx/it/12 Inherited from pygame-asteroids.sprite[]collision.SpriteCol
+lision(Section [][][][][][]) 
+ []
+
+
+Overfull \hbox (5.3817pt too wide) in paragraph at lines 2050--2051
+[][][]\OT1/cmr/m/n/12 repr[][](), add(), add[]internal(), alive(), groups(), ki
+ll(), re-move(), re-move[]internal() 
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2056--2057
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[253] [254]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2409--2410
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[255] [256]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2636--2637
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[257]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 2791--2792
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[258]
+Overfull \hbox (27.68022pt too wide) in paragraph at lines 3003--3004
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]init[][](), [][]new[][](), [][]reduce[][](),
+ []
+
+[259] [260] [261]
+Overfull \hbox (1.34746pt too wide) in paragraph at lines 3455--3456
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]init[][](), [][]reduce[]ex[][](), [][]setattr[][](),
+ []
+
+[262]) [263]
+\openout2 = `pygame-asteroids.test_virtual_keyboard'-module.aux'.
+
+ (./pygame-asteroids.test_virtual_keyboard'-module.tex) [264
+
+
+]
+\openout2 = `pygame-asteroids.tools'-module.aux'.
+
+
+(./pygame-asteroids.tools'-module.tex [265
+
+
+] [266]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 342--343
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[267]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 515--516
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[268]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 671--672
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[269]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 762--763
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+) [270]
+\openout2 = `pygame-asteroids.touch_buttons-module.aux'.
+
+ (./pygame-asteroids.touch_buttons-module.tex) [271
+
+
+]
+\openout2 = `pygame-asteroids.virtual_controller-module.aux'.
+
+
+(./pygame-asteroids.virtual_controller-module.tex) [272
+
+
+]
+\openout2 = `pygame-asteroids.virtual_keyboard-module.aux'.
+
+
+(./pygame-asteroids.virtual_keyboard-module.tex [273
+
+
+]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 208--209
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 294--295
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[274] [275]
+Overfull \hbox (27.68022pt too wide) in paragraph at lines 506--507
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]init[][](), [][]new[][](), [][]reduce[][](),
+ []
+
+) [276]
+\openout2 = `random-module.aux'.
+
+ (./random-module.tex [277
+
+
+] [278] [279] [280] [281] [282] [283] [284]
+[285]
+Overfull \hbox (26.81856pt too wide) in paragraph at lines 1122--1123
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]hash[][](), [][]redu
+ce[]ex[][](), [][]repr[][](), [][]setattr[][](), [][]sizeof[][](),
+ []
+
+[286] [287]
+Overfull \hbox (26.81856pt too wide) in paragraph at lines 1382--1383
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]hash[][](), [][]redu
+ce[]ex[][](), [][]repr[][](), [][]setattr[][](), [][]sizeof[][](),
+ []
+
+[288] [289]
+Overfull \hbox (26.81856pt too wide) in paragraph at lines 1655--1656
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]hash[][](), [][]redu
+ce[]ex[][](), [][]repr[][](), [][]setattr[][](), [][]sizeof[][](),
+ []
+
+[290]) [291]
+\openout2 = `state_machine-module.aux'.
+
+ (./state_machine-module.tex [292
+
+
+]
+Overfull \hbox (59.00017pt too wide) in paragraph at lines 173--174
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+) [293]
+\openout2 = `sys-module.aux'.
+
+ (./sys-module.tex
+Overfull \hbox (10.16621pt too wide) in paragraph at lines 56--56
+[]\OT1/cmtt/m/n/12 long[]info -- a struct sequence with information about the l
+ong implementation.[] 
+ []
+
+[294
+
+
+]
+Overfull \hbox (11.89522pt too wide) in paragraph at lines 66--66
+[]\OT1/cmtt/m/n/12 executable -- absolute path of the executable binary of the 
+Python interpreter[] 
+ []
+
+[295]
+Overfull \hbox (31.44666pt too wide) in paragraph at lines 197--197
+[]\OT1/cmtt/m/n/12 Return a tuple of function call statistics, if CALL[]PROFILE
+ was defined[] 
+ []
+
+
+Overfull \hbox (20.82565pt too wide) in paragraph at lines 200--200
+[]\OT1/cmtt/m/n/12 When enabled, this function returns detailed, implementation
+-specific[] 
+ []
+
+
+Overfull \hbox (39.35066pt too wide) in paragraph at lines 201--201
+[]\OT1/cmtt/m/n/12 details about the number of function calls executed. The ret
+urn value is[] 
+ []
+
+[296] [297] [298]
+Overfull \hbox (123.77856pt too wide) in paragraph at lines 710--711
+\OT1/cmtt/m/n/12 ['/Library/Frameworks/Python.framework/Versions/2.7/bin/e...| 
+ 
+ []
+
+
+Overfull \hbox (68.20354pt too wide) in paragraph at lines 728--729
+\OT1/cmtt/m/n/12 '/Library/Frameworks/Python.framework/Versions/2.7'|  
+ []
+
+
+Overfull \hbox (123.77856pt too wide) in paragraph at lines 731--732
+\OT1/cmtt/m/n/12 '/Library/Frameworks/Python.framework/Versions/2.7/Resour...| 
+ 
+ []
+
+
+Overfull \hbox (17.07451pt too wide) in paragraph at lines 737--738
+\OT1/cmtt/m/n/12 sys.float[]info(max=1.7976931348623157e+308, 
+ []
+
+
+Overfull \hbox (6.4535pt too wide) in paragraph at lines 764--765
+\OT1/cmtt/m/n/12 '/Library/Frameworks/Python.framework/...|  
+ []
+
+
+Overfull \hbox (55.85353pt too wide) in paragraph at lines 770--771
+\OT1/cmtt/m/n/12 '/Library/Frameworks/Python.framework/Versions...|  
+ []
+
+
+Overfull \hbox (68.20354pt too wide) in paragraph at lines 776--777
+\OT1/cmtt/m/n/12 '/Library/Frameworks/Python.framework/Versions/2.7'|  
+ []
+
+[299] [300]) [301]
+\openout2 = `time-module.aux'.
+
+ (./time-module.tex [302
+
+
+]
+Overfull \hbox (27.00066pt too wide) in paragraph at lines 170--170
+[]\OT1/cmtt/m/n/12 Convert seconds since the Epoch to a time tuple expressing U
+TC (a.k.a.[] 
+ []
+
+
+Overfull \hbox (45.52567pt too wide) in paragraph at lines 171--171
+[]\OT1/cmtt/m/n/12 GMT).  When 'seconds' is not passed in, convert the current 
+time instead.[] 
+ []
+
+
+Overfull \hbox (27.00066pt too wide) in paragraph at lines 201--201
+[]\OT1/cmtt/m/n/12 Convert seconds since the Epoch to a time tuple expressing l
+ocal time.[] 
+ []
+
+
+Overfull \hbox (2.30064pt too wide) in paragraph at lines 202--202
+[]\OT1/cmtt/m/n/12 When 'seconds' is not passed in, convert the current time in
+stead.[] 
+ []
+
+[303] [304] [305] [306]
+Overfull \hbox (1.34746pt too wide) in paragraph at lines 746--747
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]init[][](), [][]reduce[]ex[][](), [][]setattr[][](),
+ []
+
+[307]) [308] (./api.ind
+Overfull \hbox (0.59882pt too wide) in paragraph at lines 17--19
+[]\OT1/cmr/m/n/12 color.Color.color[]replace \OT1/cmr/m/it/12 (static method)\O
+T1/cmr/m/n/12 , [][][][][][],
+ []
+
+
+Overfull \hbox (3.86267pt too wide) in paragraph at lines 21--23
+[]\OT1/cmr/m/n/12 color.Color.random[]color \OT1/cmr/m/it/12 (static method)\OT
+1/cmr/m/n/12 , [][][][][][],
+ []
+
+
+Overfull \hbox (0.40276pt too wide) in paragraph at lines 95--97
+[]\OT1/cmr/m/n/12 operator.itemgetter \OT1/cmr/m/it/12 (class)\OT1/cmr/m/n/12 ,
+ [][][][][][]--[][][][][][], [][][][][][]--[][][][][][] 
+ []
+
+
+Overfull \hbox (9.21187pt too wide) in paragraph at lines 97--99
+[]\OT1/cmr/m/n/12 operator.itemgetter.[][]call[][] \OT1/cmr/m/it/12 (func-tion)
+\OT1/cmr/m/n/12 , [][][][][][], [][][][][][] 
+ []
+
+[309
+
+
+] [310]
+Overfull \hbox (1.37003pt too wide) in paragraph at lines 255--257
+[]\OT1/cmr/m/n/12 pickle.Pickler.save[]empty[]tuple \OT1/cmr/m/it/12 (func-tion
+)\OT1/cmr/m/n/12 , [][][][][][] 
+ []
+
+
+Overfull \hbox (0.56503pt too wide) in paragraph at lines 293--295
+[]\OT1/cmr/m/n/12 pickle.Unpickler.load[]binpersid \OT1/cmr/m/it/12 (func-tion)
+\OT1/cmr/m/n/12 , [][][][][][] 
+ []
+
+
+Overfull \hbox (8.6594pt too wide) in paragraph at lines 299--301
+[]\OT1/cmr/m/n/12 pickle.Unpickler.load[]binunicode \OT1/cmr/m/it/12 (func-tion
+)\OT1/cmr/m/n/12 , [][][][][][] 
+ []
+
+[311]
+Overfull \hbox (2.69875pt too wide) in paragraph at lines 305--307
+[]\OT1/cmr/m/n/12 pickle.Unpickler.load[]empty[]dictionary \OT1/cmr/m/it/12 (fu
+nc-
+ []
+
+
+Overfull \hbox (5.12137pt too wide) in paragraph at lines 307--309
+[]\OT1/cmr/m/n/12 pickle.Unpickler.load[]empty[]list \OT1/cmr/m/it/12 (func-tio
+n)\OT1/cmr/m/n/12 , [][][][][][] 
+ []
+
+
+Overfull \hbox (0.87836pt too wide) in paragraph at lines 309--311
+[]\OT1/cmr/m/n/12 pickle.Unpickler.load[]empty[]tuple \OT1/cmr/m/it/12 (func-ti
+on)\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (3.09778pt too wide) in paragraph at lines 342--344
+[]\OT1/cmr/m/n/12 pickle.Unpickler.load[]pop[]mark \OT1/cmr/m/it/12 (func-tion)
+\OT1/cmr/m/n/12 , [][][][][][] 
+ []
+
+
+Overfull \hbox (14.7171pt too wide) in paragraph at lines 353--355
+[]\OT1/cmr/m/n/12 pickle.Unpickler.load[]short[]binstring \OT1/cmr/m/it/12 (fun
+c-tion)\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (1.75722pt too wide) in paragraph at lines 411--413
+[]\OT1/cmr/m/n/12 posix.statvfs[]result.[][]contains[][] \OT1/cmr/m/it/12 (func
+-tion)\OT1/cmr/m/n/12 , [][][][][][] 
+ []
+
+[312]
+Overfull \hbox (18.3876pt too wide) in paragraph at lines 460--464
+[]| \OT1/cmr/m/n/12 pygame-asteroids.asteroid.Asteroid \OT1/cmr/m/it/12 (class)
+\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (10.91486pt too wide) in paragraph at lines 460--464
+[][][][][][]\OT1/cmr/m/n/12 --[][][][][][], [][][][][][]--[][][][][][], [][][][
+][][]--[][][][][][], [][][][][][]--[][][][][][], [][][][][][]--
+ []
+
+
+Overfull \hbox (15.41959pt too wide) in paragraph at lines 467--471
+[]| \OT1/cmr/m/n/12 pygame-asteroids.bullet.Bullet \OT1/cmr/m/it/12 (class)\OT1
+/cmr/m/n/12 , [][][][][][]--
+ []
+
+
+Overfull \hbox (1.61841pt too wide) in paragraph at lines 473--475
+[]| \OT1/cmr/m/n/12 pygame-asteroids.color \OT1/cmr/m/it/12 (mod-ule)\OT1/cmr/m
+/n/12 , [][][][][][]--[][][][][][] 
+ []
+
+
+Overfull \hbox (7.7516pt too wide) in paragraph at lines 475--480
+[]| \OT1/cmr/m/n/12 pygame-asteroids.color.Color \OT1/cmr/m/it/12 (class)\OT1/c
+mr/m/n/12 , [][][][][][]--
+ []
+
+
+Overfull \hbox (11.12968pt too wide) in paragraph at lines 481--483
+[]| \OT1/cmr/m/n/12 pygame-asteroids.credit.credit \OT1/cmr/m/it/12 (func-tion)
+\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (0.95401pt too wide) in paragraph at lines 483--485
+[]| \OT1/cmr/m/n/12 pygame-asteroids.credit.credit[]from[]file
+ []
+
+
+Overfull \hbox (13.52238pt too wide) in paragraph at lines 488--492
+[]| \OT1/cmr/m/n/12 pygame-asteroids.file.FileManager \OT1/cmr/m/it/12 (class)\
+OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (1.7114pt too wide) in paragraph at lines 495--498
+[]| \OT1/cmr/m/n/12 pygame-asteroids.font.Font \OT1/cmr/m/it/12 (class)\OT1/cmr
+/m/n/12 , [][][][][][],
+ []
+
+
+Overfull \hbox (17.62373pt too wide) in paragraph at lines 500--503
+[]| \OT1/cmr/m/n/12 pygame-asteroids.game.Game \OT1/cmr/m/it/12 (class)\OT1/cmr
+/m/n/12 , [][][][][][]--
+ []
+
+
+Overfull \hbox (3.67178pt too wide) in paragraph at lines 503--506
+[]| \OT1/cmr/m/n/12 pygame-asteroids.game.GameController
+ []
+
+
+Overfull \hbox (24.5431pt too wide) in paragraph at lines 506--509
+[]| \OT1/cmr/m/n/12 pygame-asteroids.game.SpriteGroup \OT1/cmr/m/it/12 (class)\
+OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (6.84058pt too wide) in paragraph at lines 509--511
+[]| \OT1/cmr/m/n/12 pygame-asteroids.game' \OT1/cmr/m/it/12 (mod-ule)\OT1/cmr/m
+/n/12 , [][][][][][]--[][][][][][] 
+ []
+
+
+Overfull \hbox (3.29643pt too wide) in paragraph at lines 512--514
+[]| \OT1/cmr/m/n/12 pygame-asteroids.main.main \OT1/cmr/m/it/12 (func-tion)\OT1
+/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (13.68777pt too wide) in paragraph at lines 516--518
+[]| \OT1/cmr/m/n/12 pygame-asteroids.menu[]helper.MainMenu
+ []
+
+
+Overfull \hbox (26.73001pt too wide) in paragraph at lines 518--520
+[]| \OT1/cmr/m/n/12 pygame-asteroids.menu[]helper.Menu \OT1/cmr/m/it/12 (class)
+\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (11.07669pt too wide) in paragraph at lines 520--522
+[]| \OT1/cmr/m/n/12 pygame-asteroids.menu[]helper.MenuItem
+ []
+
+
+Overfull \hbox (1.94194pt too wide) in paragraph at lines 523--525
+[]| \OT1/cmr/m/n/12 pygame-asteroids.polygon.Cube \OT1/cmr/m/it/12 (class)\OT1/
+cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (17.27661pt too wide) in paragraph at lines 525--527
+[]| \OT1/cmr/m/n/12 pygame-asteroids.polygon.Point3D \OT1/cmr/m/it/12 (class)\O
+T1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (2.92395pt too wide) in paragraph at lines 527--529
+[]| \OT1/cmr/m/n/12 pygame-asteroids.polygon' \OT1/cmr/m/it/12 (mod-ule)\OT1/cm
+r/m/n/12 , [][][][][][]--
+ []
+
+
+Overfull \hbox (4.06055pt too wide) in paragraph at lines 529--530
+[]| \OT1/cmr/m/n/12 pygame-asteroids.resource[]manager \OT1/cmr/m/it/12 (mod-
+ []
+
+
+Overfull \hbox (75.34409pt too wide) in paragraph at lines 530--533
+[]| \OT1/cmr/m/n/12 pygame-asteroids.resource[]manager.ResourceManager
+ []
+
+
+Overfull \hbox (7.3244pt too wide) in paragraph at lines 533--535
+[]| \OT1/cmr/m/n/12 pygame-asteroids.resource[]manager' \OT1/cmr/m/it/12 (mod-
+ []
+
+
+Overfull \hbox (25.99031pt too wide) in paragraph at lines 536--539
+[]| \OT1/cmr/m/n/12 pygame-asteroids.score.DataHandler \OT1/cmr/m/it/12 (class)
+\OT1/cmr/m/n/12 ,
+ []
+
+[313]
+Overfull \hbox (4.55302pt too wide) in paragraph at lines 541--545
+[]| \OT1/cmr/m/n/12 pygame-asteroids.ship.Ship \OT1/cmr/m/it/12 (class)\OT1/cmr
+/m/n/12 , [][][][][][]--
+ []
+
+
+Overfull \hbox (7.02335pt too wide) in paragraph at lines 545--547
+[]| \OT1/cmr/m/n/12 pygame-asteroids.sprite[]collision \OT1/cmr/m/it/12 (mod-ul
+e)\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (44.24579pt too wide) in paragraph at lines 547--552
+[]| \OT1/cmr/m/n/12 pygame-asteroids.sprite[]collision.SpriteCollision
+ []
+
+
+Overfull \hbox (9.17749pt too wide) in paragraph at lines 552--554
+[]| \OT1/cmr/m/n/12 pygame-asteroids.start[]field \OT1/cmr/m/it/12 (mod-ule)\OT
+1/cmr/m/n/12 , [][][][][][]--
+ []
+
+
+Overfull \hbox (31.85635pt too wide) in paragraph at lines 554--558
+[]| \OT1/cmr/m/n/12 pygame-asteroids.start[]field.StarField \OT1/cmr/m/it/12 (c
+lass)\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (1.20673pt too wide) in paragraph at lines 558--559
+[]| \OT1/cmr/m/n/12 pygame-asteroids.state[]machine \OT1/cmr/m/it/12 (mod-ule) 
+
+ []
+
+
+Overfull \hbox (35.95143pt too wide) in paragraph at lines 559--561
+[]| \OT1/cmr/m/n/12 pygame-asteroids.state[]machine.StateMachine
+ []
+
+
+Overfull \hbox (7.28445pt too wide) in paragraph at lines 561--563
+[]| \OT1/cmr/m/n/12 pygame-asteroids.state[]machine' \OT1/cmr/m/it/12 (mod-ule)
+\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (3.32822pt too wide) in paragraph at lines 564--566
+[]| \OT1/cmr/m/n/12 pygame-asteroids.states.menu \OT1/cmr/m/it/12 (mod-ule)\OT1
+/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (5.39175pt too wide) in paragraph at lines 568--570
+[]| \OT1/cmr/m/n/12 pygame-asteroids.states.franchise' \OT1/cmr/m/it/12 (mod-
+ []
+
+
+Overfull \hbox (3.32822pt too wide) in paragraph at lines 570--572
+[]| \OT1/cmr/m/n/12 pygame-asteroids.states.intro' \OT1/cmr/m/it/12 (mod-ule)\O
+T1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (5.16904pt too wide) in paragraph at lines 575--577
+[]| \OT1/cmr/m/n/12 pygame-asteroids.test[]audio.main \OT1/cmr/m/it/12 (func-
+ []
+
+
+Overfull \hbox (13.74689pt too wide) in paragraph at lines 577--579
+[]| \OT1/cmr/m/n/12 pygame-asteroids.test[]audio' \OT1/cmr/m/it/12 (mod-ule)\OT
+1/cmr/m/n/12 , [][][][][][]--
+ []
+
+
+Overfull \hbox (18.22446pt too wide) in paragraph at lines 580--582
+[]| \OT1/cmr/m/n/12 pygame-asteroids.test[]rotation.main \OT1/cmr/m/it/12 (func
+-
+ []
+
+
+Overfull \hbox (0.43036pt too wide) in paragraph at lines 582--584
+[]| \OT1/cmr/m/n/12 pygame-asteroids.test[]rotation' \OT1/cmr/m/it/12 (mod-ule)
+\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (22.85913pt too wide) in paragraph at lines 585--587
+[]| \OT1/cmr/m/n/12 pygame-asteroids.test[]startfield.main \OT1/cmr/m/it/12 (fu
+nc-
+ []
+
+
+Overfull \hbox (5.06503pt too wide) in paragraph at lines 587--589
+[]| \OT1/cmr/m/n/12 pygame-asteroids.test[]startfield' \OT1/cmr/m/it/12 (mod-ul
+e)\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (9.33493pt too wide) in paragraph at lines 589--590
+[]| \OT1/cmr/m/n/12 pygame-asteroids.test[]touch[]buttons \OT1/cmr/m/it/12 (mod
+-
+ []
+
+
+Overfull \hbox (15.44553pt too wide) in paragraph at lines 590--592
+[]| \OT1/cmr/m/n/12 pygame-asteroids.test[]touch[]buttons.main
+ []
+
+
+Overfull \hbox (12.59879pt too wide) in paragraph at lines 592--594
+[]| \OT1/cmr/m/n/12 pygame-asteroids.test[]touch[]buttons' \OT1/cmr/m/it/12 (mo
+d-
+ []
+
+
+Overfull \hbox (22.97784pt too wide) in paragraph at lines 594--595
+[]| \OT1/cmr/m/n/12 pygame-asteroids.test[]virtual[]keyboard \OT1/cmr/m/it/12 (
+mod-
+ []
+
+
+Overfull \hbox (29.08844pt too wide) in paragraph at lines 595--597
+[]| \OT1/cmr/m/n/12 pygame-asteroids.test[]virtual[]keyboard.main
+ []
+
+
+Overfull \hbox (26.2417pt too wide) in paragraph at lines 597--599
+[]| \OT1/cmr/m/n/12 pygame-asteroids.test[]virtual[]keyboard' \OT1/cmr/m/it/12 
+(mod-
+ []
+
+
+Overfull \hbox (13.68765pt too wide) in paragraph at lines 600--602
+[]| \OT1/cmr/m/n/12 pygame-asteroids.tools.Anim \OT1/cmr/m/it/12 (class)\OT1/cm
+r/m/n/12 , [][][][][][]--
+ []
+
+
+Overfull \hbox (13.16083pt too wide) in paragraph at lines 604--606
+[]| \OT1/cmr/m/n/12 pygame-asteroids.tools.cursor[]from[]image
+ []
+
+
+Overfull \hbox (19.03577pt too wide) in paragraph at lines 606--608
+[]| \OT1/cmr/m/n/12 pygame-asteroids.tools.get[]cell[]coordinates
+ []
+
+
+Overfull \hbox (17.2453pt too wide) in paragraph at lines 608--610
+[]| \OT1/cmr/m/n/12 pygame-asteroids.tools.get[]rendered \OT1/cmr/m/it/12 (func
+-
+ []
+
+
+Overfull \hbox (20.23499pt too wide) in paragraph at lines 610--612
+[]| \OT1/cmr/m/n/12 pygame-asteroids.tools.load[]all[]fonts \OT1/cmr/m/it/12 (f
+unc-
+ []
+
+
+Overfull \hbox (11.03091pt too wide) in paragraph at lines 612--614
+[]| \OT1/cmr/m/n/12 pygame-asteroids.tools.load[]all[]gfx \OT1/cmr/m/it/12 (fun
+c-
+ []
+
+
+Overfull \hbox (24.478pt too wide) in paragraph at lines 614--616
+[]| \OT1/cmr/m/n/12 pygame-asteroids.tools.load[]all[]music \OT1/cmr/m/it/12 (f
+unc-
+ []
+
+
+Overfull \hbox (9.79065pt too wide) in paragraph at lines 616--618
+[]| \OT1/cmr/m/n/12 pygame-asteroids.tools.load[]all[]sfx \OT1/cmr/m/it/12 (fun
+c-
+ []
+
+
+Overfull \hbox (30.35294pt too wide) in paragraph at lines 618--620
+[]| \OT1/cmr/m/n/12 pygame-asteroids.tools.rect[]then[]mask \OT1/cmr/m/it/12 (f
+unc-
+ []
+
+
+Overfull \hbox (38.73639pt too wide) in paragraph at lines 620--622
+[]| \OT1/cmr/m/n/12 pygame-asteroids.tools.strip[]coords[]from[]sheet
+ []
+
+
+Overfull \hbox (1.47623pt too wide) in paragraph at lines 622--624
+[]| \OT1/cmr/m/n/12 pygame-asteroids.tools.strip[]from[]sheet
+ []
+
+
+Overfull \hbox (10.75435pt too wide) in paragraph at lines 624--626
+[]| \OT1/cmr/m/n/12 pygame-asteroids.tools.Timer \OT1/cmr/m/it/12 (class)\OT1/c
+mr/m/n/12 , [][][][][][] 
+ []
+
+
+Overfull \hbox (4.62115pt too wide) in paragraph at lines 626--628
+[]| \OT1/cmr/m/n/12 pygame-asteroids.tools' \OT1/cmr/m/it/12 (mod-ule)\OT1/cmr/
+m/n/12 , [][][][][][]--[][][][][][] 
+ []
+
+
+Overfull \hbox (4.67337pt too wide) in paragraph at lines 628--630
+[]| \OT1/cmr/m/n/12 pygame-asteroids.touch[]buttons \OT1/cmr/m/it/12 (mod-ule)\
+OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (39.11946pt too wide) in paragraph at lines 630--633
+[]| \OT1/cmr/m/n/12 pygame-asteroids.touch[]buttons.TouchButtons
+ []
+
+[314]
+Overfull \hbox (1.38419pt too wide) in paragraph at lines 633--635
+[]| \OT1/cmr/m/n/12 pygame-asteroids.virtual[]controller \OT1/cmr/m/it/12 (mod-
+
+ []
+
+
+Overfull \hbox (180.80545pt too wide) in paragraph at lines 635--638
+[]| \OT1/cmr/m/n/12 pygame-asteroids.virtual[]controller.decode[]joystick[]arro
+w[]to[]keyboard[]key
+ []
+
+
+Overfull \hbox (127.60461pt too wide) in paragraph at lines 638--641
+[]| \OT1/cmr/m/n/12 pygame-asteroids.virtual[]controller.is[]event[]type[]an[]i
+nput[]down
+ []
+
+
+Overfull \hbox (44.02383pt too wide) in paragraph at lines 641--644
+[]| \OT1/cmr/m/n/12 pygame-asteroids.virtual[]controller.vc[]get[]angle
+ []
+
+
+Overfull \hbox (32.29591pt too wide) in paragraph at lines 646--650
+[]| \OT1/cmr/m/n/12 pygame-asteroids.virtual[]keyboard.TextInput
+ []
+
+
+Overfull \hbox (37.8403pt too wide) in paragraph at lines 650--654
+[]| \OT1/cmr/m/n/12 pygame-asteroids.virtual[]keyboard.VirtualKey
+ []
+
+
+Overfull \hbox (67.54138pt too wide) in paragraph at lines 654--658
+[]| \OT1/cmr/m/n/12 pygame-asteroids.virtual[]keyboard.VirtualKeyboard
+ []
+
+
+Overfull \hbox (30.46078pt too wide) in paragraph at lines 658--660
+[]\OT1/cmr/m/n/12 pygame-asteroids.states.franchise.Franchise \OT1/cmr/m/it/12 
+(class)\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (19.38103pt too wide) in paragraph at lines 660--662
+[]\OT1/cmr/m/n/12 pygame-asteroids.states.franchise.Franchise.draw
+ []
+
+
+Overfull \hbox (25.92194pt too wide) in paragraph at lines 662--664
+[]\OT1/cmr/m/n/12 pygame-asteroids.states.intro.Introduction \OT1/cmr/m/it/12 (
+class)\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (14.84218pt too wide) in paragraph at lines 664--666
+[]\OT1/cmr/m/n/12 pygame-asteroids.states.intro.Introduction.draw
+ []
+
+
+Overfull \hbox (3.4055pt too wide) in paragraph at lines 666--668
+[]\OT1/cmr/m/n/12 pygame-asteroids.states.seal.Seal \OT1/cmr/m/it/12 (class)\OT
+1/cmr/m/n/12 , [][][][][][]--
+ []
+
+
+Overfull \hbox (1.66612pt too wide) in paragraph at lines 723--725
+[]\OT1/cmr/m/n/12 pygame.PixelArray.[][]contains[][] \OT1/cmr/m/it/12 (func-tio
+n)\OT1/cmr/m/n/12 , [][][][][][] 
+ []
+
+
+Overfull \hbox (9.21217pt too wide) in paragraph at lines 737--739
+[]\OT1/cmr/m/n/12 pygame.PixelArray.make[]surface \OT1/cmr/m/it/12 (func-tion)\
+OT1/cmr/m/n/12 , [][][][][][] 
+ []
+
+[315]
+Overfull \hbox (2.84084pt too wide) in paragraph at lines 797--799
+[]\OT1/cmr/m/n/12 pygame.Surface.get[]abs[]parent \OT1/cmr/m/it/12 (func-tion)\
+OT1/cmr/m/n/12 , [][][][][][],
+ []
+
+
+Overfull \hbox (4.0811pt too wide) in paragraph at lines 803--805
+[]\OT1/cmr/m/n/12 pygame.Surface.get[]at[]mapped \OT1/cmr/m/it/12 (func-tion)\O
+T1/cmr/m/n/12 , [][][][][][],
+ []
+
+
+Overfull \hbox (2.51445pt too wide) in paragraph at lines 807--809
+[]\OT1/cmr/m/n/12 pygame.Surface.get[]bounding[]rect \OT1/cmr/m/it/12 (func-tio
+n)\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (3.76778pt too wide) in paragraph at lines 811--813
+[]\OT1/cmr/m/n/12 pygame.Surface.get[]bytesize \OT1/cmr/m/it/12 (func-tion)\OT1
+/cmr/m/n/12 , [][][][][][], [][][][][][] 
+ []
+
+
+Overfull \hbox (5.33443pt too wide) in paragraph at lines 815--817
+[]\OT1/cmr/m/n/12 pygame.Surface.get[]colorkey \OT1/cmr/m/it/12 (func-tion)\OT1
+/cmr/m/n/12 , [][][][][][], [][][][][][] 
+ []
+
+
+Overfull \hbox (4.09416pt too wide) in paragraph at lines 863--865
+[]\OT1/cmr/m/n/12 pygame.Surface.set[]colorkey \OT1/cmr/m/it/12 (func-tion)\OT1
+/cmr/m/n/12 , [][][][][][], [][][][][][] 
+ []
+
+[316]
+Overfull \hbox (8.83774pt too wide) in paragraph at lines 906--907
+[]\OT1/cmr/m/n/12 random.Random.gammavariate \OT1/cmr/m/it/12 (func-tion)\OT1/c
+mr/m/n/12 , [][][][][][] 
+ []
+
+
+Overfull \hbox (13.40714pt too wide) in paragraph at lines 908--910
+[]\OT1/cmr/m/n/12 random.Random.lognormvariate \OT1/cmr/m/it/12 (func-tion)\OT1
+/cmr/m/n/12 , [][][][][][] 
+ []
+
+
+Overfull \hbox (7.85858pt too wide) in paragraph at lines 910--912
+[]\OT1/cmr/m/n/12 random.Random.normalvariate \OT1/cmr/m/it/12 (func-tion)\OT1/
+cmr/m/n/12 , [][][][][][] 
+ []
+
+
+Overfull \hbox (4.26834pt too wide) in paragraph at lines 912--914
+[]\OT1/cmr/m/n/12 random.Random.paretovariate \OT1/cmr/m/it/12 (func-tion)\OT1/
+cmr/m/n/12 , [][][][][][] 
+ []
+
+
+Overfull \hbox (8.18497pt too wide) in paragraph at lines 922--924
+[]\OT1/cmr/m/n/12 random.Random.weibullvariate \OT1/cmr/m/it/12 (func-tion)\OT1
+/cmr/m/n/12 , [][][][][][] 
+ []
+
+
+Overfull \hbox (4.49055pt too wide) in paragraph at lines 935--936
+[]\OT1/cmr/m/n/12 random.WichmannHill.whseed \OT1/cmr/m/it/12 (func-tion)\OT1/c
+mr/m/n/12 , [][][][][][] 
+ []
+
+
+Overfull \hbox (0.40276pt too wide) in paragraph at lines 936--940
+[]\OT1/cmr/m/n/12 resource.error \OT1/cmr/m/it/12 (class)\OT1/cmr/m/n/12 , [][]
+[][][][]--[][][][][][], [][][][][][]--[][][][][][], [][][][][][]--
+ []
+
+
+Overfull \hbox (2.60582pt too wide) in paragraph at lines 944--947
+[]\OT1/cmr/m/n/12 resource.struct[]rusage.[][]add[][] \OT1/cmr/m/it/12 (func-ti
+on)\OT1/cmr/m/n/12 , [][][][][][],
+ []
+
+
+Overfull \hbox (2.0836pt too wide) in paragraph at lines 947--950
+[]\OT1/cmr/m/n/12 resource.struct[]rusage.[][]contains[][] \OT1/cmr/m/it/12 (fu
+nc-tion)\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (15.26958pt too wide) in paragraph at lines 971--974
+[]\OT1/cmr/m/n/12 resource.struct[]rusage.[][]lt[][] \OT1/cmr/m/it/12 (func-tio
+n)\OT1/cmr/m/n/12 , [][][][][][], [][][][][][],
+ []
+
+
+Overfull \hbox (2.9322pt too wide) in paragraph at lines 974--977
+[]\OT1/cmr/m/n/12 resource.struct[]rusage.[][]mul[][] \OT1/cmr/m/it/12 (func-ti
+on)\OT1/cmr/m/n/12 , [][][][][][],
+ []
+
+
+Overfull \hbox (7.5016pt too wide) in paragraph at lines 980--983
+[]\OT1/cmr/m/n/12 resource.struct[]rusage.[][]rmul[][] \OT1/cmr/m/it/12 (func-t
+ion)\OT1/cmr/m/n/12 , [][][][][][],
+ []
+
+[317]
+Overfull \hbox (0.30392pt too wide) in paragraph at lines 989--991
+[]\OT1/cmr/m/n/12 state[]machine.StateMachine.draw \OT1/cmr/m/it/12 (func-tion)
+\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (12.42503pt too wide) in paragraph at lines 995--997
+[]\OT1/cmr/m/n/12 state[]machine.StateMachine.setup[]states \OT1/cmr/m/it/12 (f
+unc-
+ []
+
+
+Overfull \hbox (10.74826pt too wide) in paragraph at lines 997--999
+[]\OT1/cmr/m/n/12 state[]machine.StateMachine.update \OT1/cmr/m/it/12 (func-tio
+n)\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (59.28696pt too wide) in paragraph at lines 1067--1069
+[]\OT1/cmr/m/n/12 virtual[]controller.decode[]joystick[]arrow[]to[]keyboard[]ke
+y
+ []
+
+
+Overfull \hbox (6.08612pt too wide) in paragraph at lines 1069--1071
+[]\OT1/cmr/m/n/12 virtual[]controller.is[]event[]type[]an[]input[]down
+ []
+
+
+Overfull \hbox (3.74165pt too wide) in paragraph at lines 1071--1073
+[]\OT1/cmr/m/n/12 virtual[]controller.vc[]get[]angle \OT1/cmr/m/it/12 (func-tio
+n)\OT1/cmr/m/n/12 , [][][][][][],
+ []
+
+[318])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+ (./api.aux (./codecs-module.aux) (./credit-module.aux)
+(./math-module.aux) (./os-module.aux) (./pickle-module.aux)
+(./posixpath-module.aux) (./pygame-module.aux) (./pygame-asteroids-module.aux)
+(./pygame-asteroids.asteroid'-module.aux)
+(./pygame-asteroids.bullet'-module.aux) (./pygame-asteroids.color-module.aux)
+(./pygame-asteroids.credit'-module.aux) (./pygame-asteroids.file'-module.aux)
+(./pygame-asteroids.font'-module.aux) (./pygame-asteroids.game'-module.aux)
+(./pygame-asteroids.main-module.aux) (./pygame-asteroids.menu_helper-module.aux
+) (./pygame-asteroids.polygon'-module.aux)
+(./pygame-asteroids.resource_manager'-module.aux)
+(./pygame-asteroids.score-module.aux) (./pygame-asteroids.ship-module.aux)
+(./pygame-asteroids.sprite_collision-module.aux)
+(./pygame-asteroids.start_field-module.aux)
+(./pygame-asteroids.state_machine'-module.aux)
+(./pygame-asteroids.states.franchise'-module.aux)
+(./pygame-asteroids.states.intro'-module.aux)
+(./pygame-asteroids.states.menu-module.aux)
+(./pygame-asteroids.states.seal'-module.aux)
+(./pygame-asteroids.states'-module.aux)
+(./pygame-asteroids.test_audio'-module.aux)
+(./pygame-asteroids.test_rotation'-module.aux)
+(./pygame-asteroids.test_startfield'-module.aux)
+(./pygame-asteroids.test_touch_buttons'-module.aux)
+(./pygame-asteroids.test_virtual_keyboard'-module.aux)
+(./pygame-asteroids.tools'-module.aux)
+(./pygame-asteroids.touch_buttons-module.aux)
+(./pygame-asteroids.virtual_controller-module.aux)
+(./pygame-asteroids.virtual_keyboard-module.aux) (./random-module.aux)
+(./state_machine-module.aux) (./sys-module.aux) (./time-module.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+
+
+Package rerunfilecheck Warning: File `api.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `api.out':
+(rerunfilecheck)             Before: F9A1333F7A4DC7BE884CD2FADA039BEF;37008
+(rerunfilecheck)             After:  AC8B42C06F26A0E42E1C74217A169F3E;37051.
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+ ) 
+Here is how much of TeX's memory you used:
+ 7782 strings out of 493090
+ 139140 string characters out of 6134868
+ 308521 words of memory out of 5000000
+ 10886 multiletter control sequences out of 15000+600000
+ 13889 words of font info for 53 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,13n,43p,463b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on api.dvi (318 pages, 1861064 bytes).

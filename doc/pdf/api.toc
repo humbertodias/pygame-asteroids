@@ -1,0 +1,532 @@
+\contentsline {section}{Contents}{1}{section*.1}
+\contentsline {section}{\numberline {1}Module codecs}{13}{section.1}
+\contentsline {subsection}{\numberline {1.1}Functions}{13}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Variables}{14}{subsection.1.2}
+\contentsline {section}{\numberline {2}Module credit}{16}{section.2}
+\contentsline {subsection}{\numberline {2.1}Functions}{16}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Variables}{16}{subsection.2.2}
+\contentsline {section}{\numberline {3}Module math}{17}{section.3}
+\contentsline {subsection}{\numberline {3.1}Functions}{17}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Variables}{20}{subsection.3.2}
+\contentsline {section}{\numberline {4}Module os}{21}{section.4}
+\contentsline {subsection}{\numberline {4.1}Functions}{21}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Variables}{38}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Class OSError}{39}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Methods}{39}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Properties}{40}{subsubsection.4.3.2}
+\contentsline {subsection}{\numberline {4.4}Class stat\_result}{40}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Methods}{41}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Properties}{42}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}Class Variables}{43}{subsubsection.4.4.3}
+\contentsline {subsection}{\numberline {4.5}Class statvfs\_result}{43}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Methods}{43}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Properties}{45}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}Class Variables}{46}{subsubsection.4.5.3}
+\contentsline {section}{\numberline {5}Module pickle}{47}{section.5}
+\contentsline {subsection}{\numberline {5.1}Functions}{47}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Variables}{47}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Class PickleError}{49}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Methods}{49}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Properties}{50}{subsubsection.5.3.2}
+\contentsline {subsection}{\numberline {5.4}Class Pickler}{50}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Methods}{50}{subsubsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.2}Class Variables}{52}{subsubsection.5.4.2}
+\contentsline {subsection}{\numberline {5.5}Class PicklingError}{52}{subsection.5.5}
+\contentsline {subsubsection}{\numberline {5.5.1}Methods}{52}{subsubsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.2}Properties}{52}{subsubsection.5.5.2}
+\contentsline {subsection}{\numberline {5.6}Class Unpickler}{53}{subsection.5.6}
+\contentsline {subsubsection}{\numberline {5.6.1}Methods}{53}{subsubsection.5.6.1}
+\contentsline {subsubsection}{\numberline {5.6.2}Class Variables}{56}{subsubsection.5.6.2}
+\contentsline {subsection}{\numberline {5.7}Class UnpicklingError}{56}{subsection.5.7}
+\contentsline {subsubsection}{\numberline {5.7.1}Methods}{57}{subsubsection.5.7.1}
+\contentsline {subsubsection}{\numberline {5.7.2}Properties}{57}{subsubsection.5.7.2}
+\contentsline {section}{\numberline {6}Module posixpath}{58}{section.6}
+\contentsline {subsection}{\numberline {6.1}Functions}{58}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Variables}{61}{subsection.6.2}
+\contentsline {section}{\numberline {7}Package pygame}{62}{section.7}
+\contentsline {subsection}{\numberline {7.1}Functions}{62}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Variables}{62}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Class BufferError}{69}{subsection.7.3}
+\contentsline {subsubsection}{\numberline {7.3.1}Methods}{69}{subsubsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.2}Properties}{69}{subsubsection.7.3.2}
+\contentsline {subsection}{\numberline {7.4}Class BufferProxy}{69}{subsection.7.4}
+\contentsline {subsubsection}{\numberline {7.4.1}Methods}{70}{subsubsection.7.4.1}
+\contentsline {subsubsection}{\numberline {7.4.2}Properties}{70}{subsubsection.7.4.2}
+\contentsline {subsection}{\numberline {7.5}Class Color}{71}{subsection.7.5}
+\contentsline {subsubsection}{\numberline {7.5.1}Methods}{71}{subsubsection.7.5.1}
+\contentsline {subsubsection}{\numberline {7.5.2}Properties}{74}{subsubsection.7.5.2}
+\contentsline {subsection}{\numberline {7.6}Class Overlay}{75}{subsection.7.6}
+\contentsline {subsubsection}{\numberline {7.6.1}Methods}{75}{subsubsection.7.6.1}
+\contentsline {subsubsection}{\numberline {7.6.2}Properties}{76}{subsubsection.7.6.2}
+\contentsline {subsection}{\numberline {7.7}Class PixelArray}{76}{subsection.7.7}
+\contentsline {subsubsection}{\numberline {7.7.1}Methods}{76}{subsubsection.7.7.1}
+\contentsline {subsubsection}{\numberline {7.7.2}Properties}{78}{subsubsection.7.7.2}
+\contentsline {subsection}{\numberline {7.8}Class Rect}{78}{subsection.7.8}
+\contentsline {subsubsection}{\numberline {7.8.1}Methods}{78}{subsubsection.7.8.1}
+\contentsline {subsubsection}{\numberline {7.8.2}Properties}{83}{subsubsection.7.8.2}
+\contentsline {subsection}{\numberline {7.9}Class Surface}{84}{subsection.7.9}
+\contentsline {subsubsection}{\numberline {7.9.1}Methods}{84}{subsubsection.7.9.1}
+\contentsline {subsubsection}{\numberline {7.9.2}Properties}{91}{subsubsection.7.9.2}
+\contentsline {subsection}{\numberline {7.10}Class Surface}{92}{subsection.7.10}
+\contentsline {subsubsection}{\numberline {7.10.1}Methods}{92}{subsubsection.7.10.1}
+\contentsline {subsubsection}{\numberline {7.10.2}Properties}{99}{subsubsection.7.10.2}
+\contentsline {subsection}{\numberline {7.11}Class error}{99}{subsection.7.11}
+\contentsline {subsubsection}{\numberline {7.11.1}Methods}{99}{subsubsection.7.11.1}
+\contentsline {subsubsection}{\numberline {7.11.2}Properties}{100}{subsubsection.7.11.2}
+\contentsline {section}{\numberline {8}Package pygame-asteroids}{101}{section.8}
+\contentsline {subsection}{\numberline {8.1}Modules}{101}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Variables}{102}{subsection.8.2}
+\contentsline {section}{\numberline {9}Module pygame-asteroids.asteroid'}{103}{section.9}
+\contentsline {subsection}{\numberline {9.1}Variables}{103}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Class Asteroid}{103}{subsection.9.2}
+\contentsline {subsubsection}{\numberline {9.2.1}Methods}{103}{subsubsection.9.2.1}
+\contentsline {subsubsection}{\numberline {9.2.2}Properties}{104}{subsubsection.9.2.2}
+\contentsline {subsubsection}{\numberline {9.2.3}Class Variables}{104}{subsubsection.9.2.3}
+\contentsline {subsection}{\numberline {9.3}Class Color}{104}{subsection.9.3}
+\contentsline {subsubsection}{\numberline {9.3.1}Methods}{105}{subsubsection.9.3.1}
+\contentsline {subsubsection}{\numberline {9.3.2}Class Variables}{105}{subsubsection.9.3.2}
+\contentsline {subsection}{\numberline {9.4}Class SpriteCollision}{106}{subsection.9.4}
+\contentsline {subsubsection}{\numberline {9.4.1}Methods}{106}{subsubsection.9.4.1}
+\contentsline {section}{\numberline {10}Module pygame-asteroids.bullet'}{108}{section.10}
+\contentsline {subsection}{\numberline {10.1}Variables}{108}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Class Bullet}{108}{subsection.10.2}
+\contentsline {subsubsection}{\numberline {10.2.1}Methods}{108}{subsubsection.10.2.1}
+\contentsline {subsubsection}{\numberline {10.2.2}Properties}{109}{subsubsection.10.2.2}
+\contentsline {subsection}{\numberline {10.3}Class SpriteCollision}{109}{subsection.10.3}
+\contentsline {subsubsection}{\numberline {10.3.1}Methods}{109}{subsubsection.10.3.1}
+\contentsline {section}{\numberline {11}Module pygame-asteroids.color}{111}{section.11}
+\contentsline {subsection}{\numberline {11.1}Variables}{111}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Class Color}{111}{subsection.11.2}
+\contentsline {subsubsection}{\numberline {11.2.1}Methods}{111}{subsubsection.11.2.1}
+\contentsline {subsubsection}{\numberline {11.2.2}Class Variables}{112}{subsubsection.11.2.2}
+\contentsline {section}{\numberline {12}Module pygame-asteroids.credit'}{113}{section.12}
+\contentsline {subsection}{\numberline {12.1}Functions}{113}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}Variables}{113}{subsection.12.2}
+\contentsline {section}{\numberline {13}Module pygame-asteroids.file'}{114}{section.13}
+\contentsline {subsection}{\numberline {13.1}Variables}{114}{subsection.13.1}
+\contentsline {subsection}{\numberline {13.2}Class DataHandler}{114}{subsection.13.2}
+\contentsline {subsubsection}{\numberline {13.2.1}Methods}{114}{subsubsection.13.2.1}
+\contentsline {subsection}{\numberline {13.3}Class FileManager}{114}{subsection.13.3}
+\contentsline {subsubsection}{\numberline {13.3.1}Methods}{114}{subsubsection.13.3.1}
+\contentsline {subsubsection}{\numberline {13.3.2}Class Variables}{115}{subsubsection.13.3.2}
+\contentsline {section}{\numberline {14}Module pygame-asteroids.font'}{116}{section.14}
+\contentsline {subsection}{\numberline {14.1}Variables}{116}{subsection.14.1}
+\contentsline {subsection}{\numberline {14.2}Class Font}{116}{subsection.14.2}
+\contentsline {subsubsection}{\numberline {14.2.1}Class Variables}{116}{subsubsection.14.2.1}
+\contentsline {section}{\numberline {15}Module pygame-asteroids.game'}{117}{section.15}
+\contentsline {subsection}{\numberline {15.1}Functions}{117}{subsection.15.1}
+\contentsline {subsection}{\numberline {15.2}Variables}{117}{subsection.15.2}
+\contentsline {subsection}{\numberline {15.3}Class Asteroid}{118}{subsection.15.3}
+\contentsline {subsubsection}{\numberline {15.3.1}Methods}{118}{subsubsection.15.3.1}
+\contentsline {subsubsection}{\numberline {15.3.2}Properties}{119}{subsubsection.15.3.2}
+\contentsline {subsubsection}{\numberline {15.3.3}Class Variables}{119}{subsubsection.15.3.3}
+\contentsline {subsection}{\numberline {15.4}Class Bullet}{119}{subsection.15.4}
+\contentsline {subsubsection}{\numberline {15.4.1}Methods}{120}{subsubsection.15.4.1}
+\contentsline {subsubsection}{\numberline {15.4.2}Properties}{120}{subsubsection.15.4.2}
+\contentsline {subsection}{\numberline {15.5}Class Color}{121}{subsection.15.5}
+\contentsline {subsubsection}{\numberline {15.5.1}Methods}{121}{subsubsection.15.5.1}
+\contentsline {subsubsection}{\numberline {15.5.2}Class Variables}{122}{subsubsection.15.5.2}
+\contentsline {subsection}{\numberline {15.6}Class DataHandler}{122}{subsection.15.6}
+\contentsline {subsubsection}{\numberline {15.6.1}Methods}{122}{subsubsection.15.6.1}
+\contentsline {subsection}{\numberline {15.7}Class FileManager}{123}{subsection.15.7}
+\contentsline {subsubsection}{\numberline {15.7.1}Methods}{123}{subsubsection.15.7.1}
+\contentsline {subsubsection}{\numberline {15.7.2}Class Variables}{123}{subsubsection.15.7.2}
+\contentsline {subsection}{\numberline {15.8}Class Font}{123}{subsection.15.8}
+\contentsline {subsubsection}{\numberline {15.8.1}Class Variables}{123}{subsubsection.15.8.1}
+\contentsline {subsection}{\numberline {15.9}Class Game}{124}{subsection.15.9}
+\contentsline {subsubsection}{\numberline {15.9.1}Methods}{124}{subsubsection.15.9.1}
+\contentsline {subsection}{\numberline {15.10}Class GameController}{124}{subsection.15.10}
+\contentsline {subsubsection}{\numberline {15.10.1}Methods}{124}{subsubsection.15.10.1}
+\contentsline {subsubsection}{\numberline {15.10.2}Properties}{126}{subsubsection.15.10.2}
+\contentsline {subsubsection}{\numberline {15.10.3}Class Variables}{126}{subsubsection.15.10.3}
+\contentsline {subsection}{\numberline {15.11}Class Ship}{126}{subsection.15.11}
+\contentsline {subsubsection}{\numberline {15.11.1}Methods}{127}{subsubsection.15.11.1}
+\contentsline {subsubsection}{\numberline {15.11.2}Properties}{128}{subsubsection.15.11.2}
+\contentsline {subsubsection}{\numberline {15.11.3}Class Variables}{128}{subsubsection.15.11.3}
+\contentsline {subsection}{\numberline {15.12}Class SpriteCollision}{129}{subsection.15.12}
+\contentsline {subsubsection}{\numberline {15.12.1}Methods}{129}{subsubsection.15.12.1}
+\contentsline {subsection}{\numberline {15.13}Class SpriteGroup}{130}{subsection.15.13}
+\contentsline {subsubsection}{\numberline {15.13.1}Methods}{130}{subsubsection.15.13.1}
+\contentsline {subsubsection}{\numberline {15.13.2}Properties}{130}{subsubsection.15.13.2}
+\contentsline {subsection}{\numberline {15.14}Class StarField}{131}{subsection.15.14}
+\contentsline {subsubsection}{\numberline {15.14.1}Methods}{131}{subsubsection.15.14.1}
+\contentsline {subsubsection}{\numberline {15.14.2}Properties}{131}{subsubsection.15.14.2}
+\contentsline {subsubsection}{\numberline {15.14.3}Class Variables}{131}{subsubsection.15.14.3}
+\contentsline {subsection}{\numberline {15.15}Class TextInput}{132}{subsection.15.15}
+\contentsline {subsubsection}{\numberline {15.15.1}Methods}{132}{subsubsection.15.15.1}
+\contentsline {subsubsection}{\numberline {15.15.2}Properties}{133}{subsubsection.15.15.2}
+\contentsline {subsection}{\numberline {15.16}Class TouchButtons}{133}{subsection.15.16}
+\contentsline {subsubsection}{\numberline {15.16.1}Methods}{133}{subsubsection.15.16.1}
+\contentsline {subsection}{\numberline {15.17}Class VirtualKey}{133}{subsection.15.17}
+\contentsline {subsubsection}{\numberline {15.17.1}Methods}{134}{subsubsection.15.17.1}
+\contentsline {subsubsection}{\numberline {15.17.2}Properties}{134}{subsubsection.15.17.2}
+\contentsline {subsection}{\numberline {15.18}Class VirtualKeyboard}{134}{subsection.15.18}
+\contentsline {subsubsection}{\numberline {15.18.1}Methods}{134}{subsubsection.15.18.1}
+\contentsline {subsubsection}{\numberline {15.18.2}Properties}{135}{subsubsection.15.18.2}
+\contentsline {subsection}{\numberline {15.19}Class error}{136}{subsection.15.19}
+\contentsline {subsubsection}{\numberline {15.19.1}Methods}{136}{subsubsection.15.19.1}
+\contentsline {subsubsection}{\numberline {15.19.2}Properties}{136}{subsubsection.15.19.2}
+\contentsline {subsection}{\numberline {15.20}Class struct\_rusage}{136}{subsection.15.20}
+\contentsline {subsubsection}{\numberline {15.20.1}Methods}{137}{subsubsection.15.20.1}
+\contentsline {subsubsection}{\numberline {15.20.2}Properties}{138}{subsubsection.15.20.2}
+\contentsline {subsubsection}{\numberline {15.20.3}Class Variables}{139}{subsubsection.15.20.3}
+\contentsline {section}{\numberline {16}Module pygame-asteroids.main}{140}{section.16}
+\contentsline {subsection}{\numberline {16.1}Functions}{140}{subsection.16.1}
+\contentsline {section}{\numberline {17}Module pygame-asteroids.menu\_helper}{141}{section.17}
+\contentsline {subsection}{\numberline {17.1}Class MenuItem}{141}{subsection.17.1}
+\contentsline {subsubsection}{\numberline {17.1.1}Methods}{141}{subsubsection.17.1.1}
+\contentsline {subsection}{\numberline {17.2}Class Menu}{142}{subsection.17.2}
+\contentsline {subsubsection}{\numberline {17.2.1}Methods}{142}{subsubsection.17.2.1}
+\contentsline {subsection}{\numberline {17.3}Class MainMenu}{143}{subsection.17.3}
+\contentsline {subsubsection}{\numberline {17.3.1}Methods}{143}{subsubsection.17.3.1}
+\contentsline {section}{\numberline {18}Module pygame-asteroids.polygon'}{145}{section.18}
+\contentsline {subsection}{\numberline {18.1}Variables}{145}{subsection.18.1}
+\contentsline {subsection}{\numberline {18.2}Class Color}{145}{subsection.18.2}
+\contentsline {subsubsection}{\numberline {18.2.1}Methods}{145}{subsubsection.18.2.1}
+\contentsline {subsubsection}{\numberline {18.2.2}Class Variables}{146}{subsubsection.18.2.2}
+\contentsline {subsection}{\numberline {18.3}Class Cube}{146}{subsection.18.3}
+\contentsline {subsubsection}{\numberline {18.3.1}Methods}{146}{subsubsection.18.3.1}
+\contentsline {subsection}{\numberline {18.4}Class Point3D}{147}{subsection.18.4}
+\contentsline {subsubsection}{\numberline {18.4.1}Methods}{147}{subsubsection.18.4.1}
+\contentsline {subsection}{\numberline {18.5}Class itemgetter}{147}{subsection.18.5}
+\contentsline {subsubsection}{\numberline {18.5.1}Methods}{147}{subsubsection.18.5.1}
+\contentsline {subsubsection}{\numberline {18.5.2}Properties}{148}{subsubsection.18.5.2}
+\contentsline {section}{\numberline {19}Module pygame-asteroids.resource\_manager'}{149}{section.19}
+\contentsline {subsection}{\numberline {19.1}Variables}{149}{subsection.19.1}
+\contentsline {subsection}{\numberline {19.2}Class Font}{149}{subsection.19.2}
+\contentsline {subsubsection}{\numberline {19.2.1}Class Variables}{149}{subsubsection.19.2.1}
+\contentsline {subsection}{\numberline {19.3}Class ResourceManager}{149}{subsection.19.3}
+\contentsline {subsubsection}{\numberline {19.3.1}Methods}{149}{subsubsection.19.3.1}
+\contentsline {subsubsection}{\numberline {19.3.2}Class Variables}{152}{subsubsection.19.3.2}
+\contentsline {section}{\numberline {20}Module pygame-asteroids.score}{153}{section.20}
+\contentsline {subsection}{\numberline {20.1}Variables}{153}{subsection.20.1}
+\contentsline {subsection}{\numberline {20.2}Class DataHandler}{153}{subsection.20.2}
+\contentsline {subsubsection}{\numberline {20.2.1}Methods}{153}{subsubsection.20.2.1}
+\contentsline {section}{\numberline {21}Module pygame-asteroids.ship}{154}{section.21}
+\contentsline {subsection}{\numberline {21.1}Variables}{154}{subsection.21.1}
+\contentsline {subsection}{\numberline {21.2}Class Ship}{154}{subsection.21.2}
+\contentsline {subsubsection}{\numberline {21.2.1}Methods}{155}{subsubsection.21.2.1}
+\contentsline {subsubsection}{\numberline {21.2.2}Properties}{156}{subsubsection.21.2.2}
+\contentsline {subsubsection}{\numberline {21.2.3}Class Variables}{156}{subsubsection.21.2.3}
+\contentsline {section}{\numberline {22}Module pygame-asteroids.sprite\_collision}{157}{section.22}
+\contentsline {subsection}{\numberline {22.1}Variables}{157}{subsection.22.1}
+\contentsline {subsection}{\numberline {22.2}Class SpriteCollision}{157}{subsection.22.2}
+\contentsline {subsubsection}{\numberline {22.2.1}Methods}{157}{subsubsection.22.2.1}
+\contentsline {section}{\numberline {23}Module pygame-asteroids.start\_field}{159}{section.23}
+\contentsline {subsection}{\numberline {23.1}Variables}{159}{subsection.23.1}
+\contentsline {subsection}{\numberline {23.2}Class StarField}{159}{subsection.23.2}
+\contentsline {subsubsection}{\numberline {23.2.1}Methods}{159}{subsubsection.23.2.1}
+\contentsline {subsubsection}{\numberline {23.2.2}Properties}{159}{subsubsection.23.2.2}
+\contentsline {subsubsection}{\numberline {23.2.3}Class Variables}{159}{subsubsection.23.2.3}
+\contentsline {section}{\numberline {24}Module pygame-asteroids.state\_machine'}{161}{section.24}
+\contentsline {subsection}{\numberline {24.1}Variables}{161}{subsection.24.1}
+\contentsline {subsection}{\numberline {24.2}Class StateMachine}{161}{subsection.24.2}
+\contentsline {subsubsection}{\numberline {24.2.1}Methods}{161}{subsubsection.24.2.1}
+\contentsline {subsubsection}{\numberline {24.2.2}Properties}{162}{subsubsection.24.2.2}
+\contentsline {section}{\numberline {25}Module pygame-asteroids.states.franchise'}{163}{section.25}
+\contentsline {subsection}{\numberline {25.1}Functions}{163}{subsection.25.1}
+\contentsline {subsection}{\numberline {25.2}Variables}{163}{subsection.25.2}
+\contentsline {subsection}{\numberline {25.3}Class Color}{164}{subsection.25.3}
+\contentsline {subsubsection}{\numberline {25.3.1}Methods}{164}{subsubsection.25.3.1}
+\contentsline {subsubsection}{\numberline {25.3.2}Class Variables}{165}{subsubsection.25.3.2}
+\contentsline {subsection}{\numberline {25.4}Class Cube}{165}{subsection.25.4}
+\contentsline {subsubsection}{\numberline {25.4.1}Methods}{165}{subsubsection.25.4.1}
+\contentsline {subsection}{\numberline {25.5}Class Font}{165}{subsection.25.5}
+\contentsline {subsubsection}{\numberline {25.5.1}Class Variables}{165}{subsubsection.25.5.1}
+\contentsline {subsection}{\numberline {25.6}Class Franchise}{166}{subsection.25.6}
+\contentsline {subsubsection}{\numberline {25.6.1}Methods}{166}{subsubsection.25.6.1}
+\contentsline {subsubsection}{\numberline {25.6.2}Properties}{166}{subsubsection.25.6.2}
+\contentsline {subsection}{\numberline {25.7}Class Point3D}{167}{subsection.25.7}
+\contentsline {subsubsection}{\numberline {25.7.1}Methods}{167}{subsubsection.25.7.1}
+\contentsline {subsection}{\numberline {25.8}Class error}{167}{subsection.25.8}
+\contentsline {subsubsection}{\numberline {25.8.1}Methods}{167}{subsubsection.25.8.1}
+\contentsline {subsubsection}{\numberline {25.8.2}Properties}{168}{subsubsection.25.8.2}
+\contentsline {subsection}{\numberline {25.9}Class itemgetter}{168}{subsection.25.9}
+\contentsline {subsubsection}{\numberline {25.9.1}Methods}{168}{subsubsection.25.9.1}
+\contentsline {subsubsection}{\numberline {25.9.2}Properties}{169}{subsubsection.25.9.2}
+\contentsline {subsection}{\numberline {25.10}Class struct\_rusage}{169}{subsection.25.10}
+\contentsline {subsubsection}{\numberline {25.10.1}Methods}{169}{subsubsection.25.10.1}
+\contentsline {subsubsection}{\numberline {25.10.2}Properties}{171}{subsubsection.25.10.2}
+\contentsline {subsubsection}{\numberline {25.10.3}Class Variables}{171}{subsubsection.25.10.3}
+\contentsline {section}{\numberline {26}Module pygame-asteroids.states.intro'}{172}{section.26}
+\contentsline {subsection}{\numberline {26.1}Functions}{172}{subsection.26.1}
+\contentsline {subsection}{\numberline {26.2}Variables}{172}{subsection.26.2}
+\contentsline {subsection}{\numberline {26.3}Class Color}{172}{subsection.26.3}
+\contentsline {subsubsection}{\numberline {26.3.1}Methods}{173}{subsubsection.26.3.1}
+\contentsline {subsubsection}{\numberline {26.3.2}Class Variables}{173}{subsubsection.26.3.2}
+\contentsline {subsection}{\numberline {26.4}Class Font}{174}{subsection.26.4}
+\contentsline {subsubsection}{\numberline {26.4.1}Class Variables}{174}{subsubsection.26.4.1}
+\contentsline {subsection}{\numberline {26.5}Class Introduction}{174}{subsection.26.5}
+\contentsline {subsubsection}{\numberline {26.5.1}Methods}{174}{subsubsection.26.5.1}
+\contentsline {subsubsection}{\numberline {26.5.2}Properties}{175}{subsubsection.26.5.2}
+\contentsline {section}{\numberline {27}Module pygame-asteroids.states.menu}{176}{section.27}
+\contentsline {subsection}{\numberline {27.1}Class Menu}{176}{subsection.27.1}
+\contentsline {subsubsection}{\numberline {27.1.1}Methods}{176}{subsubsection.27.1.1}
+\contentsline {subsubsection}{\numberline {27.1.2}Properties}{177}{subsubsection.27.1.2}
+\contentsline {section}{\numberline {28}Module pygame-asteroids.states.seal'}{178}{section.28}
+\contentsline {subsection}{\numberline {28.1}Functions}{178}{subsection.28.1}
+\contentsline {subsection}{\numberline {28.2}Variables}{178}{subsection.28.2}
+\contentsline {subsection}{\numberline {28.3}Class Color}{179}{subsection.28.3}
+\contentsline {subsubsection}{\numberline {28.3.1}Methods}{179}{subsubsection.28.3.1}
+\contentsline {subsubsection}{\numberline {28.3.2}Class Variables}{180}{subsubsection.28.3.2}
+\contentsline {subsection}{\numberline {28.4}Class Font}{180}{subsection.28.4}
+\contentsline {subsubsection}{\numberline {28.4.1}Class Variables}{180}{subsubsection.28.4.1}
+\contentsline {subsection}{\numberline {28.5}Class Seal}{180}{subsection.28.5}
+\contentsline {subsubsection}{\numberline {28.5.1}Methods}{181}{subsubsection.28.5.1}
+\contentsline {subsubsection}{\numberline {28.5.2}Properties}{181}{subsubsection.28.5.2}
+\contentsline {subsection}{\numberline {28.6}Class error}{182}{subsection.28.6}
+\contentsline {subsubsection}{\numberline {28.6.1}Methods}{182}{subsubsection.28.6.1}
+\contentsline {subsubsection}{\numberline {28.6.2}Properties}{182}{subsubsection.28.6.2}
+\contentsline {subsection}{\numberline {28.7}Class struct\_rusage}{182}{subsection.28.7}
+\contentsline {subsubsection}{\numberline {28.7.1}Methods}{183}{subsubsection.28.7.1}
+\contentsline {subsubsection}{\numberline {28.7.2}Properties}{184}{subsubsection.28.7.2}
+\contentsline {subsubsection}{\numberline {28.7.3}Class Variables}{185}{subsubsection.28.7.3}
+\contentsline {section}{\numberline {29}Package pygame-asteroids.states'}{186}{section.29}
+\contentsline {subsection}{\numberline {29.1}Modules}{186}{subsection.29.1}
+\contentsline {subsection}{\numberline {29.2}Variables}{186}{subsection.29.2}
+\contentsline {section}{\numberline {30}Module pygame-asteroids.test\_audio'}{187}{section.30}
+\contentsline {subsection}{\numberline {30.1}Functions}{187}{subsection.30.1}
+\contentsline {subsection}{\numberline {30.2}Variables}{187}{subsection.30.2}
+\contentsline {subsection}{\numberline {30.3}Class Asteroid}{188}{subsection.30.3}
+\contentsline {subsubsection}{\numberline {30.3.1}Methods}{188}{subsubsection.30.3.1}
+\contentsline {subsubsection}{\numberline {30.3.2}Properties}{189}{subsubsection.30.3.2}
+\contentsline {subsubsection}{\numberline {30.3.3}Class Variables}{189}{subsubsection.30.3.3}
+\contentsline {subsection}{\numberline {30.4}Class Bullet}{189}{subsection.30.4}
+\contentsline {subsubsection}{\numberline {30.4.1}Methods}{190}{subsubsection.30.4.1}
+\contentsline {subsubsection}{\numberline {30.4.2}Properties}{190}{subsubsection.30.4.2}
+\contentsline {subsection}{\numberline {30.5}Class Color}{191}{subsection.30.5}
+\contentsline {subsubsection}{\numberline {30.5.1}Methods}{191}{subsubsection.30.5.1}
+\contentsline {subsubsection}{\numberline {30.5.2}Class Variables}{192}{subsubsection.30.5.2}
+\contentsline {subsection}{\numberline {30.6}Class DataHandler}{192}{subsection.30.6}
+\contentsline {subsubsection}{\numberline {30.6.1}Methods}{192}{subsubsection.30.6.1}
+\contentsline {subsection}{\numberline {30.7}Class FileManager}{193}{subsection.30.7}
+\contentsline {subsubsection}{\numberline {30.7.1}Methods}{193}{subsubsection.30.7.1}
+\contentsline {subsubsection}{\numberline {30.7.2}Class Variables}{193}{subsubsection.30.7.2}
+\contentsline {subsection}{\numberline {30.8}Class Font}{193}{subsection.30.8}
+\contentsline {subsubsection}{\numberline {30.8.1}Class Variables}{193}{subsubsection.30.8.1}
+\contentsline {subsection}{\numberline {30.9}Class Game}{194}{subsection.30.9}
+\contentsline {subsubsection}{\numberline {30.9.1}Methods}{194}{subsubsection.30.9.1}
+\contentsline {subsection}{\numberline {30.10}Class GameController}{194}{subsection.30.10}
+\contentsline {subsubsection}{\numberline {30.10.1}Methods}{194}{subsubsection.30.10.1}
+\contentsline {subsubsection}{\numberline {30.10.2}Properties}{196}{subsubsection.30.10.2}
+\contentsline {subsubsection}{\numberline {30.10.3}Class Variables}{196}{subsubsection.30.10.3}
+\contentsline {subsection}{\numberline {30.11}Class ResourceManager}{196}{subsection.30.11}
+\contentsline {subsubsection}{\numberline {30.11.1}Methods}{196}{subsubsection.30.11.1}
+\contentsline {subsubsection}{\numberline {30.11.2}Class Variables}{199}{subsubsection.30.11.2}
+\contentsline {subsection}{\numberline {30.12}Class Ship}{200}{subsection.30.12}
+\contentsline {subsubsection}{\numberline {30.12.1}Methods}{200}{subsubsection.30.12.1}
+\contentsline {subsubsection}{\numberline {30.12.2}Properties}{201}{subsubsection.30.12.2}
+\contentsline {subsubsection}{\numberline {30.12.3}Class Variables}{201}{subsubsection.30.12.3}
+\contentsline {subsection}{\numberline {30.13}Class SpriteCollision}{202}{subsection.30.13}
+\contentsline {subsubsection}{\numberline {30.13.1}Methods}{202}{subsubsection.30.13.1}
+\contentsline {subsection}{\numberline {30.14}Class SpriteGroup}{203}{subsection.30.14}
+\contentsline {subsubsection}{\numberline {30.14.1}Methods}{203}{subsubsection.30.14.1}
+\contentsline {subsubsection}{\numberline {30.14.2}Properties}{204}{subsubsection.30.14.2}
+\contentsline {subsection}{\numberline {30.15}Class StarField}{204}{subsection.30.15}
+\contentsline {subsubsection}{\numberline {30.15.1}Methods}{204}{subsubsection.30.15.1}
+\contentsline {subsubsection}{\numberline {30.15.2}Properties}{204}{subsubsection.30.15.2}
+\contentsline {subsubsection}{\numberline {30.15.3}Class Variables}{205}{subsubsection.30.15.3}
+\contentsline {subsection}{\numberline {30.16}Class TextInput}{205}{subsection.30.16}
+\contentsline {subsubsection}{\numberline {30.16.1}Methods}{205}{subsubsection.30.16.1}
+\contentsline {subsubsection}{\numberline {30.16.2}Properties}{206}{subsubsection.30.16.2}
+\contentsline {subsection}{\numberline {30.17}Class TouchButtons}{206}{subsection.30.17}
+\contentsline {subsubsection}{\numberline {30.17.1}Methods}{206}{subsubsection.30.17.1}
+\contentsline {subsection}{\numberline {30.18}Class VirtualKey}{206}{subsection.30.18}
+\contentsline {subsubsection}{\numberline {30.18.1}Methods}{207}{subsubsection.30.18.1}
+\contentsline {subsubsection}{\numberline {30.18.2}Properties}{207}{subsubsection.30.18.2}
+\contentsline {subsection}{\numberline {30.19}Class VirtualKeyboard}{207}{subsection.30.19}
+\contentsline {subsubsection}{\numberline {30.19.1}Methods}{207}{subsubsection.30.19.1}
+\contentsline {subsubsection}{\numberline {30.19.2}Properties}{208}{subsubsection.30.19.2}
+\contentsline {subsection}{\numberline {30.20}Class error}{209}{subsection.30.20}
+\contentsline {subsubsection}{\numberline {30.20.1}Methods}{209}{subsubsection.30.20.1}
+\contentsline {subsubsection}{\numberline {30.20.2}Properties}{209}{subsubsection.30.20.2}
+\contentsline {subsection}{\numberline {30.21}Class struct\_rusage}{209}{subsection.30.21}
+\contentsline {subsubsection}{\numberline {30.21.1}Methods}{210}{subsubsection.30.21.1}
+\contentsline {subsubsection}{\numberline {30.21.2}Properties}{211}{subsubsection.30.21.2}
+\contentsline {subsubsection}{\numberline {30.21.3}Class Variables}{212}{subsubsection.30.21.3}
+\contentsline {section}{\numberline {31}Module pygame-asteroids.test\_rotation'}{213}{section.31}
+\contentsline {subsection}{\numberline {31.1}Functions}{213}{subsection.31.1}
+\contentsline {subsection}{\numberline {31.2}Variables}{213}{subsection.31.2}
+\contentsline {subsection}{\numberline {31.3}Class Asteroid}{214}{subsection.31.3}
+\contentsline {subsubsection}{\numberline {31.3.1}Methods}{214}{subsubsection.31.3.1}
+\contentsline {subsubsection}{\numberline {31.3.2}Properties}{215}{subsubsection.31.3.2}
+\contentsline {subsubsection}{\numberline {31.3.3}Class Variables}{215}{subsubsection.31.3.3}
+\contentsline {subsection}{\numberline {31.4}Class Bullet}{215}{subsection.31.4}
+\contentsline {subsubsection}{\numberline {31.4.1}Methods}{216}{subsubsection.31.4.1}
+\contentsline {subsubsection}{\numberline {31.4.2}Properties}{216}{subsubsection.31.4.2}
+\contentsline {subsection}{\numberline {31.5}Class Color}{217}{subsection.31.5}
+\contentsline {subsubsection}{\numberline {31.5.1}Methods}{217}{subsubsection.31.5.1}
+\contentsline {subsubsection}{\numberline {31.5.2}Class Variables}{218}{subsubsection.31.5.2}
+\contentsline {subsection}{\numberline {31.6}Class DataHandler}{218}{subsection.31.6}
+\contentsline {subsubsection}{\numberline {31.6.1}Methods}{218}{subsubsection.31.6.1}
+\contentsline {subsection}{\numberline {31.7}Class FileManager}{219}{subsection.31.7}
+\contentsline {subsubsection}{\numberline {31.7.1}Methods}{219}{subsubsection.31.7.1}
+\contentsline {subsubsection}{\numberline {31.7.2}Class Variables}{219}{subsubsection.31.7.2}
+\contentsline {subsection}{\numberline {31.8}Class Font}{219}{subsection.31.8}
+\contentsline {subsubsection}{\numberline {31.8.1}Class Variables}{219}{subsubsection.31.8.1}
+\contentsline {subsection}{\numberline {31.9}Class Game}{220}{subsection.31.9}
+\contentsline {subsubsection}{\numberline {31.9.1}Methods}{220}{subsubsection.31.9.1}
+\contentsline {subsection}{\numberline {31.10}Class GameController}{220}{subsection.31.10}
+\contentsline {subsubsection}{\numberline {31.10.1}Methods}{220}{subsubsection.31.10.1}
+\contentsline {subsubsection}{\numberline {31.10.2}Properties}{222}{subsubsection.31.10.2}
+\contentsline {subsubsection}{\numberline {31.10.3}Class Variables}{222}{subsubsection.31.10.3}
+\contentsline {subsection}{\numberline {31.11}Class ResourceManager}{222}{subsection.31.11}
+\contentsline {subsubsection}{\numberline {31.11.1}Methods}{222}{subsubsection.31.11.1}
+\contentsline {subsubsection}{\numberline {31.11.2}Class Variables}{225}{subsubsection.31.11.2}
+\contentsline {subsection}{\numberline {31.12}Class Ship}{226}{subsection.31.12}
+\contentsline {subsubsection}{\numberline {31.12.1}Methods}{226}{subsubsection.31.12.1}
+\contentsline {subsubsection}{\numberline {31.12.2}Properties}{227}{subsubsection.31.12.2}
+\contentsline {subsubsection}{\numberline {31.12.3}Class Variables}{227}{subsubsection.31.12.3}
+\contentsline {subsection}{\numberline {31.13}Class SpriteCollision}{228}{subsection.31.13}
+\contentsline {subsubsection}{\numberline {31.13.1}Methods}{228}{subsubsection.31.13.1}
+\contentsline {subsection}{\numberline {31.14}Class SpriteGroup}{229}{subsection.31.14}
+\contentsline {subsubsection}{\numberline {31.14.1}Methods}{229}{subsubsection.31.14.1}
+\contentsline {subsubsection}{\numberline {31.14.2}Properties}{230}{subsubsection.31.14.2}
+\contentsline {subsection}{\numberline {31.15}Class StarField}{230}{subsection.31.15}
+\contentsline {subsubsection}{\numberline {31.15.1}Methods}{230}{subsubsection.31.15.1}
+\contentsline {subsubsection}{\numberline {31.15.2}Properties}{230}{subsubsection.31.15.2}
+\contentsline {subsubsection}{\numberline {31.15.3}Class Variables}{231}{subsubsection.31.15.3}
+\contentsline {subsection}{\numberline {31.16}Class TextInput}{231}{subsection.31.16}
+\contentsline {subsubsection}{\numberline {31.16.1}Methods}{231}{subsubsection.31.16.1}
+\contentsline {subsubsection}{\numberline {31.16.2}Properties}{232}{subsubsection.31.16.2}
+\contentsline {subsection}{\numberline {31.17}Class TouchButtons}{232}{subsection.31.17}
+\contentsline {subsubsection}{\numberline {31.17.1}Methods}{232}{subsubsection.31.17.1}
+\contentsline {subsection}{\numberline {31.18}Class VirtualKey}{232}{subsection.31.18}
+\contentsline {subsubsection}{\numberline {31.18.1}Methods}{233}{subsubsection.31.18.1}
+\contentsline {subsubsection}{\numberline {31.18.2}Properties}{233}{subsubsection.31.18.2}
+\contentsline {subsection}{\numberline {31.19}Class VirtualKeyboard}{233}{subsection.31.19}
+\contentsline {subsubsection}{\numberline {31.19.1}Methods}{233}{subsubsection.31.19.1}
+\contentsline {subsubsection}{\numberline {31.19.2}Properties}{234}{subsubsection.31.19.2}
+\contentsline {subsection}{\numberline {31.20}Class error}{235}{subsection.31.20}
+\contentsline {subsubsection}{\numberline {31.20.1}Methods}{235}{subsubsection.31.20.1}
+\contentsline {subsubsection}{\numberline {31.20.2}Properties}{235}{subsubsection.31.20.2}
+\contentsline {subsection}{\numberline {31.21}Class struct\_rusage}{235}{subsection.31.21}
+\contentsline {subsubsection}{\numberline {31.21.1}Methods}{236}{subsubsection.31.21.1}
+\contentsline {subsubsection}{\numberline {31.21.2}Properties}{237}{subsubsection.31.21.2}
+\contentsline {subsubsection}{\numberline {31.21.3}Class Variables}{238}{subsubsection.31.21.3}
+\contentsline {section}{\numberline {32}Module pygame-asteroids.test\_startfield'}{239}{section.32}
+\contentsline {subsection}{\numberline {32.1}Functions}{239}{subsection.32.1}
+\contentsline {subsection}{\numberline {32.2}Variables}{239}{subsection.32.2}
+\contentsline {subsection}{\numberline {32.3}Class StarField}{239}{subsection.32.3}
+\contentsline {subsubsection}{\numberline {32.3.1}Methods}{239}{subsubsection.32.3.1}
+\contentsline {subsubsection}{\numberline {32.3.2}Properties}{239}{subsubsection.32.3.2}
+\contentsline {subsubsection}{\numberline {32.3.3}Class Variables}{240}{subsubsection.32.3.3}
+\contentsline {section}{\numberline {33}Module pygame-asteroids.test\_touch\_buttons'}{241}{section.33}
+\contentsline {subsection}{\numberline {33.1}Functions}{241}{subsection.33.1}
+\contentsline {subsection}{\numberline {33.2}Variables}{241}{subsection.33.2}
+\contentsline {subsection}{\numberline {33.3}Class Asteroid}{242}{subsection.33.3}
+\contentsline {subsubsection}{\numberline {33.3.1}Methods}{242}{subsubsection.33.3.1}
+\contentsline {subsubsection}{\numberline {33.3.2}Properties}{243}{subsubsection.33.3.2}
+\contentsline {subsubsection}{\numberline {33.3.3}Class Variables}{243}{subsubsection.33.3.3}
+\contentsline {subsection}{\numberline {33.4}Class Bullet}{243}{subsection.33.4}
+\contentsline {subsubsection}{\numberline {33.4.1}Methods}{244}{subsubsection.33.4.1}
+\contentsline {subsubsection}{\numberline {33.4.2}Properties}{244}{subsubsection.33.4.2}
+\contentsline {subsection}{\numberline {33.5}Class Color}{245}{subsection.33.5}
+\contentsline {subsubsection}{\numberline {33.5.1}Methods}{245}{subsubsection.33.5.1}
+\contentsline {subsubsection}{\numberline {33.5.2}Class Variables}{246}{subsubsection.33.5.2}
+\contentsline {subsection}{\numberline {33.6}Class DataHandler}{246}{subsection.33.6}
+\contentsline {subsubsection}{\numberline {33.6.1}Methods}{246}{subsubsection.33.6.1}
+\contentsline {subsection}{\numberline {33.7}Class FileManager}{247}{subsection.33.7}
+\contentsline {subsubsection}{\numberline {33.7.1}Methods}{247}{subsubsection.33.7.1}
+\contentsline {subsubsection}{\numberline {33.7.2}Class Variables}{247}{subsubsection.33.7.2}
+\contentsline {subsection}{\numberline {33.8}Class Font}{247}{subsection.33.8}
+\contentsline {subsubsection}{\numberline {33.8.1}Class Variables}{247}{subsubsection.33.8.1}
+\contentsline {subsection}{\numberline {33.9}Class Game}{248}{subsection.33.9}
+\contentsline {subsubsection}{\numberline {33.9.1}Methods}{248}{subsubsection.33.9.1}
+\contentsline {subsection}{\numberline {33.10}Class ResourceManager}{248}{subsection.33.10}
+\contentsline {subsubsection}{\numberline {33.10.1}Methods}{248}{subsubsection.33.10.1}
+\contentsline {subsubsection}{\numberline {33.10.2}Class Variables}{251}{subsubsection.33.10.2}
+\contentsline {subsection}{\numberline {33.11}Class Ship}{251}{subsection.33.11}
+\contentsline {subsubsection}{\numberline {33.11.1}Methods}{252}{subsubsection.33.11.1}
+\contentsline {subsubsection}{\numberline {33.11.2}Properties}{253}{subsubsection.33.11.2}
+\contentsline {subsubsection}{\numberline {33.11.3}Class Variables}{253}{subsubsection.33.11.3}
+\contentsline {subsection}{\numberline {33.12}Class SpriteCollision}{254}{subsection.33.12}
+\contentsline {subsubsection}{\numberline {33.12.1}Methods}{254}{subsubsection.33.12.1}
+\contentsline {subsection}{\numberline {33.13}Class StarField}{255}{subsection.33.13}
+\contentsline {subsubsection}{\numberline {33.13.1}Methods}{255}{subsubsection.33.13.1}
+\contentsline {subsubsection}{\numberline {33.13.2}Properties}{255}{subsubsection.33.13.2}
+\contentsline {subsubsection}{\numberline {33.13.3}Class Variables}{255}{subsubsection.33.13.3}
+\contentsline {subsection}{\numberline {33.14}Class TextInput}{256}{subsection.33.14}
+\contentsline {subsubsection}{\numberline {33.14.1}Methods}{256}{subsubsection.33.14.1}
+\contentsline {subsubsection}{\numberline {33.14.2}Properties}{257}{subsubsection.33.14.2}
+\contentsline {subsection}{\numberline {33.15}Class TouchButtons}{257}{subsection.33.15}
+\contentsline {subsubsection}{\numberline {33.15.1}Methods}{257}{subsubsection.33.15.1}
+\contentsline {subsection}{\numberline {33.16}Class VirtualKey}{257}{subsection.33.16}
+\contentsline {subsubsection}{\numberline {33.16.1}Methods}{258}{subsubsection.33.16.1}
+\contentsline {subsubsection}{\numberline {33.16.2}Properties}{258}{subsubsection.33.16.2}
+\contentsline {subsection}{\numberline {33.17}Class VirtualKeyboard}{258}{subsection.33.17}
+\contentsline {subsubsection}{\numberline {33.17.1}Methods}{258}{subsubsection.33.17.1}
+\contentsline {subsubsection}{\numberline {33.17.2}Properties}{259}{subsubsection.33.17.2}
+\contentsline {subsection}{\numberline {33.18}Class error}{260}{subsection.33.18}
+\contentsline {subsubsection}{\numberline {33.18.1}Methods}{260}{subsubsection.33.18.1}
+\contentsline {subsubsection}{\numberline {33.18.2}Properties}{260}{subsubsection.33.18.2}
+\contentsline {subsection}{\numberline {33.19}Class struct\_rusage}{260}{subsection.33.19}
+\contentsline {subsubsection}{\numberline {33.19.1}Methods}{261}{subsubsection.33.19.1}
+\contentsline {subsubsection}{\numberline {33.19.2}Properties}{262}{subsubsection.33.19.2}
+\contentsline {subsubsection}{\numberline {33.19.3}Class Variables}{263}{subsubsection.33.19.3}
+\contentsline {section}{\numberline {34}Module pygame-asteroids.test\_virtual\_keyboard'}{264}{section.34}
+\contentsline {subsection}{\numberline {34.1}Functions}{264}{subsection.34.1}
+\contentsline {subsection}{\numberline {34.2}Variables}{264}{subsection.34.2}
+\contentsline {section}{\numberline {35}Module pygame-asteroids.tools'}{265}{section.35}
+\contentsline {subsection}{\numberline {35.1}Functions}{265}{subsection.35.1}
+\contentsline {subsection}{\numberline {35.2}Variables}{266}{subsection.35.2}
+\contentsline {subsection}{\numberline {35.3}Class Anim}{266}{subsection.35.3}
+\contentsline {subsubsection}{\numberline {35.3.1}Methods}{267}{subsubsection.35.3.1}
+\contentsline {subsubsection}{\numberline {35.3.2}Properties}{267}{subsubsection.35.3.2}
+\contentsline {subsection}{\numberline {35.4}Class Control}{267}{subsection.35.4}
+\contentsline {subsubsection}{\numberline {35.4.1}Methods}{268}{subsubsection.35.4.1}
+\contentsline {subsubsection}{\numberline {35.4.2}Properties}{268}{subsubsection.35.4.2}
+\contentsline {subsection}{\numberline {35.5}Class StateMachine}{269}{subsection.35.5}
+\contentsline {subsubsection}{\numberline {35.5.1}Methods}{269}{subsubsection.35.5.1}
+\contentsline {subsubsection}{\numberline {35.5.2}Properties}{269}{subsubsection.35.5.2}
+\contentsline {subsection}{\numberline {35.6}Class Timer}{270}{subsection.35.6}
+\contentsline {subsubsection}{\numberline {35.6.1}Methods}{270}{subsubsection.35.6.1}
+\contentsline {subsubsection}{\numberline {35.6.2}Properties}{270}{subsubsection.35.6.2}
+\contentsline {section}{\numberline {36}Module pygame-asteroids.touch\_buttons}{271}{section.36}
+\contentsline {subsection}{\numberline {36.1}Variables}{271}{subsection.36.1}
+\contentsline {subsection}{\numberline {36.2}Class TouchButtons}{271}{subsection.36.2}
+\contentsline {subsubsection}{\numberline {36.2.1}Methods}{271}{subsubsection.36.2.1}
+\contentsline {section}{\numberline {37}Module pygame-asteroids.virtual\_controller}{272}{section.37}
+\contentsline {subsection}{\numberline {37.1}Functions}{272}{subsection.37.1}
+\contentsline {subsection}{\numberline {37.2}Variables}{272}{subsection.37.2}
+\contentsline {section}{\numberline {38}Module pygame-asteroids.virtual\_keyboard}{273}{section.38}
+\contentsline {subsection}{\numberline {38.1}Variables}{273}{subsection.38.1}
+\contentsline {subsection}{\numberline {38.2}Class TextInput}{273}{subsection.38.2}
+\contentsline {subsubsection}{\numberline {38.2.1}Methods}{273}{subsubsection.38.2.1}
+\contentsline {subsubsection}{\numberline {38.2.2}Properties}{274}{subsubsection.38.2.2}
+\contentsline {subsection}{\numberline {38.3}Class VirtualKey}{274}{subsection.38.3}
+\contentsline {subsubsection}{\numberline {38.3.1}Methods}{274}{subsubsection.38.3.1}
+\contentsline {subsubsection}{\numberline {38.3.2}Properties}{275}{subsubsection.38.3.2}
+\contentsline {subsection}{\numberline {38.4}Class VirtualKeyboard}{275}{subsection.38.4}
+\contentsline {subsubsection}{\numberline {38.4.1}Methods}{275}{subsubsection.38.4.1}
+\contentsline {subsubsection}{\numberline {38.4.2}Properties}{276}{subsubsection.38.4.2}
+\contentsline {section}{\numberline {39}Module random}{277}{section.39}
+\contentsline {subsection}{\numberline {39.1}Functions}{278}{subsection.39.1}
+\contentsline {subsection}{\numberline {39.2}Class Random}{281}{subsection.39.2}
+\contentsline {subsubsection}{\numberline {39.2.1}Methods}{282}{subsubsection.39.2.1}
+\contentsline {subsubsection}{\numberline {39.2.2}Properties}{286}{subsubsection.39.2.2}
+\contentsline {subsubsection}{\numberline {39.2.3}Class Variables}{286}{subsubsection.39.2.3}
+\contentsline {subsection}{\numberline {39.3}Class SystemRandom}{286}{subsection.39.3}
+\contentsline {subsubsection}{\numberline {39.3.1}Methods}{287}{subsubsection.39.3.1}
+\contentsline {subsubsection}{\numberline {39.3.2}Properties}{288}{subsubsection.39.3.2}
+\contentsline {subsubsection}{\numberline {39.3.3}Class Variables}{288}{subsubsection.39.3.3}
+\contentsline {subsection}{\numberline {39.4}Class WichmannHill}{289}{subsection.39.4}
+\contentsline {subsubsection}{\numberline {39.4.1}Methods}{289}{subsubsection.39.4.1}
+\contentsline {subsubsection}{\numberline {39.4.2}Properties}{291}{subsubsection.39.4.2}
+\contentsline {subsubsection}{\numberline {39.4.3}Class Variables}{291}{subsubsection.39.4.3}
+\contentsline {section}{\numberline {40}Module state\_machine}{292}{section.40}
+\contentsline {subsection}{\numberline {40.1}Variables}{292}{subsection.40.1}
+\contentsline {subsection}{\numberline {40.2}Class StateMachine}{292}{subsection.40.2}
+\contentsline {subsubsection}{\numberline {40.2.1}Methods}{292}{subsubsection.40.2.1}
+\contentsline {subsubsection}{\numberline {40.2.2}Properties}{293}{subsubsection.40.2.2}
+\contentsline {section}{\numberline {41}Module sys}{294}{section.41}
+\contentsline {subsection}{\numberline {41.1}Functions}{295}{subsection.41.1}
+\contentsline {subsection}{\numberline {41.2}Variables}{299}{subsection.41.2}
+\contentsline {section}{\numberline {42}Module time}{302}{section.42}
+\contentsline {subsection}{\numberline {42.1}Functions}{303}{subsection.42.1}
+\contentsline {subsection}{\numberline {42.2}Variables}{305}{subsection.42.2}
+\contentsline {subsection}{\numberline {42.3}Class struct\_time}{305}{subsection.42.3}
+\contentsline {subsubsection}{\numberline {42.3.1}Methods}{305}{subsubsection.42.3.1}
+\contentsline {subsubsection}{\numberline {42.3.2}Properties}{307}{subsubsection.42.3.2}
+\contentsline {subsubsection}{\numberline {42.3.3}Class Variables}{307}{subsubsection.42.3.3}
+\contentsline {section}{Index}{309}{section*.2}

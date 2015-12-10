@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>codecs</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;codecs
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="codecs-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module codecs</h1><p class="nomargin-top"><span class="codelink"><a href="codecs-pysrc.html">source&nbsp;code</a></span></p>
+<p>codecs -- Python Codec Registry, API and helpers.</p>
+  <p>Written by Marc-Andre Lemburg (mal@lemburg.com).</p>
+  <p>(c) Copyright CNRI, All Rights Reserved. NO WARRANTY.</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Classes</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Classes"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="codecs.BufferedIncrementalDecoder-class.html" class="summary-name" onclick="show_private();">BufferedIncrementalDecoder</a><br />
+      This subclass of IncrementalDecoder can be used as the baseclass 
+        for an incremental decoder if the decoder must be able to handle 
+        incomplete byte sequences.
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="codecs.BufferedIncrementalEncoder-class.html" class="summary-name" onclick="show_private();">BufferedIncrementalEncoder</a><br />
+      This subclass of IncrementalEncoder can be used as the baseclass 
+        for an incremental encoder if the encoder must keep some of the 
+        output in a buffer between calls to encode().
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="codecs.Codec-class.html" class="summary-name" onclick="show_private();">Codec</a><br />
+      Defines the interface for stateless encoders/decoders.
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="codecs.CodecInfo-class.html" class="summary-name" onclick="show_private();">CodecInfo</a>
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="codecs.IncrementalDecoder-class.html" class="summary-name" onclick="show_private();">IncrementalDecoder</a><br />
+      An IncrementalDecoder decodes an input in multiple steps.
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="codecs.IncrementalEncoder-class.html" class="summary-name" onclick="show_private();">IncrementalEncoder</a><br />
+      An IncrementalEncoder encodes an input in multiple steps.
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="codecs.StreamReader-class.html" class="summary-name" onclick="show_private();">StreamReader</a>
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="codecs.StreamReaderWriter-class.html" class="summary-name" onclick="show_private();">StreamReaderWriter</a><br />
+      StreamReaderWriter instances allow wrapping streams which work in 
+        both read and write modes.
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="codecs.StreamRecoder-class.html" class="summary-name" onclick="show_private();">StreamRecoder</a><br />
+      StreamRecoder instances provide a frontend - backend view of 
+        encoding data.
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="codecs.StreamWriter-class.html" class="summary-name" onclick="show_private();">StreamWriter</a>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Functions</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Functions"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs-module.html#EncodedFile" class="summary-sig-name">EncodedFile</a>(<span class="summary-sig-arg">file</span>,
+        <span class="summary-sig-arg">data_encoding</span>,
+        <span class="summary-sig-arg">file_encoding</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">errors</span>=<span class="summary-sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>)</span><br />
+      Return a wrapped version of file which provides transparent encoding 
+      translation.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#EncodedFile">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="backslashreplace_errors"></a><span class="summary-sig-name">backslashreplace_errors</span>(<span class="summary-sig-arg">...</span>)</span><br />
+      Implements the 'backslashreplace' error handling, which replaces an 
+      unencodable character with a backslashed escape sequence.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#backslashreplace_errors">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs-module.html#getdecoder" class="summary-sig-name" onclick="show_private();">getdecoder</a>(<span class="summary-sig-arg">encoding</span>)</span><br />
+      Lookup up the codec for the given encoding and return its decoder 
+      function.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#getdecoder">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs-module.html#getencoder" class="summary-sig-name" onclick="show_private();">getencoder</a>(<span class="summary-sig-arg">encoding</span>)</span><br />
+      Lookup up the codec for the given encoding and return its encoder 
+      function.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#getencoder">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs-module.html#getincrementaldecoder" class="summary-sig-name" onclick="show_private();">getincrementaldecoder</a>(<span class="summary-sig-arg">encoding</span>)</span><br />
+      Lookup up the codec for the given encoding and return its 
+      IncrementalDecoder class or factory function.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#getincrementaldecoder">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs-module.html#getincrementalencoder" class="summary-sig-name" onclick="show_private();">getincrementalencoder</a>(<span class="summary-sig-arg">encoding</span>)</span><br />
+      Lookup up the codec for the given encoding and return its 
+      IncrementalEncoder class or factory function.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#getincrementalencoder">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs-module.html#getreader" class="summary-sig-name" onclick="show_private();">getreader</a>(<span class="summary-sig-arg">encoding</span>)</span><br />
+      Lookup up the codec for the given encoding and return its 
+      StreamReader class or factory function.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#getreader">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs-module.html#getwriter" class="summary-sig-name" onclick="show_private();">getwriter</a>(<span class="summary-sig-arg">encoding</span>)</span><br />
+      Lookup up the codec for the given encoding and return its 
+      StreamWriter class or factory function.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#getwriter">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ignore_errors"></a><span class="summary-sig-name">ignore_errors</span>(<span class="summary-sig-arg">...</span>)</span><br />
+      Implements the 'ignore' error handling, which ignores malformed data 
+      and continues.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#ignore_errors">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs-module.html#iterdecode" class="summary-sig-name" onclick="show_private();">iterdecode</a>(<span class="summary-sig-arg">iterator</span>,
+        <span class="summary-sig-arg">encoding</span>,
+        <span class="summary-sig-arg">errors</span>=<span class="summary-sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>,
+        <span class="summary-sig-arg">**kwargs</span>)</span><br />
+      Decoding iterator.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#iterdecode">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs-module.html#iterencode" class="summary-sig-name" onclick="show_private();">iterencode</a>(<span class="summary-sig-arg">iterator</span>,
+        <span class="summary-sig-arg">encoding</span>,
+        <span class="summary-sig-arg">errors</span>=<span class="summary-sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>,
+        <span class="summary-sig-arg">**kwargs</span>)</span><br />
+      Encoding iterator.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#iterencode">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">CodecInfo</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="lookup"></a><span class="summary-sig-name">lookup</span>(<span class="summary-sig-arg">encoding</span>)</span><br />
+      Looks up a codec tuple in the Python codec registry and returns a 
+      CodecInfo object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">handler</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="lookup_error"></a><span class="summary-sig-name">lookup_error</span>(<span class="summary-sig-arg">errors</span>)</span><br />
+      Return the error handler for the specified error handling name or 
+      raise a LookupError, if no handler exists under this name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs-module.html#make_encoding_map" class="summary-sig-name" onclick="show_private();">make_encoding_map</a>(<span class="summary-sig-arg">decoding_map</span>)</span><br />
+      Creates an encoding map from a decoding map.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#make_encoding_map">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">dict</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="make_identity_dict"></a><span class="summary-sig-name">make_identity_dict</span>(<span class="summary-sig-arg">rng</span>)</span><br />
+      Return a dictionary where elements of the rng sequence are mapped to 
+      themselves.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#make_identity_dict">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs-module.html#open" class="summary-sig-name">open</a>(<span class="summary-sig-arg">filename</span>,
+        <span class="summary-sig-arg">mode</span>=<span class="summary-sig-default"><code class="variable-quote">'</code><code class="variable-string">rb</code><code class="variable-quote">'</code></span>,
+        <span class="summary-sig-arg">encoding</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">errors</span>=<span class="summary-sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>,
+        <span class="summary-sig-arg">buffering</span>=<span class="summary-sig-default">1</span>)</span><br />
+      Open an encoded file using the given mode and return a wrapped 
+      version providing transparent encoding/decoding.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#open">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs-module.html#register" class="summary-sig-name">register</a>(<span class="summary-sig-arg">search_function</span>)</span><br />
+      Register a codec search function.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs-module.html#register_error" class="summary-sig-name">register_error</a>(<span class="summary-sig-arg">errors</span>,
+        <span class="summary-sig-arg">handler</span>)</span><br />
+      Register the specified error handler under the name errors.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="replace_errors"></a><span class="summary-sig-name">replace_errors</span>(<span class="summary-sig-arg">...</span>)</span><br />
+      Implements the 'replace' error handling, which replaces malformed 
+      data with a replacement marker.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#replace_errors">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="strict_errors"></a><span class="summary-sig-name">strict_errors</span>(<span class="summary-sig-arg">...</span>)</span><br />
+      Implements the 'strict' error handling, which raises a UnicodeError 
+      on coding errors.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#strict_errors">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="xmlcharrefreplace_errors"></a><span class="summary-sig-name">xmlcharrefreplace_errors</span>(<span class="summary-sig-arg">...</span>)</span><br />
+      Implements the 'xmlcharrefreplace' error handling, which replaces an 
+      unencodable character with the appropriate XML character reference.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#xmlcharrefreplace_errors">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Variables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM"></a><span class="summary-name">BOM</span> = <code title="'\xff\xfe'"><code class="variable-quote">'</code><code class="variable-string">\xff\xfe</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM32_BE"></a><span class="summary-name">BOM32_BE</span> = <code title="'\xfe\xff'"><code class="variable-quote">'</code><code class="variable-string">\xfe\xff</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM32_LE"></a><span class="summary-name">BOM32_LE</span> = <code title="'\xff\xfe'"><code class="variable-quote">'</code><code class="variable-string">\xff\xfe</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM64_BE"></a><span class="summary-name">BOM64_BE</span> = <code title="'\x00\x00\xfe\xff'"><code class="variable-quote">'</code><code class="variable-string">\x00\x00\xfe\xff</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM64_LE"></a><span class="summary-name">BOM64_LE</span> = <code title="'\xff\xfe\x00\x00'"><code class="variable-quote">'</code><code class="variable-string">\xff\xfe\x00\x00</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM_BE"></a><span class="summary-name">BOM_BE</span> = <code title="'\xfe\xff'"><code class="variable-quote">'</code><code class="variable-string">\xfe\xff</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM_LE"></a><span class="summary-name">BOM_LE</span> = <code title="'\xff\xfe'"><code class="variable-quote">'</code><code class="variable-string">\xff\xfe</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM_UTF16"></a><span class="summary-name">BOM_UTF16</span> = <code title="'\xff\xfe'"><code class="variable-quote">'</code><code class="variable-string">\xff\xfe</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM_UTF16_BE"></a><span class="summary-name">BOM_UTF16_BE</span> = <code title="'\xfe\xff'"><code class="variable-quote">'</code><code class="variable-string">\xfe\xff</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM_UTF16_LE"></a><span class="summary-name">BOM_UTF16_LE</span> = <code title="'\xff\xfe'"><code class="variable-quote">'</code><code class="variable-string">\xff\xfe</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM_UTF32"></a><span class="summary-name">BOM_UTF32</span> = <code title="'\xff\xfe\x00\x00'"><code class="variable-quote">'</code><code class="variable-string">\xff\xfe\x00\x00</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM_UTF32_BE"></a><span class="summary-name">BOM_UTF32_BE</span> = <code title="'\x00\x00\xfe\xff'"><code class="variable-quote">'</code><code class="variable-string">\x00\x00\xfe\xff</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM_UTF32_LE"></a><span class="summary-name">BOM_UTF32_LE</span> = <code title="'\xff\xfe\x00\x00'"><code class="variable-quote">'</code><code class="variable-string">\xff\xfe\x00\x00</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BOM_UTF8"></a><span class="summary-name">BOM_UTF8</span> = <code title="'\xef\xbb\xbf'"><code class="variable-quote">'</code><code class="variable-string">\xef\xbb\xbf</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="_false"></a><span class="summary-name">_false</span> = <code title="0">0</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Function Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-FunctionDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="EncodedFile"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">EncodedFile</span>(<span class="sig-arg">file</span>,
+        <span class="sig-arg">data_encoding</span>,
+        <span class="sig-arg">file_encoding</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">errors</span>=<span class="sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#EncodedFile">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Return a wrapped version of file which provides transparent encoding 
+  translation.</p>
+  <p>Strings written to the wrapped file are interpreted according to the 
+  given data_encoding and then written to the original file as string using
+  file_encoding. The intermediate encoding will usually be Unicode but 
+  depends on the specified codecs.</p>
+  <p>Strings are read from the file using file_encoding and then passed 
+  back to the caller as string using data_encoding.</p>
+  <p>If file_encoding is not given, it defaults to data_encoding.</p>
+  <p>errors may be given to define the error handling. It defaults to 
+  'strict' which causes ValueErrors to be raised in case an encoding error 
+  occurs.</p>
+  <p>The returned wrapped file object provides two extra attributes 
+  .data_encoding and .file_encoding which reflect the given parameters of 
+  the same name. The attributes can be used for introspection by Python 
+  programs.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getdecoder"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getdecoder</span>(<span class="sig-arg">encoding</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#getdecoder">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Lookup up the codec for the given encoding and return its decoder 
+  function.</p>
+  <p>Raises a LookupError in case the encoding cannot be found.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getencoder"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getencoder</span>(<span class="sig-arg">encoding</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#getencoder">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Lookup up the codec for the given encoding and return its encoder 
+  function.</p>
+  <p>Raises a LookupError in case the encoding cannot be found.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getincrementaldecoder"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getincrementaldecoder</span>(<span class="sig-arg">encoding</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#getincrementaldecoder">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Lookup up the codec for the given encoding and return its 
+  IncrementalDecoder class or factory function.</p>
+  <p>Raises a LookupError in case the encoding cannot be found or the 
+  codecs doesn't provide an incremental decoder.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getincrementalencoder"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getincrementalencoder</span>(<span class="sig-arg">encoding</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#getincrementalencoder">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Lookup up the codec for the given encoding and return its 
+  IncrementalEncoder class or factory function.</p>
+  <p>Raises a LookupError in case the encoding cannot be found or the 
+  codecs doesn't provide an incremental encoder.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getreader"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getreader</span>(<span class="sig-arg">encoding</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#getreader">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Lookup up the codec for the given encoding and return its StreamReader
+  class or factory function.</p>
+  <p>Raises a LookupError in case the encoding cannot be found.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getwriter"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getwriter</span>(<span class="sig-arg">encoding</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#getwriter">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Lookup up the codec for the given encoding and return its StreamWriter
+  class or factory function.</p>
+  <p>Raises a LookupError in case the encoding cannot be found.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="iterdecode"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">iterdecode</span>(<span class="sig-arg">iterator</span>,
+        <span class="sig-arg">encoding</span>,
+        <span class="sig-arg">errors</span>=<span class="sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>,
+        <span class="sig-arg">**kwargs</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#iterdecode">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Decoding iterator.</p>
+  <p>Decodes the input strings from the iterator using a 
+  IncrementalDecoder.</p>
+  <p>errors and kwargs are passed through to the IncrementalDecoder 
+  constructor.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="iterencode"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">iterencode</span>(<span class="sig-arg">iterator</span>,
+        <span class="sig-arg">encoding</span>,
+        <span class="sig-arg">errors</span>=<span class="sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>,
+        <span class="sig-arg">**kwargs</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#iterencode">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Encoding iterator.</p>
+  <p>Encodes the input strings from the iterator using a 
+  IncrementalEncoder.</p>
+  <p>errors and kwargs are passed through to the IncrementalEncoder 
+  constructor.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="make_encoding_map"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">make_encoding_map</span>(<span class="sig-arg">decoding_map</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#make_encoding_map">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Creates an encoding map from a decoding map.</p>
+  <p>If a target mapping in the decoding map occurs multiple times, then 
+  that target is mapped to None (undefined mapping), causing an exception 
+  when encountered by the charmap codec during translation.</p>
+  <p>One example where this happens is cp875.py which decodes multiple 
+  character to \u001a.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="open"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">open</span>(<span class="sig-arg">filename</span>,
+        <span class="sig-arg">mode</span>=<span class="sig-default"><code class="variable-quote">'</code><code class="variable-string">rb</code><code class="variable-quote">'</code></span>,
+        <span class="sig-arg">encoding</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">errors</span>=<span class="sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>,
+        <span class="sig-arg">buffering</span>=<span class="sig-default">1</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#open">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Open an encoded file using the given mode and return a wrapped version
+  providing transparent encoding/decoding.</p>
+  <p>Note: The wrapped version will only accept the object format defined 
+  by the codecs, i.e. Unicode objects for most builtin codecs. Output is 
+  also codec dependent and will usually be Unicode as well.</p>
+  <p>Files are always opened in binary mode, even if no binary mode was 
+  specified. This is done to avoid data loss due to encodings using 8-bit 
+  values. The default file mode is 'rb' meaning to open the file in binary 
+  read mode.</p>
+  <p>encoding specifies the encoding which is to be used for the file.</p>
+  <p>errors may be given to define the error handling. It defaults to 
+  'strict' which causes ValueErrors to be raised in case an encoding error 
+  occurs.</p>
+  <p>buffering has the same meaning as for the builtin open() API. It 
+  defaults to line buffered.</p>
+  <p>The returned wrapped file object provides an extra attribute .encoding
+  which allows querying the used encoding. This attribute is only available
+  if an encoding was specified as parameter.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="register"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">register</span>(<span class="sig-arg">search_function</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Register a codec search function. Search functions are expected to 
+  take one argument, the encoding name in all lower case letters, and 
+  return a tuple of functions (encoder, decoder, stream_reader, 
+  stream_writer) (or a CodecInfo object).</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="register_error"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">register_error</span>(<span class="sig-arg">errors</span>,
+        <span class="sig-arg">handler</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Register the specified error handler under the name errors. handler 
+  must be a callable object, that will be called with an exception instance
+  containing information about the location of the encoding/decoding error 
+  and must return a (replacement, new position) tuple.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Dec 10 09:58:34 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

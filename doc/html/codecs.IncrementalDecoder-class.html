@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>codecs.IncrementalDecoder</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        codecs ::
+        IncrementalDecoder ::
+        Class&nbsp;IncrementalDecoder
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="codecs.IncrementalDecoder-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class IncrementalDecoder</h1><p class="nomargin-top"><span class="codelink"><a href="codecs-pysrc.html#IncrementalDecoder">source&nbsp;code</a></span></p>
+<center>
+<center>  <map id="uml_class_diagram_for_codecs_i" name="uml_class_diagram_for_codecs_i">
+<area shape="rect" id="node1_5" href="codecs.IncrementalDecoder-class.html#__init__" title="Creates a IncrementalDecoder instance." alt="" coords="17,36,204,55"/>
+<area shape="rect" id="node1_6" href="codecs.IncrementalDecoder-class.html#decode" title="Decodes input and returns the resulting object." alt="" coords="17,55,204,73"/>
+<area shape="rect" id="node1_7" href="codecs.IncrementalDecoder-class.html#getstate" title="Return the current state of the decoder." alt="" coords="17,73,204,92"/>
+<area shape="rect" id="node1_8" href="codecs.IncrementalDecoder-class.html#reset" title="Resets the decoder to the initial state." alt="" coords="17,92,204,111"/>
+<area shape="rect" id="node1_9" href="codecs.IncrementalDecoder-class.html#setstate" title="Set the current state of the decoder." alt="" coords="17,111,204,129"/>
+<area shape="rect" id="node1" href="codecs.IncrementalDecoder-class.html" title="An IncrementalDecoder decodes an input in multiple steps." alt="" coords="5,5,216,136"/>
+<area shape="rect" id="node2" href="codecs.BufferedIncrementalDecoder-class.html" title="This subclass of IncrementalDecoder can be used as the baseclass for an incremental decoder if the decoder must be able to handle incomplete byte sequences." alt="" coords="9,155,213,192"/>
+</map>
+  <img src="uml_class_diagram_for_codecs_i.gif" alt='' usemap="#uml_class_diagram_for_codecs_i" ismap="ismap" class="graph-without-title" />
+</center>
+</center>
+<hr />
+<p>An IncrementalDecoder decodes an input in multiple steps. The input 
+  can be passed piece by piece to the decode() method. The 
+  IncrementalDecoder remembers the state of the decoding process between 
+  calls to decode().</p>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs.IncrementalDecoder-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">errors</span>=<span class="summary-sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>)</span><br />
+      Creates a IncrementalDecoder instance.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#IncrementalDecoder.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="decode"></a><span class="summary-sig-name">decode</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">input</span>,
+        <span class="summary-sig-arg">final</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Decodes input and returns the resulting object.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#IncrementalDecoder.decode">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs.IncrementalDecoder-class.html#getstate" class="summary-sig-name">getstate</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Return the current state of the decoder.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#IncrementalDecoder.getstate">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="reset"></a><span class="summary-sig-name">reset</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Resets the decoder to the initial state.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#IncrementalDecoder.reset">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="codecs.IncrementalDecoder-class.html#setstate" class="summary-sig-name">setstate</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">state</span>)</span><br />
+      Set the current state of the decoder.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="codecs-pysrc.html#IncrementalDecoder.setstate">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__delattr__</code>,
+      <code>__format__</code>,
+      <code>__getattribute__</code>,
+      <code>__hash__</code>,
+      <code>__new__</code>,
+      <code>__reduce__</code>,
+      <code>__reduce_ex__</code>,
+      <code>__repr__</code>,
+      <code>__setattr__</code>,
+      <code>__sizeof__</code>,
+      <code>__str__</code>,
+      <code>__subclasshook__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== PROPERTIES ==================== -->
+<a name="section-Properties"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Properties</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Properties"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__class__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">errors</span>=<span class="sig-default"><code class="variable-quote">'</code><code class="variable-string">strict</code><code class="variable-quote">'</code></span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#IncrementalDecoder.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Creates a IncrementalDecoder instance.</p>
+  <p>The IncrementalDecoder may use different error handling schemes by 
+  providing the errors keyword argument. See the module docstring for a 
+  list of possible values.</p>
+  <dl class="fields">
+    <dt>Overrides:
+        object.__init__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="getstate"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getstate</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#IncrementalDecoder.getstate">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Return the current state of the decoder.</p>
+  <p>This must be a (buffered_input, additional_state_info) tuple. 
+  buffered_input must be a bytes object containing bytes that were passed 
+  to decode() that have not yet been converted. additional_state_info must 
+  be a non-negative integer representing the state of the decoder WITHOUT 
+  yet having processed the contents of buffered_input.  In the initial 
+  state and after reset(), getstate() must return (b&quot;&quot;, 0).</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setstate"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setstate</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">state</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="codecs-pysrc.html#IncrementalDecoder.setstate">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set the current state of the decoder.</p>
+  <p>state must have been returned by getstate().  The effect of 
+  setstate((b&quot;&quot;, 0)) must be equivalent to reset().</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pygame-asteroids-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Dec 10 09:58:35 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
