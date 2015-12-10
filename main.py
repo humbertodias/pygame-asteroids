@@ -60,6 +60,8 @@ def main():
     scoredat = file_manager.unmarshal_marshal(score_file_name, DataHandler().defaultscore())
     gameconfig = Game(map)
 
+    pg.mouse.set_visible(gameconfig.show_mouse)
+
     colors = 16
     flag = pg.HWSURFACE|pg.DOUBLEBUF
     if gameconfig.full_screen:

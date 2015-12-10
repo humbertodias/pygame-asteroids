@@ -27,12 +27,17 @@ class Game:
         self.fps = int(map.get('passo_simulacao')[0][0])
         self.asteroids = map.get('asteroide')
         self.controle = 'keyboard'
-        if map.get('controle') :
+        if map.get('controle'):
             self.controle = map.get('controle')[0][0]
 
         self.full_screen = False
-        if map.get('tela_cheia')  :
+        if map.get('tela_cheia'):
             self.full_screen = map.get('tela_cheia')[0][0] == 'True'
+
+        self.show_mouse = True
+        if map.get('mostrar_mouse'):
+            self.show_mouse = map.get('mostrar_mouse')[0][0] == 'True'
+
 
     @staticmethod
     def create_empty_actions():
@@ -316,8 +321,6 @@ class GameController(object):
 
 
         self.asset_manager.play_music('game.mp3', -1)
-
-        pg.mouse.set_visible(True)
 
         center = self.get_display_center()
 

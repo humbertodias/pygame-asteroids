@@ -24,7 +24,8 @@ class FileManager:
                                  ,'vidas': 1
                                  ,'controle' : 1
                                  ,'asteroide': -1
-                                 ,'tela_cheia': -1}
+                                 ,'tela_cheia': 1
+                                 ,'mostrar_mouse': 1}
                  , sep=' '):
         """
         Carregar arquivo

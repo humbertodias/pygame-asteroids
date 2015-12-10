@@ -1,14 +1,18 @@
 # janela 640 480, 800 600, 1024 768
-janela 1024 768
+janela 800 600
 
 # controle mouse keyboard touch joystick
 controle mouse
 
 # tela_cheia True, False
-tela_cheia True
+tela_cheia False
+
+# mostrar_mouse True, False
+mostrar_mouse False
 
 passo_simulacao 60
-vidas 1
+
+vidas 3
 
 asteroide 100 100 50 ff0000
 asteroide 150 150 30 80eca7
