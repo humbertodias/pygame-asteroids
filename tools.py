@@ -6,7 +6,7 @@ Also contained here are resource loading functions.
 """
 
 import os
-import pygame_sdl2 as pg
+import pygame as pg
 
 from state_machine import *
 

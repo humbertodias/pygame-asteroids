@@ -5,7 +5,7 @@ Tela como selo de classificação do jogo.
 Segunda coisa que o jogador visualiza.
 """
 
-import pygame_sdl2 as pg
+import pygame as pg
 from resource import *
 from color import *
 from font import *

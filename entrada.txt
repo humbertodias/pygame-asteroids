@@ -5,7 +5,7 @@ janela 1024 768
 controle mouse
 
 # tela_cheia True, False
-tela_cheia False
+tela_cheia True
 
 passo_simulacao 60
 vidas 1

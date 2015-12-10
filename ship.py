@@ -1,7 +1,7 @@
 # coding: utf-8
 
 import math
-import pygame_sdl2 as pg
+import pygame as pg
 
 from color import *
 from sprite_collision import *

@@ -5,7 +5,7 @@ Tela inicial do jogo.
 Primeira coisa que o jogador visualiza.
 """
 
-import pygame_sdl2 as pg
+import pygame as pg
 
 from color import *
 from font import *

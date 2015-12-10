@@ -4,7 +4,7 @@ __author__  = 'Humberto Lino'
 __version__ = '1.0'
 
 import sys
-import pygame_sdl2 as pg
+import pygame as pg
 
 
 from resource_manager import *

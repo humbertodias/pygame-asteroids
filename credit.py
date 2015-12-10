@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 
-import pygame_sdl2 as pg
+import pygame as pg
+import codecs
 pg.font.init()
 from virtual_controller import *
 
 def credit_from_file(file_name, font,color, fps=40, callback = None):
     text = ''
-    with open(file_name, 'r') as lines:
+    with codecs.open(file_name, 'r', 'utf-8') as lines:
         for line in lines :
             text += line
 

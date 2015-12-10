@@ -1,7 +1,7 @@
 # coding: utf-8
 
 import random
-import pygame_sdl2 as pg
+import pygame as pg
 
 
 class Color:

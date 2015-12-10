@@ -1,7 +1,7 @@
 # coding: utf-8
 
 import os
-import pygame_sdl2 as pg
+import pygame as pg
 
 from font import *
 
@@ -114,7 +114,7 @@ class ResourceManager:
     def get_scalled_image(self, name, scale):
         image = self.get_image(name)
         size = image.get_size()
-        w, h = size[0] * scale, size[1] * scale
+        w, h = int(size[0] * scale), int(size[1] * scale)
         return pg.transform.scale(image, (w, h))
 
     def get_font_by_name(self, name, size):

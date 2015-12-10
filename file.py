@@ -9,6 +9,7 @@ __version__ = '1.0'
 
 import sys,os
 import pickle
+import codecs
 
 
 from score import *
@@ -16,7 +17,7 @@ from score import *
 
 
 class FileManager:
-
+    CHARSET = 'utf-8'
     def load(self, file_name
                  , file_format = {'janela': 2
                                  ,'passo_simulacao': 1
@@ -37,7 +38,7 @@ class FileManager:
             raise RuntimeError('Arquivo %s não encontrado!\nCrie-o com o seguinte formato: %s' % (self.inFileName, self.get_file_format()))
 
         map = {}
-        with open(file_name, 'r') as lines:
+        with codecs.open(file_name, 'r', self.CHARSET) as lines:
             for line in lines :
 
                 if len(line)>1 and not line.startswith('#'):

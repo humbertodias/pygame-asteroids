@@ -1,4 +1,4 @@
-import pygame_sdl2 as pg
+import pygame as pg
 import virtual_keyboard
 
 def main():

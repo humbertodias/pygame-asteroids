@@ -4,7 +4,7 @@
 The splash screen of the game. The first thing the user sees.
 """
 
-import pygame_sdl2 as pg
+import pygame as pg
 import random
 
 from color import *

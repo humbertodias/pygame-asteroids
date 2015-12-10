@@ -1,6 +1,6 @@
 # coding: utf-8
 
-import pygame_sdl2 as pg
+import pygame as pg
 import math
 
 def is_event_type_an_input_down(event):

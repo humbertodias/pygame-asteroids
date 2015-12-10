@@ -1,4 +1,4 @@
-import pygame_sdl2 as pg
+import pygame as pg
 from start_field import *
 
 def main():

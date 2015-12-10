@@ -1,4 +1,4 @@
-import pygame_sdl2 as pg
+import pygame as pg
 from ship import *
 from color import *
 from resource_manager import *
