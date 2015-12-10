@@ -375,4 +375,5 @@ class MainMenu:
                 y = -self.game_controller.height
 
         self.screen.fill(Color.GRAY)
-        credit.credit_from_file('resource/text/credits.txt',self.fontnormal, Color.BLACK, 15, callback_credits)
+
+        credit.credit_from_file('resource/text/credits.txt', self.fontsmall, Color.BLACK, 15, callback_credits)

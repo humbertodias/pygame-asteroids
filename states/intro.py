@@ -22,7 +22,15 @@ class Introduction(state_machine._State):
         self.game_controller = game_controller
         self.next = "MENU"
         self.timeout = 0
-        self.font = game_controller.asset_manager.get_font(Font.NORMAL)
+
+        print(self.game_controller.width)
+
+        if self.game_controller.width <= 800:
+            font_size = Font.SMALL
+        else:
+            font_size = Font.NORMAL
+
+        self.font = game_controller.asset_manager.get_font(font_size)
         self.image = game_controller.asset_manager.get_scalled_image('splash.png', 0.25)
 
 
