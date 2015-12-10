@@ -104,7 +104,7 @@ class Menu():
             menu_item.set_position(pos_x, pos_y)
             self.items.append(menu_item)
  
-        self.mouse_is_visible = True
+        self.mouse_is_visible = game_controller.config.show_mouse
         self.cur_item = None
 
         if len(self.items) > 0:
@@ -207,7 +207,7 @@ class Menu():
             self.mouse_is_visible = True
             self.cur_item = None
 
-        self.set_mouse_visibility()
+        # self.set_mouse_visibility()
 
         # Redraw the background
         self.screen.fill(self.bg_color)
