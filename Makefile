@@ -7,7 +7,7 @@ pdf: doc
 latex: doc
 	epydoc -v --graph=all --latex **/*.py *.py -o doc/latex
 clean:
-	rm -rf doc/* ; rm -f **/*.pyc *.pyc ; rm -rf __pycache__
+	rm -rf doc/* ; rm -f **/*.pyc *.pyc **/*.pyo *.pyo ; rm -rf __pycache__
 run:
 	python3 main.py || python3 main.py
 compile:

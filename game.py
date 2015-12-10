@@ -315,13 +315,11 @@ class GameController(object):
         self.newhiscore = 0
 
 
-        self.asset_manager.play_music('game.wav', -1)
+        self.asset_manager.play_music('game.mp3', -1)
 
         pg.mouse.set_visible(True)
 
-        # center = self.player.rect.center
         center = self.get_display_center()
-
 
         touch_buttons = TouchButtons(screen, 70)
 
