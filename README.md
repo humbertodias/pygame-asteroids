@@ -9,21 +9,43 @@ Jogo Asteróides utilizando pygame com :
 
 ### Como instalar? ###
 
-* python 3.5.1
-* [https://www.python.org/downloads](https://www.python.org/downloads/)
+### Python 3+
 
-* pygame_sql2
-* [https://github.com/renpy/pygame_sdl2](https://github.com/renpy/pygame_sdl2)
+* Instale a versão 3.5 ou superior
+    
+    [https://www.python.org/downloads](https://www.python.org/downloads/)
 
-```sh
-$ git clone https://github.com/renpy/pygame_sdl2
-```
+### Pygame
+
+* Windows
+
+    [http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame)
+    
+    [Como Instalar Pygame com Python 3.4+](https://www.youtube.com/watch?v=wAI0ee2d5Jk)
+
+* Mac
+
+    [http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame)
+    
+    [Como Instalar Pygame com Python 3.4+](https://www.youtube.com/watch?v=L0Cl4Crg7FE)
+
+* Linux
+
+    TODO
+
 
 ### Como jogar? ###
 
+Baixe
 
+```sh
+git clone https://github.com/humbertodias/pygame-asteroids.git
+```
+
+Execute 
 
 
 ```sh
-$ python main.py
+cd pygame-asteroids
+python main.py
 ```
