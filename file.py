@@ -41,7 +41,8 @@ class FileManager:
         map = {}
         with codecs.open(file_name, 'r', self.CHARSET) as lines:
             for line in lines :
-
+                # removendo espaco a esquerda
+                line = line.lstrip()
                 if len(line)>1 and not line.startswith('#'):
 
                     key, values = line.split(sep,1)
