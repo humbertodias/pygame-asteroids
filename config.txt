@@ -1,5 +1,5 @@
 # janela 640 480, 800 600, 1024 768
-janela 1024 768
+janela 800 600
 
 # controle mouse keyboard touch joystick
 controle mouse

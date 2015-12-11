@@ -30,7 +30,7 @@ def main():
     # Definições
     game_name = 'Asteróides'
     score_file_name = 'score.dat'
-    config_file_name = 'entrada.txt'
+    config_file_name = 'config.txt'
     resource_dir_name = 'resource'
 
     # nao informou o nome do arquivo
@@ -38,7 +38,7 @@ def main():
         config_file_name = sys.argv[1]
 
     if not os.path.isfile(config_file_name):
-        print('python main.py NOME_DO_ARQUIVO_DE_ENTRADA.txt')
+        print('python main.py NOME_DO_ARQUIVO_DE_CONFIGURACAO.txt')
         exit(-1)
 
     # inicializa pygame
