@@ -354,18 +354,16 @@ class GameController(object):
 
             elif self.config.controle == 'joystick':
 
-                # 7 = left
-                if self.joystick.get_button(7):
+                key = decode_joystick_arrow_to_keyboard_key(self.joystick)
+                if key==pg.K_LEFT:
                     actions['left']=1
-                # 5 = right
-                if self.joystick.get_button(5):
+                if key==pg.K_RIGHT:
                     actions['right']=1
-                # 15 = Quadrado
-                if self.joystick.get_button(15):
-                    actions['shoot']=1
-                # 14 = X
-                if self.joystick.get_button(14):
+                if key==pg.K_UP:
                     actions['accelerate']=1
+                if key==pg.K_SPACE:
+                    actions['shoot']=1
+
 
             elif self.config.controle == 'keyboard':
                 # teclado

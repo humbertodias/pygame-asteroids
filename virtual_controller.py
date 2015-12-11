@@ -17,25 +17,49 @@ def decode_joystick_arrow_to_keyboard_key(joystick):
     key = None
 
     if joystick:
-        # 7 = left
-        if joystick.get_button(7):
-            key = pg.K_LEFT
-        # 5 = right
-        if joystick.get_button(5):
-            key = pg.K_RIGHT
-        # 6 = down
-        if joystick.get_button(6):
-            key = pg.K_DOWN
-        # 4 = up
-        if joystick.get_button(4):
-            key = pg.K_UP
-        # 14 = X
-        if joystick.get_button(14):
-            key = pg.K_UP
-        # 15 = Quadrado
-        if joystick.get_button(15):
-            key = pg.K_SPACE
 
+
+        buttons = joystick.get_numbuttons()
+        # for i in range(buttons):
+        #     if joystick.get_button(i):
+        #         print('button', i)
+
+        if buttons >= 14:
+
+            # 7 = left
+            if joystick.get_button(7):
+                key = pg.K_LEFT
+            # 5 = right
+            if joystick.get_button(5):
+                key = pg.K_RIGHT
+            # 6 = down
+            if joystick.get_button(6):
+                key = pg.K_DOWN
+            # 4 = up
+            if joystick.get_button(4):
+                key = pg.K_UP
+            # 14 = X
+            if joystick.get_button(14):
+                key = pg.K_UP
+            # 15 = Quadrado
+            if joystick.get_button(15):
+                key = pg.K_SPACE
+
+        else:
+
+            # 7 = left
+            if joystick.get_axis(0) == -1:
+                key = pg.K_LEFT
+            # 5 = right
+            if joystick.get_axis(0) >0:
+                key = pg.K_RIGHT
+            # 15 = Quadrado
+            if joystick.get_button(3):
+                key = pg.K_UP
+
+            # 14 = X
+            if joystick.get_button(2):
+                key = pg.K_SPACE
     return key
 
 

@@ -8,18 +8,45 @@ from touch_buttons import *
 
 def get_joystick_action(joystick, actions):
 
-    # 7 = left
-    if joystick.get_button(7):
-        actions['left']=1
-    # 5 = right
-    if joystick.get_button(5):
-        actions['right']=1
-    # 15 = Quadrado
-    if joystick.get_button(15):
-        actions['shoot']=1
-    # 14 = X
-    if joystick.get_button(14):
-        actions['accelerate']=1
+    # for i in range(joystick.get_numaxes()):
+    #     if joystick.get_axis(i):
+    #         print('axis', i)
+
+    buttons = joystick.get_numbuttons()
+    for i in range(buttons):
+        if joystick.get_button(i):
+            print('button', i)
+
+    if buttons >= 14:
+        # 7 = left
+        if joystick.get_button(7):
+            actions['left']=1
+        # 5 = right
+        if joystick.get_button(5):
+            actions['right']=1
+        # 15 = Quadrado
+        if joystick.get_button(15):
+            actions['shoot']=1
+        # 14 = X
+
+        if joystick.get_button(14):
+            actions['accelerate']=1
+    else:
+
+        # 7 = left
+        if joystick.get_axis(0) == -1:
+            actions['left']=1
+        # 5 = right
+        if joystick.get_axis(0) >0:
+            actions['right']=1
+        # 15 = Quadrado
+        if joystick.get_button(3):
+            actions['shoot']=1
+
+        # 14 = X
+        if joystick.get_button(2):
+            actions['accelerate']=1
+
 
     return actions
 
@@ -71,15 +98,15 @@ def main():
             if event.type == pg.QUIT or (event.type == pg.KEYDOWN and event.key == pg.K_ESCAPE):
                 done = True
 
-        actions = get_joystick_action(joystick, actions)
+        key = decode_joystick_arrow_to_keyboard_key(joystick)
 
-        if actions["right"]:
+        if key == pg.K_RIGHT:
             ship.right(time)
-        if actions["left"]:
+        if key == pg.K_LEFT:
             ship.left(time)
-        if actions["shoot"]:
+        if key == pg.K_SPACE:
             ship.shoot()
-        if actions["accelerate"]:
+        if key == pg.K_UP:
             ship.up()
 
         game_controller.sprites.update(time)
