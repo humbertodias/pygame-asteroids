@@ -92,7 +92,7 @@ class ResourceManager:
             self.fonts[file_name] = file_path
 
     def list_files(self, dir):
-        return [f for f in os.listdir(dir) if not f.startswith('.')]
+        return [f for f in os.listdir(dir) if not f.startswith('.') and not f.endswith('.db')]
 
     def load_image(self):
         """

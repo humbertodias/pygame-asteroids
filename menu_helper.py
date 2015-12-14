@@ -326,21 +326,19 @@ class MainMenu:
         sub_menu.run(self.fps, callback_high_score)
 
 
-
     def how_to_play(self):
         """
         Como Jogar
         """
 
-        image = self.game_controller.asset_manager.get_scalled_image('how_to_play.png', 0.5).convert_alpha()
+        self.image = self.game_controller.asset_manager.get_scalled_image('how_to_play.png', 0.5).convert_alpha()
 
         def callback_how_to_play(sc):
-            nonlocal image
             scoretitletext=self.fontlarge.render("Como Jogar",True, Color.WHITE)
             sc.blit(scoretitletext,(self.game_controller.width/2-scoretitletext.get_width()/2,80-scoretitletext.get_height()/2))
 
             sc.fill(Color.BLACK)
-            sc.blit(image, (self.game_controller.width/2-image.get_width()/2,(self.game_controller.height/2-image.get_height()/2)))
+            sc.blit(self.image, (self.game_controller.width/2-self.image.get_width()/2,(self.game_controller.height/2-self.image.get_height()/2)))
 
 
         funcs = collections.OrderedDict()
@@ -356,23 +354,23 @@ class MainMenu:
         """
         Créditos
         """
-        logos = []
-        logos.append( self.game_controller.asset_manager.get_scalled_image('pygame.png', 0.5).convert_alpha() )
-        logos.append( self.game_controller.asset_manager.get_scalled_image('pycharm.png', 0.5).convert_alpha() )
-        logos.append( self.game_controller.asset_manager.get_scalled_image('gimp.png', 0.5).convert_alpha() )
-        logos.append( self.game_controller.asset_manager.get_scalled_image('inkscape.png', 0.5).convert_alpha() )
-        logos.append( self.game_controller.asset_manager.get_scalled_image('audacity.png', 0.5).convert_alpha() )
+        self.logos = []
+        self.logos.append( self.game_controller.asset_manager.get_scalled_image('pygame.png', 0.5).convert_alpha() )
+        self.logos.append( self.game_controller.asset_manager.get_scalled_image('pycharm.png', 0.5).convert_alpha() )
+        self.logos.append( self.game_controller.asset_manager.get_scalled_image('gimp.png', 0.5).convert_alpha() )
+        self.logos.append( self.game_controller.asset_manager.get_scalled_image('inkscape.png', 0.5).convert_alpha() )
+        self.logos.append( self.game_controller.asset_manager.get_scalled_image('audacity.png', 0.5).convert_alpha() )
 
-        y = 0
+        self.y = 0
         def callback_credits(sc):
-            nonlocal y, logos
-            for i, logo in enumerate(logos):
-                x = self.game_controller.width - logo.get_width()
-                sc.blit(logo, (x,y + i * 100) )
-            y += 1
 
-            if y > self.game_controller.height:
-                y = -self.game_controller.height
+            for i, logo in enumerate(self.logos):
+                x = self.game_controller.width - logo.get_width()
+                sc.blit(logo, (x,self.y + i * 100) )
+            self.y += 1
+
+            if self.y > self.game_controller.height:
+                self.y = -self.game_controller.height
 
         self.screen.fill(Color.GRAY)
 
