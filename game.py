@@ -233,7 +233,10 @@ class GameController(object):
                 scoredat.rank=i
                 break
 
-        self.file_manager.marshal('score.dat', self.score_data)
+        py_version = str(sys.version_info[0])
+        score_file_name = 'score_py' + py_version + '.dat'
+
+        self.file_manager.marshal(score_file_name, self.score_data)
 
     def draw_game_over(self, screen, event, time):
         """

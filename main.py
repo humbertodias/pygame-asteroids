@@ -29,7 +29,6 @@ def main():
 
     # Definições
     game_name = 'Asteróides'
-    score_file_name = 'score.dat'
     config_file_name = 'config.txt'
     resource_dir_name = 'resource'
 
@@ -57,6 +56,9 @@ def main():
     pg.display.set_icon(resource_manager.get_image('icon.png'))
 
     # Carregando
+
+    py_version = str(sys.version_info[0])
+    score_file_name = 'score_py' + py_version + '.dat'
     scoredat = file_manager.unmarshal_marshal(score_file_name, DataHandler().defaultscore())
     gameconfig = Game(map)
 
