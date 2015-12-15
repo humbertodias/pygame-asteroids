@@ -26,7 +26,7 @@ class FileManager:
                                  ,'asteroide': -1
                                  ,'tela_cheia': 1
                                  ,'mostrar_mouse': 1
-				 ,'sound',1}
+				 ,'sound':1}
                  , sep=' '):
         """
         Carregar arquivo
