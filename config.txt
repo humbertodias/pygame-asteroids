@@ -10,6 +10,9 @@ tela_cheia False
 # mostrar_mouse True, False
 mostrar_mouse False
 
+# sound True, False
+sound False
+
 passo_simulacao 60
 
 vidas 3

@@ -38,6 +38,9 @@ class Game:
         if map.get('mostrar_mouse'):
             self.show_mouse = map.get('mostrar_mouse')[0][0] == 'True'
 
+        self.sound = True
+        if map.get('sound'):
+            self.sound = map.get('sound')[0][0] == 'True'
 
     @staticmethod
     def create_empty_actions():

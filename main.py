@@ -47,8 +47,13 @@ def main():
     file_manager = FileManager()
     map = file_manager.load(config_file_name)
 
+    py_version = str(sys.version_info[0])
+    score_file_name = 'score_py' + py_version + '.dat'
+    scoredat = file_manager.unmarshal_marshal(score_file_name, DataHandler().defaultscore())
+    gameconfig = Game(map)
+
     # Gerenciddos de recurso
-    resource_manager = ResourceManager()
+    resource_manager = ResourceManager(gameconfig)
     resource_manager.load(resource_dir_name)
 
     # Título e ícone
@@ -57,10 +62,6 @@ def main():
 
     # Carregando
 
-    py_version = str(sys.version_info[0])
-    score_file_name = 'score_py' + py_version + '.dat'
-    scoredat = file_manager.unmarshal_marshal(score_file_name, DataHandler().defaultscore())
-    gameconfig = Game(map)
 
     pg.mouse.set_visible(gameconfig.show_mouse)
 
