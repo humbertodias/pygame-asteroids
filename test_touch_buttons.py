@@ -10,14 +10,15 @@ def main():
 
      # Gerenciador de arquivos
     file_manager = FileManager()
-    map = file_manager.load('entrada.txt')
-
-    # Gerenciddos de recurso
-    resource_manager = ResourceManager()
-    resource_manager.load('resource')
+    map = file_manager.load('config.txt')
 
     # Carregando
     gameconfig = Game(map)
+
+    # Gerenciddos de recurso
+    resource_manager = ResourceManager(gameconfig)
+    resource_manager.load('resource')
+
 
     screen = pg.display.set_mode((gameconfig.width, gameconfig.height))
     game_controller = GameController("Asteroids", screen, file_manager, resource_manager, gameconfig, None)
@@ -29,7 +30,7 @@ def main():
 
     clock = pg.time.Clock()
 
-    touch_buttons = TouchButtons(screen, 70)
+    touch_buttons = TouchButtons(screen, resource_manager, 70)
 
     done = False
     actions = Game.create_empty_actions()

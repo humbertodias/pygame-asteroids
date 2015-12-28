@@ -62,9 +62,9 @@ class ResourceManager:
             file_path = os.path.join(self.dir_sound, file_name)
             if os.path.isfile(file_path):
                 if self.config.sound:
-                            self.sounds[file_name] = pg.mixer.Sound(file_path)
+                    self.sounds[file_name] = pg.mixer.Sound(file_path)
                 else:
-                            self.sounds[file_name] = None
+                    self.sounds[file_name] = None
 
     def load_music(self):
         """
@@ -117,6 +117,7 @@ class ResourceManager:
         @param name: Nome
         @return: Imagem
         """
+        name = name.replace('.png', '.bmp')
         return self.images[name]
 
     def get_scalled_image(self, name, scale):

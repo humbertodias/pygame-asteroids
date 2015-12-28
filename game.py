@@ -330,7 +330,7 @@ class GameController(object):
 
         center = self.get_display_center()
 
-        touch_buttons = TouchButtons(screen, 70)
+        touch_buttons = TouchButtons(screen, self.asset_manager, 70)
 
         self.start_field = StarField(self.screen)
 

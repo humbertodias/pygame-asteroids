@@ -4,24 +4,25 @@ from game import *
 
 class TouchButtons:
 
-    def __init__(self, screen, button_width = 40):
+    def __init__(self, screen, resource_manager, button_width = 40):
         self.screen = screen
+        self.resource_manager = resource_manager
         self.size = (pg.display.Info().current_w, pg.display.Info().current_h)
         self.create_touch_buttons(button_width)
 
 
     def create_touch_buttons(self, button_width):
         ## Create rectangles that will detect direction
-        self.left = pg.image.load("resource/image/left.png").convert_alpha()
+        self.left = self.resource_manager.get_image('left.png').convert_alpha()
         # self.left = pg.transform.scale(self.left, (button_width, button_width))
 
-        self.right = pg.image.load("resource/image/right.png").convert_alpha()
+        self.right = self.resource_manager.get_image('right.png').convert_alpha()
         # self.right = pg.transform.scale(self.right, (button_width, button_width))
 
-        self.power = pg.image.load("resource/image/power.png").convert_alpha()
+        self.power = self.resource_manager.get_image('power.png').convert_alpha()
         # self.power = pg.transform.scale(self.power, (button_width, button_width))
 
-        self.shot = pg.image.load("resource/image/shot.png").convert_alpha()
+        self.shot = self.resource_manager.get_image('shot.png').convert_alpha()
         # self.shot = pg.transform.scale(self.shot, (button_width, button_width))
 
         self.left_rect = pg.Rect(0, self.size[1]-button_width, button_width, button_width)

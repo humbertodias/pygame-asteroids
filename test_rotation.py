@@ -11,14 +11,13 @@ def main():
 
      # Gerenciador de arquivos
     file_manager = FileManager()
-    map = file_manager.load('entrada.txt')
+    map = file_manager.load('config.txt')
+
+    gameconfig = Game(map)
 
     # Gerenciddos de recurso
-    resource_manager = ResourceManager()
+    resource_manager = ResourceManager(gameconfig)
     resource_manager.load('resource')
-
-    # Carregando
-    gameconfig = Game(map)
 
     screen = pg.display.set_mode((gameconfig.width, gameconfig.height))
     game_controller = GameController("Asteroids", screen, file_manager, resource_manager, gameconfig, None)

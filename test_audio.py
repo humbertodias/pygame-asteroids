@@ -13,10 +13,11 @@ def main():
 
      # Gerenciador de arquivos
     file_manager = FileManager()
-    map = file_manager.load('entrada.txt')
+    map = file_manager.load('config.txt')
+    game_config = Game(map)
 
     # Gerenciddos de recurso
-    resource_manager = ResourceManager()
+    resource_manager = ResourceManager(game_config)
     resource_manager.load('resource')
     resource_manager.init_mixer()
 
