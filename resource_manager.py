@@ -32,10 +32,11 @@ class ResourceManager:
         @return: Instância
         """
 
-	self.config = config
+        self.config = config
 
         if dir_root:
             self.load(dir_root)
+
     def load(self, dir_root):
         """
         Carregar
@@ -60,10 +61,10 @@ class ResourceManager:
         for file_name in files:
             file_path = os.path.join(self.dir_sound, file_name)
             if os.path.isfile(file_path):
-		if self.config.sound:
-	                self.sounds[file_name] = pg.mixer.Sound(file_path)
-		else:
-	                self.sounds[file_name] = None
+                if self.config.sound:
+                            self.sounds[file_name] = pg.mixer.Sound(file_path)
+                else:
+                            self.sounds[file_name] = None
 
     def load_music(self):
         """
@@ -76,17 +77,17 @@ class ResourceManager:
                 self.musics[file_name] = file_path
 
     def init_mixer(self):
-	
-	if self.config.sound:
-		"""
-		Inicia mixer
-		"""
-		FREQ = 44100   # same as audio CD
-		BITSIZE = -16  # unsigned 16 bit
-		CHANNELS = 2   # 1 == mono, 2 == stereo
-		BUFFER = 1024  # audio buffer size in no. of samples
-		pg.mixer.pre_init(FREQ, BITSIZE, CHANNELS, BUFFER) # setup mixer to avoid sound lag
-		pg.mixer.init()
+
+        if self.config.sound:
+            """
+            Inicia mixer
+            """
+            FREQ = 44100   # same as audio CD
+            BITSIZE = -16  # unsigned 16 bit
+            CHANNELS = 2   # 1 == mono, 2 == stereo
+            BUFFER = 1024  # audio buffer size in no. of samples
+            pg.mixer.pre_init(FREQ, BITSIZE, CHANNELS, BUFFER) # setup mixer to avoid sound lag
+            pg.mixer.init()
 
 
     def load_font(self):
@@ -172,12 +173,12 @@ class ResourceManager:
         @param name: Nome
         @param loops: Repetição
         """
-	if self.config.sound:
-		sound = self.sounds[name]
-		# sound.play(loops)
-		ch = pg.mixer.find_channel()
-		if ch:
-		    ch.play(sound, loops)
+        if self.config.sound:
+            sound = self.sounds[name]
+            # sound.play(loops)
+            ch = pg.mixer.find_channel()
+            if ch:
+                ch.play(sound, loops)
 
     def play_music(self, name, loops=1):
         """
@@ -185,10 +186,10 @@ class ResourceManager:
         @param name: Nome
         @param loops: Quantas vezes repetir
         """
-	if self.config.sound:
-		file_path = os.path.join(self.dir_music, name)
-		pg.mixer.music.load(file_path)
-		pg.mixer.music.play(loops)
+        if self.config.sound:
+            file_path = os.path.join(self.dir_music, name)
+            pg.mixer.music.load(file_path)
+            pg.mixer.music.play(loops)
 
     def get_font(self, size=Font.NORMAL):
         """
