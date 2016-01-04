@@ -11,7 +11,7 @@ tela_cheia False
 mostrar_mouse False
 
 # sound True, False
-sound False
+sound True
 
 passo_simulacao 60
 

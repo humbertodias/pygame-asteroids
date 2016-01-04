@@ -33,7 +33,7 @@ class MenuItem(pg.font.Font):
         self.label = self.render(self.text, 1, self.font_color)
         self.width = self.label.get_rect().width
         # evitando erro: AttributeError: attribute 'height' of '_freetype.Font' objects is not writable
-        # self.height = self.label.get_rect().height + padding_y
+        self.height = self.label.get_rect().height + padding_y
         self.dimensions = (self.width, self.height)
         self.pos_x, self_y = pos_x_pos_y
         self.position = pos_x_pos_y
