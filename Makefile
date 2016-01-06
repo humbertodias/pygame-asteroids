@@ -13,4 +13,4 @@ run:
 compile:
 	python3 -m py_compile **/*.py *.py
 exe:
-	nuitka --standalone --recurse-all --remove-output --windows-icon=resource/image/icon.png main.py
+	nuitka --standalone --recurse-all --remove-output --windows-icon=icon.ico main.py
