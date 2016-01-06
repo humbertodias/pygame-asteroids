@@ -326,7 +326,7 @@ class GameController(object):
         self.newhiscore = 0
 
 
-        self.asset_manager.play_music('game.mp3', -1)
+        self.asset_manager.play_music('game.wav', -1)
 
         center = self.get_display_center()
 

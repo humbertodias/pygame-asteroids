@@ -42,7 +42,7 @@ class Menu(state_machine._State):
         self.title = game_controller.font_large.render(game_controller.game_name, True, Color.WHITE)
         self.bottom = game_controller.font_small.render("Humberto Lino", True, Color.WHITE)
         # Música de fundo
-        music = game_controller.asset_manager.play_music('menu.mp3', -1)
+        music = game_controller.asset_manager.play_music('menu.wav', -1)
 
         self.xtitle = -self.title.get_width() / 2
         self.ytitle = game_controller.config.height / 4
