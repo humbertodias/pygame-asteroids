@@ -12,3 +12,5 @@ run:
 	python3 main.py || python3 main.py
 compile:
 	python3 -m py_compile **/*.py *.py
+exe:
+    nuitka --standalone --recurse-all --remove-output main.py
