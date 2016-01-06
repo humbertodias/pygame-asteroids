@@ -117,7 +117,7 @@ class ResourceManager:
         @param name: Nome
         @return: Imagem
         """
-        name = name.replace('.png', '.bmp')
+        # name = name.replace('.png', '.bmp')
         return self.images[name]
 
     def get_scalled_image(self, name, scale):
