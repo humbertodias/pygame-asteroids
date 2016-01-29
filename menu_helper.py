@@ -332,7 +332,9 @@ class MainMenu:
         Como Jogar
         """
 
-        self.image = self.game_controller.asset_manager.get_scalled_image('how_to_play.png', 0.5).convert_alpha()
+        image_name = self.game_controller.config.controle + ".png"
+        # self.image = self.game_controller.asset_manager.get_scalled_image(image_name, 0.5).convert_alpha()
+        self.image = self.game_controller.asset_manager.get_image(image_name).convert_alpha()
 
         def callback_how_to_play(sc):
             scoretitletext=self.fontlarge.render("Como Jogar",True, Color.WHITE)
@@ -358,7 +360,7 @@ class MainMenu:
         self.logos = []
         self.logos.append( self.game_controller.asset_manager.get_scalled_image('pygame.png', 0.5).convert_alpha() )
         self.logos.append( self.game_controller.asset_manager.get_scalled_image('pycharm.png', 0.5).convert_alpha() )
-        self.logos.append( self.game_controller.asset_manager.get_scalled_image('gimp.png', 0.5).convert_alpha() )
+        self.logos.append( self.game_controller.asset_manager.get_scalled_image('gimp.png', 0.75).convert_alpha() )
         self.logos.append( self.game_controller.asset_manager.get_scalled_image('inkscape.png', 0.5).convert_alpha() )
         self.logos.append( self.game_controller.asset_manager.get_scalled_image('audacity.png', 0.5).convert_alpha() )
 
@@ -373,6 +375,7 @@ class MainMenu:
             if self.y > self.game_controller.height:
                 self.y = -self.game_controller.height
 
-        self.screen.fill(Color.GRAY)
+        # self.screen.fill(Color.GRAY)
+        self.screen.fill(Color.BLACK)
 
-        credit.credit_from_file('resource/text/credits.txt', self.fontsmall, Color.BLACK, 15, callback_credits)
+        credit.credit_from_file('resource/text/credits.txt', self.fontsmall, Color.WHITE, 20, callback_credits)

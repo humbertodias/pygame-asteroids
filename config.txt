@@ -8,7 +8,7 @@ controle mouse
 tela_cheia False
 
 # mostrar_mouse True, False
-mostrar_mouse False
+mostrar_mouse True
 
 # sound True, False
 sound True
