@@ -6,24 +6,56 @@ Jogo Asteróides utilizando pygame com suporte:
 * Mouse
 * TouchScreen
 * Joystick
+* Asteróides configuráveis
 
 ### Como instalar? ###
 
 * Windows
 
-Baixe e descompacte o arquivo, a seguir execute main.exe para jogar.
+	1) Para **Windows 7 e 8** instale:	 
+	[Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
+	 
+	![Sucesso ao instalar](how_to_install/vc_2015_ redistributable.png)
 
-[https://www.dropbox.com/s/mah81oqqu1pf0fc/pygame-asteroids-main.dist.zip?dl=0]
-(https://www.dropbox.com/s/mah81oqqu1pf0fc/pygame-asteroids-main.dist.zip?dl=0)
-
-OBS: 
-
-Para Windows 7 e 8 é necessário instalar:
- 
-[Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
- 
-![Sucesso ao instalar](how_to_install/vc_2015_ redistributable.png)
+	OBS: **Windows 7 requer o Service Pack 1**.
 
 
-### Como jogar? ###
+	2) Baixe e descompacte o arquivo, a seguir execute **main.exe** para jogar.
+	
+	[https://www.dropbox.com/s/mah81oqqu1pf0fc/pygame-asteroids-main.dist.zip?dl=0]
+	(https://www.dropbox.com/s/mah81oqqu1pf0fc/pygame-asteroids-main.dist.zip?dl=0)
+
+
+
+### Como configurar? ###
+
+Para modificar o comportamento do jogo, edite o arquivo **config.txt**
+
+``` 
+# janela 640 480, 800 600, 1024 768
+janela 800 600
+
+# controle mouse keyboard touch joystick
+controle mouse
+
+# tela_cheia True, False
+tela_cheia False
+
+# mostrar_mouse True, False
+mostrar_mouse True
+
+# sound True, False
+sound True
+
+passo_simulacao 60
+
+vidas 3
+
+asteroide 100 100 50 ff0000
+asteroide 150 150 30 80eca7
+asteroide 300 200 20 fff600
+asteroide 50 50 35 fff6ab
+asteroide 0 0 0
+
+```
 
