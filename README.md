@@ -30,9 +30,9 @@ Jogo Asteróides utilizando pygame com suporte:
 
 	Video com passo a passo da instalação
 	
-	[![Alt text for your video](resource/image/pygame.png)](https://github.com/humbertodias/pygame-sdl1-asteroids-pc/blob/master/how_to_install/steps.mp4?raw=true)
 
-	[Download Video](https://github.com/humbertodias/pygame-sdl1-asteroids-pc/blob/master/how_to_install/steps.mp4?raw=true)
+	[![ScreenShot](how_to_install/frame_video.png)](https://github.com/humbertodias/pygame-sdl1-asteroids-pc/blob/master/how_to_install/steps.mp4?raw=true)
+
 
 ### Como configurar? ###
 
