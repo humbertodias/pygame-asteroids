@@ -1,6 +1,6 @@
 # Asteróides #
 
-Jogo Asteróides utilizando pygame com :
+Jogo Asteróides utilizando pygame com suporte:
 
 * Teclado
 * Mouse
@@ -9,43 +9,18 @@ Jogo Asteróides utilizando pygame com :
 
 ### Como instalar? ###
 
-### Python 3+
-
-* Instale a versão 3.5 ou superior
-    
-    [https://www.python.org/downloads](https://www.python.org/downloads/)
-
-### Pygame
-
 * Windows
 
-    [http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame)
-    
-    [Como Instalar Pygame com Python 3.4+](https://www.youtube.com/watch?v=wAI0ee2d5Jk)
+Baixe e descompacte o arquivo, a seguir execute main.exe para jogar.
 
-* Mac
+    [https://www.dropbox.com/s/mah81oqqu1pf0fc/pygame-asteroids-main.dist.zip?dl=0](https://www.dropbox.com/s/mah81oqqu1pf0fc/pygame-asteroids-main.dist.zip?dl=0)
 
-    [http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame)
-    
-    [Como Instalar Pygame com Python 3.4+](https://www.youtube.com/watch?v=L0Cl4Crg7FE)
+OBS: 
 
-* Linux
-
-    TODO
+Para Windows 7 e 8 é necessário instalar:
+ 
+[Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
 
 
 ### Como jogar? ###
 
-Baixe
-
-```sh
-git clone https://github.com/humbertodias/pygame-asteroids.git
-```
-
-Execute 
-
-
-```sh
-cd pygame-asteroids
-python main.py
-```
