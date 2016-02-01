@@ -21,14 +21,14 @@ Jogo Asteróides utilizando pygame com suporte:
 	
 **Este passo não é necessário no Windows 10***
  
-[Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
+Instale o [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
  
 ![Sucesso ao instalar](how_to_install/vc_2015_ redistributable.png)
 
 OBS: **Windows 7 requer o Service Pack 1**.
 
 
-2) Baixe e descompacte o arquivo, a seguir execute **main.exe** para jogar.
+2) Baixe e descompacte o arquivo comprimido que contém o jogo compilado, a seguir execute **main.exe** para jogar.
 	
 [https://www.dropbox.com/s/mah81oqqu1pf0fc/pygame-asteroids-main.dist.zip?dl=0]
 (https://www.dropbox.com/s/mah81oqqu1pf0fc/pygame-asteroids-main.dist.zip?dl=0)
