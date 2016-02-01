@@ -79,12 +79,19 @@ asteroide 0 0 0
 
 ### Controles
 1 - Mouse
+
 ![ScreenShot](how_to_install/04-mouse.png)
+
 2 - Teclado
+
 ![ScreenShot](how_to_install/04-keyboard.png)
+
 3 - Joystick
+
 ![ScreenShot](how_to_install/04-joystick.png)
+
 4 - TouchScreen
+
 ![ScreenShot](how_to_install/04-touchscreen.png)
 
 ### Pontuação
