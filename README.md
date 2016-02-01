@@ -10,9 +10,9 @@ Jogo Asteróides utilizando pygame com suporte:
 
 ## Documentação
 
-[Enunciado](doc/enunciado.pdf){:target="_blank"}
-[PDF](doc/pdf/api.pdf){:target="_blank"}
-[HTML](doc/html/index.html){:target="_blank"}
+[Enunciado](doc/enunciado.pdf target="_blank")
+[PDF](doc/pdf/api.pdf target="_blank")
+[HTML](doc/html/index.html target="_blank")
 
 
 ## Como instalar?
@@ -23,7 +23,7 @@ Jogo Asteróides utilizando pygame com suporte:
 	
 	**Este passo não é necessário no Windows 10***
 	 
-	[Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145){:target="_blank"}
+	[Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145 target="_blank")
 	 
 	![Sucesso ao instalar](how_to_install/vc_2015_ redistributable.png)
 
