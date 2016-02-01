@@ -10,10 +10,9 @@ Jogo Asteróides utilizando pygame com suporte:
 
 ## Documentação
 
-[Enunciado](doc/enunciado.pdf)
-[PDF](doc/pdf/api.pdf)
-[HTML](doc/html/index.html)
-
+* [Enunciado](doc/enunciado.pdf)
+* [PDF](doc/pdf/api.pdf)
+* [HTML](doc/html/index.html)
 
 ## Como instalar?
 
@@ -36,7 +35,7 @@ OBS: **Windows 7 requer o Service Pack 1**.
 ou se possuir o python e o pygame instalados, execute:
 
 ```
-python main.py
+python main.py config.txt
 ```
 
 Video com passo a passo da instalação
