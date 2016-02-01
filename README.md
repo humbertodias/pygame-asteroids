@@ -110,6 +110,7 @@ asteroide 0 0 0
 
 
 ## Apresentação
+[presentation.key](doc/presentation.key)
 
 ![ScreenShot](doc/presentation/01.png)
 ![ScreenShot](doc/presentation/02.png)
