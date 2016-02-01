@@ -66,3 +66,27 @@ asteroide 0 0 0
 
 ```
 
+# Jogo
+
+### Franquia
+![ScreenShot](how_to_install/01-franquia.png)
+
+### Classificação
+![ScreenShot](how_to_install/02-classificacao.png)
+
+### Menu
+![ScreenShot](how_to_install/03-menu.png)
+
+### Controle(Mouse)
+![ScreenShot](how_to_install/04-mouse.png)
+
+### Pontuação
+![ScreenShot](how_to_install/05-pontuacao.png)
+
+### Créditos
+![ScreenShot](how_to_install/06-creditos.png)
+
+### Jogo
+![ScreenShot](how_to_install/07-jogo.png)
+
+
