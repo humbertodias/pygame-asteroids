@@ -1,4 +1,4 @@
-# Asteróides #
+# Asteróides
 
 Jogo Asteróides utilizando pygame com suporte:
 
@@ -8,7 +8,14 @@ Jogo Asteróides utilizando pygame com suporte:
 * Joystick
 * Asteróides configuráveis
 
-### Como instalar? ###
+## Documentação
+
+[Enunciado](doc/enunciado.pdf)
+[HTML](doc/html/index.html)
+[PDF](doc/pdf/api.pdf)
+
+
+## Como instalar?
 
 * Windows
 
@@ -34,7 +41,7 @@ Jogo Asteróides utilizando pygame com suporte:
 	[![ScreenShot](how_to_install/frame_video.png)](https://github.com/humbertodias/pygame-sdl1-asteroids-pc/blob/master/how_to_install/steps.mp4?raw=true)
 
 
-### Como configurar? ###
+## Como configurar?
 
 Para modificar o comportamento do jogo, edite o arquivo **config.txt**
 
@@ -66,41 +73,56 @@ asteroide 0 0 0
 
 ```
 
-# Jogo
+## Jogo
 
 ### Franquia
-![ScreenShot](how_to_install/01-franquia.png)
+![ScreenShot](doc/screens/01-franquia.png)
 
 ### Classificação
-![ScreenShot](how_to_install/02-classificacao.png)
+![ScreenShot](doc/screens/02-classificacao.png)
 
 ### Menu
-![ScreenShot](how_to_install/03-menu.png)
+![ScreenShot](doc/screens/03-menu.png)
 
 ### Controles
 1 - Mouse
 
-![ScreenShot](how_to_install/04-mouse.png)
+![ScreenShot](doc/screens/04-mouse.png)
 
 2 - Teclado
 
-![ScreenShot](how_to_install/04-keyboard.png)
+![ScreenShot](doc/screens/04-keyboard.png)
 
 3 - Joystick
 
-![ScreenShot](how_to_install/04-joystick.png)
+![ScreenShot](doc/screens/04-joystick.png)
 
 4 - TouchScreen
 
-![ScreenShot](how_to_install/04-touchscreen.png)
+![ScreenShot](doc/screens/04-touchscreen.png)
 
 ### Pontuação
-![ScreenShot](how_to_install/05-pontuacao.png)
+![ScreenShot](doc/screens/05-pontuacao.png)
 
 ### Créditos
-![ScreenShot](how_to_install/06-creditos.png)
+![ScreenShot](doc/screens/06-creditos.png)
 
 ### Jogo
-![ScreenShot](how_to_install/07-jogo.png)
+![ScreenShot](doc/screens/07-jogo.png)
 
 
+## Apresentação
+
+![ScreenShot](doc/presentation/01.png)
+![ScreenShot](doc/presentation/02.png)
+![ScreenShot](doc/presentation/03.png)
+![ScreenShot](doc/presentation/04.png)
+![ScreenShot](doc/presentation/05.png)
+![ScreenShot](doc/presentation/06.png)
+![ScreenShot](doc/presentation/07.png)
+![ScreenShot](doc/presentation/08.png)
+![ScreenShot](doc/presentation/09.png)
+![ScreenShot](doc/presentation/10.png)
+![ScreenShot](doc/presentation/11.png)
+![ScreenShot](doc/presentation/12.png)
+![ScreenShot](doc/presentation/13.png)
