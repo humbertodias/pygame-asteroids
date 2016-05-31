@@ -8,6 +8,8 @@ Jogo Asteróides utilizando pygame com suporte:
 * Joystick
 * Asteróides configuráveis
 
+	[Youtube](https://youtu.be/-4_VKjZc-Uw)
+
 ## Documentação
 
 * [Enunciado](doc/enunciado.pdf)
