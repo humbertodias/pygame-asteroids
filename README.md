@@ -8,6 +8,9 @@ Jogo Asteróides utilizando pygame com suporte:
 * Joystick
 * Asteróides configuráveis
 
+[Youtube](https://youtu.be/-4_VKjZc-Uw)
+
+
 ## Documentação
 
 * [Enunciado](doc/enunciado.pdf)
@@ -23,6 +26,23 @@ brew install sdl sdl_image sdl_mixer sdl_ttf
 ```
 
 ## Como instalar?
+
+### Mac
+
+```
+brew install python3
+curl -L bootstrap.pypa.io/get-pip.py | python3
+pip3 install hg+http://bitbucket.org/pygame/pygame
+```
+
+### Linux
+
+```
+sudo apt-get install python3 curl
+curl -L bootstrap.pypa.io/get-pip.py | python3
+pip3 install hg+http://bitbucket.org/pygame/pygame
+```
+
 
 1) Para **Windows 7 e 8** instale:	
 	
