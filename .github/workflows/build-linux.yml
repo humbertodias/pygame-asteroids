@@ -1,0 +1,25 @@
+name: linux ubuntu build
+
+on:
+  push
+
+jobs:
+  build:
+    name: Compile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Run build
+        run: |
+          make dep exe
+          mkdir -p ${{ github.workspace }}/artifact
+          cp -r main.dist ${{ github.workspace }}/artifact
+          
+      - name: Upload artifacts
+        if: ${{ success() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: asteroids-linux
+          path: ${{ github.workspace }}/artifact/**/*
