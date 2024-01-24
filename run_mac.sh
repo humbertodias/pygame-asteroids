@@ -1,2 +1,2 @@
 #!/bin/sh
-python3 main.py config.txt
+python3 src/main.py config.txt

@@ -1,1 +1,1 @@
-python main.py config.txt
+python src/main.py config.txt

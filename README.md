@@ -21,7 +21,7 @@ Jogo Asteróides utilizando pygame com suporte:
 
 Mac
 
-```
+```shell
 brew install sdl sdl_image sdl_mixer sdl_ttf
 ```
 
@@ -29,7 +29,7 @@ brew install sdl sdl_image sdl_mixer sdl_ttf
 
 ### Mac
 
-```
+```shell
 brew install python3
 curl -L bootstrap.pypa.io/get-pip.py | python3
 pip3 install hg+http://bitbucket.org/pygame/pygame
@@ -37,8 +37,8 @@ pip3 install hg+http://bitbucket.org/pygame/pygame
 
 ### Linux
 
-```
-sudo apt-get install python3 curl
+```shell
+sudo apt install python3 curl
 curl -L bootstrap.pypa.io/get-pip.py | python3
 pip3 install hg+http://bitbucket.org/pygame/pygame
 ```
@@ -62,8 +62,8 @@ OBS: **Windows 7 requer o Service Pack 1**.
 
 ou se possuir o python e o pygame instalados, execute:
 
-```
-python main.py config.txt
+```shell
+python3 src/main.py config.txt
 ```
 
 Video com passo a passo da instalação
@@ -76,7 +76,7 @@ Video com passo a passo da instalação
 
 Para modificar o comportamento do jogo, edite o arquivo **config.txt**
 
-``` 
+```shell 
 # janela 640 480, 800 600, 1024 768
 janela 800 600
 
@@ -101,7 +101,6 @@ asteroide 150 150 30 80eca7
 asteroide 300 200 20 fff600
 asteroide 50 50 35 fff6ab
 asteroide 0 0 0
-
 ```
 
 ## Jogo

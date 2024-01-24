@@ -9,9 +9,9 @@ latex: doc
 clean:
 	rm -rf doc/pdf ; rm -rf doc/html ; rm -f **/*.pyc *.pyc **/*.pyo *.pyo ; rm -rf __pycache__ ; rm -rf main.dist
 run:
-	python3 main.py || python3 main.py
+	python src/main.py || python3 src/main.py
 compile:
-	python3 -m py_compile **/*.py *.py
+	python3 -m py_compile src/**/*.py *.py
 exe_win:
 	nuitka --standalone --recurse-all --remove-output --windows-icon=icon.ico main.py
 	cp -r resource main.dist ; cp config.txt main.dist
@@ -20,3 +20,6 @@ exe_lin: exe
 exe:
 	nuitka --standalone --recurse-all --remove-output --clang --lto main.py
 	cp -r resource main.dist ; cp config.txt main.dist
+pip:
+	pip3 install -r requirements.txt
+
