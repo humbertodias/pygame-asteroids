@@ -13,12 +13,12 @@ run:
 compile:
 	python3 -m py_compile src/**/*.py *.py
 exe_win:
-	nuitka --standalone --recurse-all --remove-output --windows-icon=icon.ico main.py
+	python3 -m nuitka --follow-imports --enable-plugin=pyside6 --standalone --remove-output --windows-icon=icon.ico src/main.py
 	cp -r resource main.dist ; cp config.txt main.dist
 exe_mac: exe
 exe_lin: exe
 exe:
-	nuitka --standalone --recurse-all --remove-output --clang --lto main.py
+	python3 -m nuitka --follow-imports --enable-plugin=pyside6 --standalone --remove-output --clang src/main.py
 	cp -r resource main.dist ; cp config.txt main.dist
 pip:
 	pip3 install -r requirements.txt
