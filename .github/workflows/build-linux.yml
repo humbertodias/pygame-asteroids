@@ -21,7 +21,7 @@ jobs:
         run: |
           make dep exe
           mkdir -p ${{ github.workspace }}/artifact
-          cp -r main.dist ${{ github.workspace }}/artifact
+          mv main.dist ${{ github.workspace }}/artifact/asteroids-linux-${{ steps.core.outputs.platform }}-${{ steps.core.outputs.sha8 }}
           
       - name: Upload artifacts
         if: ${{ success() }}
