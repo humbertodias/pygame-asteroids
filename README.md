@@ -57,8 +57,7 @@ OBS: **Windows 7 requer o Service Pack 1**.
 
 2) Baixe e descompacte o arquivo comprimido que contém o jogo compilado, a seguir execute **main.exe** para jogar.
 	
-[https://www.dropbox.com/s/mah81oqqu1pf0fc/pygame-asteroids-main.dist.zip?dl=0]
-(https://www.dropbox.com/s/mah81oqqu1pf0fc/pygame-asteroids-main.dist.zip?dl=0)
+[pygame-asteroids-main.dist.zip](https://www.dropbox.com/s/mah81oqqu1pf0fc/pygame-asteroids-main.dist.zip?dl=0)
 
 ou se possuir o python e o pygame instalados, execute:
 
